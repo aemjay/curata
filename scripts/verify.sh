@@ -9,7 +9,7 @@ fail=0
 
 echo "== 1) node --check (alle photobook/js) =="
 if ! command -v node >/dev/null 2>&1; then
-  echo "  ! node nicht gefunden — Syntaxprüfung übersprungen"; fail=1
+  echo "  ! node nicht gefunden — Syntaxprüfung übersprungen (Warnung)"
 else
   while IFS= read -r f; do
     if ! node --check "$f" 2>/tmp/nc.err; then echo "  FEHLER $f"; cat /tmp/nc.err; fail=1; fi
