@@ -1,0 +1,17 @@
+name: verify
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }   # volle History fuer Baseline-Diff
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: verify.sh (Syntax + Zirkel + FROZEN-Warnung)
+        run: bash scripts/verify.sh
+      - name: frozen-guard (byte-Drift vs Baseline-Tag)
+        run: bash scripts/frozen-guard.sh baseline
