@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Tooling / deploy
+node_modules/
+.netlify/
+
+# Alte Liefer-/Review-Artefakte (nicht ins Repo)
+*.zip

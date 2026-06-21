@@ -1,0 +1,6 @@
+photobook/js/pipeline/
+photobook/js/app.js
+photobook/js/db.js
+photobook/js/ingest.js
+photobook/js/selectors.js
+photobook/js/workers/

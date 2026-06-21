@@ -1,0 +1,3 @@
+photobook-presets-initial-startscreen-v2.zip  0dc75760ab5e011df529c0edbfd90ebbdac0c84beb722fba5b7483c72a7e366a
+photobook-review-fokus-inline-v1.zip          d943fb6dfba2faac59ee766bcce2ab691d26fc2335ea111070ada77d09616a1e
+photobook-review-e4a-v1.zip                   7064cfcdeb9f889c2109a4a6b5a09ef1e7d355fddc8500bcb17c7bb21464519f
