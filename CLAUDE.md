@@ -50,6 +50,6 @@ Statisch, Publish-Verzeichnis = `photobook/`. Netlify (mit dem Repo verbunden, P
 
 ## Aktueller Stand & offene Punkte
 - **Baseline:** `photobook/` = verifizierter Stand `presets-initial-startscreen-v2` (Hashes in `docs/status/VERIFIED-SHA256.txt`).
-- **Offen, fällig:** SoT-Reconciliation in `KONZEPT-v7-Pipeline-SoT.md` (E3/E4a/Dubletten/fokus-inline/Presets-Initial nachziehen; §5 „fünf Screens" und Erstlauf-`focus` korrigieren; Produktmodell „Einstellungen im StartScreen **und** Review"). Hinweis: Die v7-Datei trägt im Inhalt Stand **v7**, der Dateiname war historisch irreführend („v7-v10").
+- **Offen, fällig:** SoT-Reconciliation in `KONZEPT-Pipeline-SoT.md` (E3/E4a/Dubletten/fokus-inline/Presets-Initial nachziehen; §5 „fünf Screens" und Erstlauf-`focus` korrigieren; Produktmodell „Einstellungen im StartScreen **und** Review"). Hinweis: Die v7-Datei trägt im Inhalt Stand **v7**, der Dateiname war historisch irreführend („v7-v10").
 - **Deferred:** Dead-CSS-Purge (verwaiste „Detail-PickCard"- und „Rejected-Panel"-Cluster in `css/main.css`, ~80 Regeln; rein Hygiene, kein User-Effekt; eigener Branch, mit Gruppen-Selektor-Guard).
 - **Roadmap:** E4b/E4c (Header entzerren / Dichte-Regler), Inferenz→Web-Worker, HEIC-Performance, @container-Drawer, Quality/Redundanz-Filter, Candidate-Expansion, §14 LLM-Dramaturg, Full PWA.
