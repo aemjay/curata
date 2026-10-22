@@ -63,7 +63,7 @@ Branch `chore/governance-close`. Gates: G3, G4 (verify.sh); G2 optional. DoD: `g
 
 **Warum jetzt:** Sonst investieren wir Wochen in die falsche Verbesserung. Das Projektkonzept selbst fordert „erst messen, dann bauen", und bisher gibt es nur eine Messung.
 
-**Michael tut:** Drei möglichst verschiedene Urlaubsordner mit je mindestens 300 Fotos durch die App laufen lassen: einen Städtetrip, einen Familien- oder Personen-Urlaub, einen Naturtrip. Vor dem Blick auf die Auswahl pro Ordner 10 bis 20 Fotos notieren, die „unbedingt ins Buch" müssen. Dann Review wie ein echter Nutzer, Diagnose und Auswahl exportieren, zehn Zeilen aufschreiben, was gestört hat. Aufwand 4 bis 6 Stunden verteilt, inklusive Rechenzeit.
+**Michael tut (automatisiertes Modell seit A-001):** Drei möglichst verschiedene Urlaubsordner mit je mindestens 300 Fotos unter `D:\Claude\Curata-Diagnose\` ablegen (stadt, familie, natur) und für **einen** Ordner vorab 10 bis 20 Dateinamen notieren, die „unbedingt ins Buch" müssen. Die Läufe, Exporte und ein Stellvertreter-Review macht die lokale Claude-Session nach Auftrag A-002. Aufwand Michael ca. 1 Stunde; Rechner muss während der Läufe wach bleiben.
 
 **Ergebnis, an dem man es erkennt:** Ein Befundbericht in Klartext, der für jede Bibliothek sagt, wie viel der Nutzer korrigieren musste, welche „Unverzichtbar"-Bilder die App verworfen hat und welche Ursache dominiert. Daraus folgt die Entscheidung D3, was im Qualitätsblock zuerst gebaut wird.
 
@@ -78,26 +78,24 @@ Branch `chore/governance-close`. Gates: G3, G4 (verify.sh); G2 optional. DoD: `g
 DoR: Schritt 1 gemerged. Branch nur für Pre-Check-Delta. Aufwand Claude 2 Sessions. Bewusst nicht: kein Konstanten-Tuning, keine Preset-Experimente.
 </details>
 
-### Schritt 3 — Fotos aus mehreren Quellen zusammenstellen und vorher aussortieren
+### Schritt 3 — Fotos aus mehreren Quellen zusammenstellen und vorher aussortieren: **verifizieren, nicht neu bauen**
 
-**Für den Nutzer:** Heute muss er alle Bilder vorher in einen Ordner kopieren und bekommt alles hineingerechnet, auch die 40 Screenshots und die Fotos vom Hotelzimmer. Nach diesem Schritt wählt er einen Ordner, legt den zweiten Ordner und die paar Handyfotos der Partnerin dazu, wirft im Vorschaubild raus, was nicht ins Buch gehört, und startet erst dann den langen Lauf. Hat er ein altes Projekt in der App, geht es nach dem Update ohne Verlust weiter.
+**Korrektur vom 2026-10-22 (Code-Befund):** Das SoT führt diese Fähigkeit als „beauftragbar, noch nicht realisiert". Der Code enthält sie aber bereits: `hydrateWorkset`/`applyWorksetMutation` (`ingest.js`), `REMOVE_PHOTOS` und `worksetEpoch`/`worksetRevision` (`app.js`, `db.js`, `runner.js`), und der Startbildschirm zeigt „Ordner hinzufügen / Dateien hinzufügen / entfernen" (Screenshot A-001). Das SoT ist an dieser Stelle veraltet. Schritt 3 schrumpft deshalb von „bauen" auf „prüfen und dokumentieren".
 
-**Warum an dritter Stelle:** Das ist die einzige Etappe, deren Konzept fertig geprüft ist, und sie macht Curata für echte Urlaube benutzbar, bei denen Fotos nie aus einer Quelle kommen. Sie ist aber ein Eingriff in das Herz der App (wie Fotos gespeichert und als Arbeitsmenge verwaltet werden). Das gehört hinter das scharfe Fundament aus Schritt 1 und nicht parallel zur Messung aus Schritt 2, die den heutigen Stand messen soll. Michael kann per D1 den Qualitätsblock vorziehen; dann tauschen Schritt 3 und 4.
+**Für den Nutzer:** Er kann heute offenbar schon einen Ordner wählen, einen zweiten dazulegen, einzelne Handyfotos ergänzen und Bilder vor dem Rechnen entfernen. Was fehlt, ist die Gewissheit, dass das in allen Randfällen hält: Seite mitten im Hinzufügen neu laden, altes Projekt öffnen, zwei Tabs gleichzeitig. Genau das klärt dieser Schritt.
 
-**Michael tut:** Freigabe D4 für den Eingriff in geschützte Teile. ChatGPT-Review des Konzepts weiterreichen. Am Ende Abnahme nach Testanleitung, Aufwand ca. 2 Stunden. Pflichtfälle in Nutzerworten: Ordner und Einzeldatei mischen. Ein Foto entfernen und dann rechnen lassen. Mitten im Hinzufügen die Seite neu laden. Ein altes Projekt öffnen, nichts darf fehlen. Die App in zwei Tabs gleichzeitig offen haben, nichts darf sich gegenseitig zerstören.
+**Michael tut:** Phase-A-Konzeptdatei bereitstellen (ohne sie kann nur gegen den Code, nicht gegen die versprochenen Regeln geprüft werden). Abnahme nach Testanleitung, ca. 1 Stunde, mit den Pflichtfällen: Ordner und Einzeldatei mischen; Foto entfernen, dann rechnen; mitten im Hinzufügen neu laden; altes Projekt öffnen, nichts darf fehlen; zwei Tabs.
 
-**Ergebnis, an dem man es erkennt:** Der Nutzer kann im Startbildschirm Quellen hinzufügen und Bilder entfernen, sieht während eines Laufs, dass die Auswahl gesperrt ist, und alte Projekte laufen weiter. Die Auswahl für die drei Bibliotheken aus Schritt 2 ist nach dem Umbau identisch.
+**Ergebnis, an dem man es erkennt:** Ein Verifikationsbericht mit Lücken-Liste. Keine Lücken: SoT auf „realisiert" gezogen, Schritt fertig. Lücken: jede Lücke wird ein kleines eigenes Delta mit eigenem Branch (FROZEN-Berührung dann per D4).
 
 <details><summary>Umsetzung (technisch)</summary>
 
-1. Re-Audit `KONZEPT-Kuratierung-Phase-A-v6.7` (geschrieben gegen Review-Controls v3) gegen den heutigen Code (Presets-Initial, E4a, fokus-inline): jede Zeilenreferenz und jeden Vertrag neu belegen (`proceedToProcessing`, `startNewWorkset`, Reset-Scope erhält `presets`). Ergebnis v6.8 oder Bestätigung.
-2. G2 ChatGPT-Paket mit Fokus §4.10-Zustandsmatrix und sieben Failure-Mode-Achsen.
-3. D4: FROZEN-CHANGE für `db.js` (API-Form), `ingest.js`, `app.js`-Reducer, `selectors.js`, `normalizeState`.
-4. Branch `feat/workset-a-core` (`FROZEN-CHANGE:`): `applyWorksetMutation` + CAS (`worksetEpoch`/`worksetRevision`), `putPhotos` update-only, `hydrateWorkset()` mit Status-Mapping + CURATING/LOCKED + Recovery, Reset-Scope, Legacy-Migration, `normalizeState` trägt neue Felder. Verifikation: `independent-verifier`, Lifecycle-Tests A–H, Determinismus-Gate.
-5. Branch `feat/workset-a-ui`: `StartScreen.js`, `IngestCurationGrid.js`, CSS.
-6. G5 Testanleitung; STATUS-Notiz; `baseline` verschieben; SoT §10.3/§10.5 auf „realisiert".
+1. `independent-verifier` prüft den Code gegen `KONZEPT-Kuratierung-Phase-A-v6.7` (Lifecycle-Tests A–H, §4.10-Zustandsmatrix, Reset-Scope, Legacy-Migration). Ohne Konzeptdatei: Prüfung gegen SoT §10.3/§10.5 Zielvertrag.
+2. Lokaler Auftrag (Postfach): Playwright-Durchlauf der Pflichtfälle inkl. Reload mitten in `applyWorksetMutation`, zwei Tabs, Legacy-Bestand (vor Phase A erzeugte IndexedDB) öffnen.
+3. SoT-Reconciliation: §10.3 „BIS/AB Phase A", §11 „Nächste Etappe", Changelog, Kopf; `KONZEPT-Presets-Initial` §1 Scope-Hinweis.
+4. Lücken → je ein Branch `fix/workset-<lücke>`, D4 nur bei FROZEN-Berührung.
 
-DoD: DoD-Liste aus Phase-A-KONZEPT + Tests A–H + SoT nachgezogen + Regressionsschutz gegen Schritt-2-Exporte. Aufwand Claude 3–4 Sessions. Bewusst nicht: Solver, Szenen, Presets unberührt; keine Mehrfach-Projekte; kein Drag-and-drop-Komfort über das KONZEPT hinaus.
+DoR: Schritt 1 gemerged. Aufwand Claude 1–2 Sessions. Bewusst nicht: keine Funktionserweiterung über das Konzept hinaus, keine Mehrfach-Projekte.
 </details>
 
 ---
