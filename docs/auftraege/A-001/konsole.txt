@@ -1,0 +1,2 @@
+[error] Failed to load resource: the server responded with a status of 404 (File not found)
+# Ursache: GET /favicon.ico → 404 (python http.server-Log). Kein App-Fehler; keine requestfailed-/pageerror-Einträge, alle CDN-Importe (esm.sh/jsdelivr) geladen.

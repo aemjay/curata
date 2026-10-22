@@ -1,0 +1,20 @@
+{
+  "mode": "headless-new",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "hasNavigatorGpu": true,
+  "adapter": {
+    "info": {
+      "vendor": "nvidia",
+      "architecture": "lovelace",
+      "description": ""
+    },
+    "fallback": null
+  },
+  "chips": [
+    "0 FOTOS",
+    "— HEIC",
+    "— GPS",
+    "offen STATUS",
+    "aktiv BESCHLEUNIGUNG"
+  ]
+}

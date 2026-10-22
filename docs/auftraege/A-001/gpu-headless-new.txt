@@ -1,0 +1,12 @@
+Graphics Feature Status — WebGPU: Hardware accelerated
+
+Dawn-Adapter → [WebGPU Status]:
+- <Discrete GPU>  D3D12 backend - NVIDIA GeForce RTX 4080: Available
+- <Integrated GPU>  D3D12 backend - AMD Radeon(TM) Graphics: Available
+- <CPU>  D3D12 backend - Microsoft Basic Render Driver: Blocklisted - crbug.com/40057808: CPU adapters not fully tested or conformant. |
+- <CPU>  Vulkan backend - SwiftShader Device (Subzero): Blocklisted - crbug.com/40057808: CPU adapters not fully tested or conformant. |
+- <Discrete GPU>  Vulkan backend - NVIDIA GeForce RTX 4080: Available
+- <Integrated GPU>  Vulkan backend - AMD Radeon(TM) Graphics: Available
+- <Discrete GPU>  D3D11 backend - NVIDIA GeForce RTX 4080: Blocklisted - crbug.com/41479539: D3D11 backend not fully implemented. |
+- <Integrated GPU>  D3D11 backend - AMD Radeon(TM) Graphics: Blocklisted - crbug.com/41479539: D3D11 backend not fully implemented. |
+- <CPU>  D3D11 backend - Microsoft Basic Render Driver: Blocklisted - crbug.com/41479539: D3D11 backend not fully implemented. | crbug.com/40057808: CPU adapters not fully tested or conformant. |
