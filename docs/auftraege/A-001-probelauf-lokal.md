@@ -2,7 +2,7 @@
 Auftrag:   A-001
 Titel:     Probelauf lokal — Umgebung, App-Start, Browser, Rückweg ins Repo
 Ziel:      lokal
-Status:    OFFEN
+Status:    LÄUFT
 Erstellt:  2026-10-22 (Cloud-Session)
 Branch:    auftrag/A-001
 ```
