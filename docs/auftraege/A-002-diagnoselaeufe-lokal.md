@@ -2,7 +2,7 @@
 Auftrag:   A-002
 Titel:     Diagnoseläufe auf drei heterogenen Bibliotheken (Ablaufplan Schritt 2)
 Ziel:      lokal
-Status:    OFFEN
+Status:    ENTSCHEIDUNG: Eingaben fehlen — D:ClaudeCurata-Diagnose mit stadt, familie, natur (je ≥300 Fotos) und familie-unverzichtbar.txt existiert nicht
 Erstellt:  2026-10-22 (Cloud-Session)
 Branch:    auftrag/A-002
 Voraussetzung: A-001 FERTIG (GPU aktiv, Playwright mit channel 'chrome', Push-Recht)
