@@ -1,164 +1,182 @@
-# Ablaufplan — von v8 bis Release-Kandidat RC1
+# Ablaufplan — von heute bis zum Release-Kandidaten RC1
 
 **Stand:** 2026-10-22 · **Status:** Entwurf, wartet auf Entscheidungen D1–D4 (Abschnitt 5)
 **Basis:** `docs/konzept/KONZEPT-Pipeline-SoT.md` (v8), `docs/GOVERNANCE.md`, Code-Stand `main` (bc299ef)
-**Zweck:** Verbindliche Reihenfolge und Arbeitsmechanik für die Fortführung. Schritte 1–3 detailliert, Schritte 4–7 bis RC1 grob. Fernziel (Buch von A bis Z) ist Post-RC1 und hier nur als Abgrenzung aufgeführt.
+**Lesart:** Jeder Schritt beginnt mit dem, was er für die Nutzerin oder den Nutzer bedeutet („Für den Nutzer"). Danach folgt, was Michael tut, und zuletzt die technische Umsetzung als Anhang. Wer nur die Nutzer-Sicht braucht, liest nur die ersten beiden Blöcke je Schritt.
 
 ---
 
-## 1. Rahmen und Arbeitsmechanik
+## 1. Wo der Nutzer heute steht
 
-### 1.1 Rollen
-| Rolle | Wer | Inhalt |
-|---|---|---|
-| Product Owner | Michael | Produkt-, Legal-, Effort- und FROZEN-Entscheidungen; Scope-Freeze je Schritt; UI/UX-Abnahme nach Testanleitung; Relais zum externen Reviewer (ChatGPT) |
-| KONZEPT-Autor + Implementierer | Claude | KONZEPT-first, Failure-Mode-Pass, Implementierung (ein Delta je Branch), Testanleitung für Michael |
-| Interner Reviewer | Subagent `konzept-reviewer` | Audit KONZEPT gegen Code vor Beauftragung (isoliert, read-only) |
-| Interner Verifizierer | Subagent `independent-verifier` | Audit Diff gegen DoD/FROZEN/`baseline` vor Merge |
-| Externer Reviewer | ChatGPT (über Michael) | Zweite, modellfremde Meinung auf KONZEPT und Abnahmebericht; fängt korrelierte blinde Flecken (GOVERNANCE.md „nicht delegierbar") |
-| Mechanische Gates | `verify.sh`, `frozen-guard.sh`, CI, PreToolUse-Hook | teilen keine Annahmen |
+Jemand mit einem Urlaubsordner voller Fotos bekommt heute von Curata eine **begründete Vorauswahl**: Die App sortiert nach Tagen und Situationen, erkennt Unschärfe, geschlossene Augen und Doppelaufnahmen, wählt pro Situation die stärksten Bilder und erklärt zu jedem Bild, warum es drin ist. Der Nutzer korrigiert im Review, stellt an vier Reglern nach und exportiert die Auswahl als Ordner plus Kontaktbogen.
 
-### 1.2 Gate-Kette je Schritt (verbindlich)
-```
-G0 DoR erfüllt  →  KONZEPT  →  G1 konzept-reviewer  →  G2 ChatGPT-Review-Paket  →  G3 Freigabe Michael (= Scope-Freeze)
-→ Implementierung (Branch je Delta)  →  G4 verify.sh + independent-verifier + CI  →  G5 UI/UX-Abnahme Michael (Testanleitung)
-→ Merge --no-ff  →  git tag -f baseline  →  STATUS-Notiz in docs/status/
-```
-- **G2 ChatGPT-Review:** Claude erzeugt pro KONZEPT ein selbsttragendes Review-Paket (`docs/review/<schritt>-paket.md`: Prompt + KONZEPT + relevante Code-Ausschnitte + konkrete Prüffragen). Michael pastet es, liefert die Antwort zurück. Claude trianguliert jeden Befund am Code (annehmen / mit Beleg widerlegen) und dokumentiert das im KONZEPT-Changelog. Kein Befund wird ungeprüft übernommen.
-- **G5** nur für Deltas mit sichtbarer UI-Wirkung; reine Pipeline-/Docs-Deltas enden bei G4 + Go/No-Go.
+**Was der Nutzer heute noch nicht bekommt:** einen Text zum Bild oder Kapitel, eine Seite, ein Buch. Er bekommt auch keine Garantie, dass jede wichtige Person vorkommt, und die App kennt seine Absicht nicht (Hochzeitsreise oder Wanderurlaub, wer ist wichtig, was soll raus). Bei mehreren Ordnern oder einzelnen Handyfotos muss er heute vorher selbst zusammenkopieren.
 
-### 1.3 Anti-Mission-Creep (Regeln)
-1. **Scope-Freeze bei G3.** Danach ändert sich der Schritt nur über einen Änderungsantrag an Michael (Problem → Grund → Konsequenz für DoD/Aufwand).
-2. **Parkplatz statt Nachschub.** Jede Idee, die während eines Schritts auftaucht, geht datiert nach `docs/PARKPLATZ.md`, nicht in den laufenden Branch. Parkplatz wird nur an Schrittgrenzen gesichtet.
-3. **„Bewusst nicht"-Liste** ist Pflichtteil jedes KONZEPTs und jedes PR-Bodys.
-4. **Ein offener Implementierungsbranch gleichzeitig.** Kein zweites Delta, solange das erste nicht gemerged oder verworfen ist.
-5. **Jeder Schritt hat ein messbares Ergebniskriterium** (Abschnitt 3/4). Kein „fertig" ohne Messung oder Abnahme.
-6. **Entscheidungslog** `docs/DECISIONS.md` (D-Nummern, Datum, Optionen, Entscheidung, Begründung). Verhindert Re-Litigation.
-7. **FROZEN bleibt FROZEN.** Berührung nur mit `FROZEN-CHANGE:`-Marker nach expliziter Entscheidung (D-Eintrag).
-
-### 1.4 Codequalität (Mindeststandard je Delta)
-- `bash scripts/verify.sh` grün; CI grün; `frozen-guard` grün oder bewusst markiert.
-- Full-File-Read vor Spezifikation; Failure-Mode-Pass über alle sieben Achsen im KONZEPT dokumentiert.
-- Keine neuen Laufzeit-Abhängigkeiten ohne D-Eintrag (zero-build, CDN-gepinnt in `deps.js`).
-- Kein toter Code, keine Schein-Extraktion (Anti-Schein-Gate in `verify.sh`).
-- Determinismus-Gate für alles, was Segmentierung/Solver berührt (§6 SoT).
-
-### 1.5 Bezug Jungle Jiggle
-Im Repo liegen keine Artefakte aus Jungle Jiggle; die Mechanik oben ist aus `GOVERNANCE.md` abgeleitet und um Scope-Freeze, Parkplatz, Entscheidungslog, Ergebniskriterien und ChatGPT-Gate erweitert. **Offen:** Michael nennt, welche Jungle-Jiggle-Praktiken zusätzlich übernommen werden sollen (Schritt 1, Punkt 1.7).
+**Was wir verlässlich wissen:** Die Auswahlqualität ist auf **einer** Landschafts-Bibliothek gemessen und war dort gut. Ob sie bei Stadt- oder Familienfotos genauso gut ist, wissen wir nicht.
 
 ---
 
-## 2. RC1-Definition (Vorschlag — Entscheidung D1)
+## 2. Was RC1 für den Nutzer ist (Vorschlag — Entscheidung D1)
 
-**RC1 = Curata 1.0: ein vollständiger, von einem Nutzer ohne Entwickler durchlaufbarer Kurations-Workflow, dessen Ergebnis ein strukturiertes Buch-Skelett ist (Kapitel → Szenen → Bilder mit Beat, Begründung und Text-Rohdaten), das in einen Fotobuch-Dienst oder ein Layoutwerkzeug übernommen werden kann.**
+**RC1 = Curata 1.0: Ein Nutzer wirft seine Fotos hinein, auch aus mehreren Quellen, lässt die App rechnen, korrigiert in einer Stunde statt in einem Wochenende, und erhält am Ende ein fertig gegliedertes Buch-Gerüst mit Kapiteln, Situationen, Bildreihenfolge und Überschriften-Vorschlägen, das er in einen Fotobuch-Dienst oder ein Layoutprogramm übernehmen kann.**
 
-| In RC1 | Bewusst nicht in RC1 (Post-RC / 2.0) |
+| Das kann der Nutzer mit RC1 | Das kann er bewusst noch nicht (2.0) |
 |---|---|
-| Arbeitsmenge aus Ordnern **und** Einzeldateien, entfernbar vor dem Lauf (Phase A) | Automatisches Seitenlayout, Layout-Editor, PDF-Buch |
-| Qualitätsblock nach Diagnosebefund (D3) | LLM-Dramaturg / LLM-Captions (lokal oder remote) |
-| Robustheit: Inferenz im Worker, Pause/Resume gehärtet, ehrliche Backend-Anzeige | Face-Clustering **nur falls** Diagnose es als Hauptursache zeigt (sonst 2.0) |
-| Deterministische Erzählschicht: Kapitel-/Szenen-Titel aus Metadaten, Context Packs, Export-Manifest v3 | Online-Geo/POI (Opt-in) — nur bei D5 = ja |
-| Abnahme auf ≥3 heterogenen Bibliotheken gegen §6-Kriterium | Mobile-Optimierung, Video/Live Photos, Active Learning |
+| Mehrere Ordner und einzelne Dateien kombinieren und Bilder vor dem Rechnen aussortieren | Fertige Seiten oder ein druckbares PDF aus der App bekommen |
+| Sich auf die Auswahl verlassen, auch bei Stadt- und Familienfotos, nicht nur bei Landschaft | Von der App formulierte Bildunterschriften und Kapiteltexte in Buchqualität |
+| Einen langen Lauf (1000+ Bilder) laufen lassen, Tab wechseln, Laptop zuklappen, später weitermachen | Personen mit Namen wiederfinden (nur, falls die Messung zeigt, dass es nötig ist) |
+| Sehen, ob die App gerade im schnellen oder im langsamen Modus rechnet, und warum | Ortsnamen aus dem Internet (nur bei D5 = ja) |
+| Kapitel und Situationen mit sinnvollen Überschriften-Vorschlägen exportieren | Handy-Bedienung, Videos, Lernen aus Korrekturen |
 
-Dies ist ein Scope-Vorschlag. Erst mit D1 wird er verbindlich; danach gilt Regel 1.3.1.
+Erst mit D1 ist dieser Rahmen verbindlich. Danach gilt: Was nicht in der linken Spalte steht, kommt nicht vor RC1.
 
 ---
 
-## 3. Die nächsten drei Schritte (detailliert)
+## 3. Die nächsten drei Schritte
 
-### Schritt 1 — Fundament und Governance schließen
-**Typ:** docs/chore, kein App-Code. **Ziel:** Der Arbeitsloop aus GOVERNANCE.md läuft tatsächlich; SoT und Instruktionen sind konsistent; Entscheidungen D1–D2 sind getroffen und protokolliert.
+### Schritt 1 — Das Fundament absichern
 
-**Warum zuerst:** `frozen-guard.sh` überspringt sich selbst, solange kein `baseline`-Tag existiert (`git tag` ist leer) — das FROZEN-Gate ist derzeit wirkungslos. Das im SoT als „nächster Schritt, beauftragbar" geführte `KONZEPT-Kuratierung-Phase-A-v6.7` liegt nicht im Repo. `CLAUDE.md` und `README.md` führen erledigte Punkte als offen (v7/„v7-v10"-Hinweis, „SoT-Reconciliation fällig" — laut Changelog v8 erledigt).
+**Für den Nutzer:** Unsichtbar. Der Nutzer merkt von diesem Schritt nichts, aber alles Folgende hängt daran: Ohne ihn können Änderungen an den sensiblen Teilen der App (Datenbank, Auswahl-Logik) unbemerkt durchrutschen, und ein Fehler dort würde ihm eine Auswahl liefern, die sich nach einem Update plötzlich anders verhält.
 
-**Inhalt (Checkliste):**
-1. `git tag baseline bc299ef` setzen und pushen; CI-Lauf zeigt frozen-guard aktiv (nicht „übersprungen").
-2. `KONZEPT-Kuratierung-Phase-A-v6.7.md` nach `docs/konzept/` — **Michael liefert die Datei.** Falls nicht mehr vorhanden: eigener Rekonstruktions-Auftrag (dann verschiebt sich Schritt 3, siehe Risiko R1).
+**Warum jetzt:** Die Schutzmechanik aus `GOVERNANCE.md` ist angelegt, aber nicht scharf: Das Vergleichs-Tag `baseline` fehlt, also prüft der Wächter nichts. Das Konzept für Schritt 3 liegt nicht im Repo. Die Projektanweisungen führen erledigte Punkte noch als offen.
+
+**Michael tut:** Datei `KONZEPT-Kuratierung-Phase-A-v6.7` suchen und bereitstellen. D1 und D2 entscheiden. Benennen, welche Praktiken aus Jungle Jiggle zusätzlich gelten sollen. Aufwand ca. 1 Stunde.
+
+**Ergebnis, an dem man es erkennt:** Der Wächter meldet in der CI aktiv „keine geschützten Pfade geändert" statt „übersprungen". Alle Entscheidungen stehen in `docs/DECISIONS.md`.
+
+<details><summary>Umsetzung (technisch)</summary>
+
+1. `git tag baseline bc299ef` setzen und pushen; CI-Lauf zeigt frozen-guard aktiv.
+2. `KONZEPT-Kuratierung-Phase-A-v6.7.md` nach `docs/konzept/`. Falls nicht mehr vorhanden: Rekonstruktions-Auftrag (Risiko R1).
 3. `CLAUDE.md` „Aktueller Stand & offene Punkte" und `README.md` Zeile 44 auf v8/SoT-Dateiname ziehen; erledigte Punkte streichen.
-4. Beat-Grammatik: SoT §3 nennt fünf Beats, `s6_select.js:72` seedet nur `establishing` und `hero`. **D2:** als bewusste Vereinfachung im SoT dokumentieren (Empfehlung) oder als Lücke in den Qualitätsblock aufnehmen. Kein Code-Eingriff in Schritt 1.
-5. RC1-Definition (Abschnitt 2) nach **D1** in `docs/DECISIONS.md` und SoT-Kopf übernehmen.
+4. Beat-Grammatik: SoT §3 nennt fünf Beats, `s6_select.js:72` seedet nur `establishing` und `hero`. D2 entscheidet: dokumentierte Vereinfachung (Empfehlung) oder Lücke.
+5. RC1-Definition nach D1 in `docs/DECISIONS.md` und SoT-Kopf.
 6. Dateien anlegen: `docs/DECISIONS.md`, `docs/PARKPLATZ.md`, `docs/review/TEMPLATE-ChatGPT-Review-Paket.md`, `docs/status/TEMPLATE-Testanleitung.md`.
-7. Michael benennt Jungle-Jiggle-Praktiken, die zusätzlich gelten sollen → Nachtrag in GOVERNANCE.md.
+7. Jungle-Jiggle-Praktiken in GOVERNANCE.md nachtragen.
 
-**DoR:** keine. **Branch:** `chore/governance-close`. **Gates:** G1 entfällt (kein KONZEPT), G2 optional (Michael kann GOVERNANCE+Plan an ChatGPT geben), G3, G4 (verify.sh), kein G5.
-**DoD (mechanisch):** `git tag -l baseline` nicht leer; CI-Log enthält „frozen-guard: keine FROZEN-Pfade geaendert"; `grep -c "v7-v10" CLAUDE.md README.md` = 0; Phase-A-Datei vorhanden oder Rekonstruktions-Auftrag als D-Eintrag; D1/D2 im Entscheidungslog.
-**Aufwand:** Claude 1 Session; Michael ca. 1 h (Datei suchen, D1/D2 entscheiden, Jungle-Jiggle-Liste).
-**Bewusst nicht:** kein App-Code, kein CSS, kein SoT-Umbau jenseits der genannten Stellen.
+Branch `chore/governance-close`. Gates: G3, G4 (verify.sh); G2 optional. DoD: `git tag -l baseline` nicht leer; CI-Log „frozen-guard: keine FROZEN-Pfade geaendert"; `grep -c "v7-v10" CLAUDE.md README.md` = 0; Phase-A-Datei vorhanden oder D-Eintrag; D1/D2 protokolliert. Aufwand Claude 1 Session. Bewusst nicht: kein App-Code, kein CSS.
+</details>
 
-### Schritt 2 — Qualitätsdiagnose auf heterogenen Bibliotheken
-**Typ:** Messung + Befundbericht, kein Produktdelta. **Ziel:** Evidenz, *woran* schlechte Auswahlen liegen, bevor teure Architektur (E11 EdgeFace, Candidate Expansion, Intent Brief, Score-Spreizung) beauftragt wird — SoT §14.C „Diagnose vor Architektur". Bisher existiert ein einziger Datenpunkt (468 Fotos, 94 % Landschaft).
+### Schritt 2 — Herausfinden, wo die Auswahl den Nutzer im Stich lässt
 
-**Inhalt:**
-1. **Pre-Check (Claude, Session 1):** `diagnose.json` gegen Bedarf prüfen: enthält `selectParams` (τ_auto/τ_eff/Slider), Reject-Gründe je Bild, Szenen-/Cluster-IDs, Override-Richtung, `momentScore`-Verteilung? Fehlt etwas Entscheidendes, ist das ein kleines, abgegrenztes Delta an `ExportScreen.js` (präsentationsseitig erlaubt) **vor** den Läufen — sonst sind die Läufe wertlos.
-2. **Läufe (Michael):** drei Ordner mit unterschiedlichem Charakter, je ≥300 Fotos: (a) Stadt/Sehenswürdigkeiten, (b) Familie/Personen-dominant, (c) Natur/Landschaft (Vergleich zur Feldabnahme). Je Lauf: Presets Default, Review wie ein echter Nutzer (Entfernen/Zurückholen), zusätzlich pro Ordner eine Liste „unverzichtbar" (10–20 Dateinamen) **vor** dem Blick auf die Auswahl; dann Export `diagnose.json` + `selection.json` + 10 Zeilen Freitext („was hat gestört"). Zeitaufwand je Ordner ca. 1–2 h inkl. Rechenzeit.
-3. **Auswertung (Claude, Session 2):** Skript im Scratchpad (nicht in der App). Kennzahlen je Bibliothek: Override-Quote, Richtung, Anteil unverzichtbar-verworfen, Reject-Grund-Verteilung, Fehlfall-Klassen (Technik / Person / Cluster-Repräsentant / Beat / Kontext-Semantik), Score-Kompression (`momentScore`, Gesamt-Score Median/p80/max), τ_auto-Lage vs. Floor (tote Slider-Hälfte). Bericht `docs/status/DIAGNOSE-2026-<MM>.md` mit Rangfolge der Ursachen.
-4. **Entscheidung D3 (Michael, auf Basis des Berichts):** Reihenfolge des Qualitätsblocks (Schritt 4). Entscheidungsregel aus SoT §14.C: Personen-Unterscheidung dominiert → E11 vor; semantische Redundanz/fehlender Intent dominiert → Candidate Expansion + Intent Brief vor; Kompression dominiert → Score-Rebalancierung (FROZEN `W_*`, D-Eintrag nötig).
-5. **G2:** Befundbericht als ChatGPT-Paket (Prüffrage: Sind die Ursachen-Zuordnungen aus den Daten belegt oder interpretiert?).
+**Für den Nutzer:** Das ist der Schritt, der entscheidet, ob Curata für *seine* Fotos funktioniert und nicht nur für Landschaftsurlaube. Am Ende wissen wir, woran es liegt, wenn der Nutzer im Review viel korrigieren muss: Wirft die App das einzige Bild von Oma mit Enkel weg, weil es leicht unscharf ist? Wählt sie drei fast gleiche Fotos vom selben Platz? Fehlt ihr, dass die Hochzeitsgesellschaft wichtiger ist als die Aussicht? Jede dieser Ursachen braucht eine andere Reparatur, und wir bauen erst, wenn wir wissen, welche.
 
-**DoR:** Schritt 1 gemerged (Tag, Templates). **Branch:** keiner, außer Pre-Check-Delta (`fix/diagnose-export-<feld>`). **Gates:** G2 auf Bericht, G3 = D3.
-**DoD:** drei `diagnose.json` in `docs/status/diagnose/` (ohne Bilddaten — Datenschutzhinweis im Export bestätigt), Bericht vorhanden, D3 im Entscheidungslog, Parkplatz aktualisiert.
-**Aufwand:** Claude 2 Sessions; Michael 4–6 h verteilt.
-**Bewusst nicht:** kein Tuning von Solver-Konstanten „mal probieren"; keine Preset-Experimente außer Default — die Messung muss vergleichbar bleiben.
+**Warum jetzt:** Sonst investieren wir Wochen in die falsche Verbesserung. Das Projektkonzept selbst fordert „erst messen, dann bauen", und bisher gibt es nur eine Messung.
 
-### Schritt 3 — Kuratierung Phase A (A-Core, dann A-UI)
-**Typ:** Feature, FROZEN-berührend. **Ziel:** Arbeitsmenge statt Ordner — Ordner **und** Einzeldateien hinzufügen, Fotos vor dem Lauf entfernen, konsistente Signatur, verlustfreie Migration bestehender Bestände. Das ist der im SoT deklarierte nächste Schritt und die einzige fertig auditierte Etappe (11 Audit-Runden).
+**Michael tut:** Drei möglichst verschiedene Urlaubsordner mit je mindestens 300 Fotos durch die App laufen lassen: einen Städtetrip, einen Familien- oder Personen-Urlaub, einen Naturtrip. Vor dem Blick auf die Auswahl pro Ordner 10 bis 20 Fotos notieren, die „unbedingt ins Buch" müssen. Dann Review wie ein echter Nutzer, Diagnose und Auswahl exportieren, zehn Zeilen aufschreiben, was gestört hat. Aufwand 4 bis 6 Stunden verteilt, inklusive Rechenzeit.
 
-**Warum an dritter Stelle und nicht erster:** Es ist ein State-Machine-Umbau in `db.js`, `ingest.js`, `app.js` (Reducer), `selectors.js` — alle FROZEN. Ein solcher Eingriff gehört hinter ein funktionierendes FROZEN-Gate (Schritt 1) und sollte nicht parallel zur Diagnose laufen, die den *heutigen* Stand messen muss (Schritt 2). Michael kann per D1 auch den Qualitätsblock vorziehen und Phase A nach hinten setzen; dann tauschen Schritt 3 und 4.
+**Ergebnis, an dem man es erkennt:** Ein Befundbericht in Klartext, der für jede Bibliothek sagt, wie viel der Nutzer korrigieren musste, welche „Unverzichtbar"-Bilder die App verworfen hat und welche Ursache dominiert. Daraus folgt die Entscheidung D3, was im Qualitätsblock zuerst gebaut wird.
 
-**Inhalt:**
-1. **Re-Audit des KONZEPTs (Claude + `konzept-reviewer`):** v6.7 wurde gegen den Stand „Review-Controls v3" geschrieben; seitdem kamen Presets-Initial, E4a und fokus-inline. Jede Zeilenreferenz und jeder Vertrag (`proceedToProcessing`, `startNewWorkset`, Reset-Scope erhält `presets`) wird gegen den aktuellen Code neu belegt. Ergebnis: v6.8 mit Changelog, oder Bestätigung „unverändert gültig".
-2. **G2 ChatGPT-Paket** mit Fokus auf §4.10-Zustandsmatrix und den sieben Failure-Mode-Achsen (zwei Tabs, Abbruch mitten in Mutation, Legacy-Migration, Re-Entry).
-3. **D4 (Michael):** FROZEN-CHANGE-Freigabe für `db.js` (API-Form), `ingest.js`, `app.js`-Reducer, `selectors.js`, `normalizeState`. Ohne D4 kein Branch.
-4. **Branch 1 `feat/workset-a-core`** (Commit mit `FROZEN-CHANGE:`): `applyWorksetMutation` + CAS (`worksetEpoch`/`worksetRevision`), `putPhotos` update-only, `hydrateWorkset()` mit Status-Mapping + CURATING/LOCKED + Recovery, Reset-Scope, Legacy-Migration, `normalizeState` trägt neue Felder. Keine UI-Änderung außer dem Minimum, das den Core erreichbar macht. Verifikation: `independent-verifier`, Lifecycle-Tests A–H aus dem KONZEPT als Browser-Checkliste, Determinismus-Gate unverändert grün.
-5. **Branch 2 `feat/workset-a-ui`:** StartScreen zu Ordner+Datei-Auswahl mit Entfernen vor der Verarbeitung, Sperranzeige während des Laufs, Migrationshinweis. Präsentationsseitig (`StartScreen.js`, `IngestCurationGrid.js`, CSS).
-6. **G5 UI/UX-Abnahme (Michael)** nach Testanleitung: Zweck → Klickschritte → „Erwartet" / „Stutzig werden, wenn". Pflichtfälle: Ordner + Einzeldatei mischen; Foto entfernen, dann Lauf; Reload mitten im Hinzufügen; alter v8-Bestand wird ohne Verlust geöffnet; zweiter Tab.
-7. STATUS-Notiz, `baseline`-Tag verschieben, SoT §10.3/§10.5 von „Zielvertrag" auf „realisiert".
+<details><summary>Umsetzung (technisch)</summary>
 
-**DoR:** Schritt 1 gemerged; KONZEPT-Datei im Repo; D4 vorliegend. **Gates:** alle (G1–G5).
-**DoD:** DoD-Liste aus Phase-A-KONZEPT (Datei-Set, greps, byte-cmp) + Lifecycle-Tests A–H bestanden + SoT nachgezogen + Override-/Determinismus-Verhalten gegen Schritt-2-Bibliotheken unverändert (Regressionsschutz: gleiche Auswahl bei gleichem Bestand).
-**Aufwand:** Claude 3–4 Sessions (Re-Audit 1, Core 1–2, UI 1); Michael ca. 2 h Entscheidungen + 2 h Abnahme.
-**Bewusst nicht:** keine Änderung an Solver, Szenen, Presets; keine Mehrfach-Worksets/Projekte; kein Drag-and-drop-Komfort über das KONZEPT hinaus.
+1. Pre-Check: `diagnose.json` enthält `selectParams` (τ_auto/τ_eff/Slider), Reject-Gründe je Bild, Szenen-/Cluster-IDs, Override-Richtung, `momentScore`-Verteilung? Fehlendes als kleines Delta an `ExportScreen.js` **vor** den Läufen.
+2. Läufe mit Default-Presets (Vergleichbarkeit). Exporte nach `docs/status/diagnose/` (ohne Bilddaten).
+3. Auswertung per Skript im Scratchpad: Override-Quote, Richtung, Anteil unverzichtbar-verworfen, Reject-Grund-Verteilung, Fehlfall-Klassen (Technik / Person / Cluster-Repräsentant / Beat / Kontext), Score-Kompression (Median/p80/max), τ_auto-Lage vs. Floor. Bericht `docs/status/DIAGNOSE-2026-<MM>.md`.
+4. D3 nach SoT §14.C: Personen dominieren → E11 vor; Redundanz/Intent dominieren → Candidate Expansion + Intent Brief vor; Kompression dominiert → Score-Rebalancierung (FROZEN `W_*`, D-Eintrag).
+5. G2: Bericht als ChatGPT-Paket (Prüffrage: Ursachen belegt oder interpretiert?).
+
+DoR: Schritt 1 gemerged. Branch nur für Pre-Check-Delta. Aufwand Claude 2 Sessions. Bewusst nicht: kein Konstanten-Tuning, keine Preset-Experimente.
+</details>
+
+### Schritt 3 — Fotos aus mehreren Quellen zusammenstellen und vorher aussortieren
+
+**Für den Nutzer:** Heute muss er alle Bilder vorher in einen Ordner kopieren und bekommt alles hineingerechnet, auch die 40 Screenshots und die Fotos vom Hotelzimmer. Nach diesem Schritt wählt er einen Ordner, legt den zweiten Ordner und die paar Handyfotos der Partnerin dazu, wirft im Vorschaubild raus, was nicht ins Buch gehört, und startet erst dann den langen Lauf. Hat er ein altes Projekt in der App, geht es nach dem Update ohne Verlust weiter.
+
+**Warum an dritter Stelle:** Das ist die einzige Etappe, deren Konzept fertig geprüft ist, und sie macht Curata für echte Urlaube benutzbar, bei denen Fotos nie aus einer Quelle kommen. Sie ist aber ein Eingriff in das Herz der App (wie Fotos gespeichert und als Arbeitsmenge verwaltet werden). Das gehört hinter das scharfe Fundament aus Schritt 1 und nicht parallel zur Messung aus Schritt 2, die den heutigen Stand messen soll. Michael kann per D1 den Qualitätsblock vorziehen; dann tauschen Schritt 3 und 4.
+
+**Michael tut:** Freigabe D4 für den Eingriff in geschützte Teile. ChatGPT-Review des Konzepts weiterreichen. Am Ende Abnahme nach Testanleitung, Aufwand ca. 2 Stunden. Pflichtfälle in Nutzerworten: Ordner und Einzeldatei mischen. Ein Foto entfernen und dann rechnen lassen. Mitten im Hinzufügen die Seite neu laden. Ein altes Projekt öffnen, nichts darf fehlen. Die App in zwei Tabs gleichzeitig offen haben, nichts darf sich gegenseitig zerstören.
+
+**Ergebnis, an dem man es erkennt:** Der Nutzer kann im Startbildschirm Quellen hinzufügen und Bilder entfernen, sieht während eines Laufs, dass die Auswahl gesperrt ist, und alte Projekte laufen weiter. Die Auswahl für die drei Bibliotheken aus Schritt 2 ist nach dem Umbau identisch.
+
+<details><summary>Umsetzung (technisch)</summary>
+
+1. Re-Audit `KONZEPT-Kuratierung-Phase-A-v6.7` (geschrieben gegen Review-Controls v3) gegen den heutigen Code (Presets-Initial, E4a, fokus-inline): jede Zeilenreferenz und jeden Vertrag neu belegen (`proceedToProcessing`, `startNewWorkset`, Reset-Scope erhält `presets`). Ergebnis v6.8 oder Bestätigung.
+2. G2 ChatGPT-Paket mit Fokus §4.10-Zustandsmatrix und sieben Failure-Mode-Achsen.
+3. D4: FROZEN-CHANGE für `db.js` (API-Form), `ingest.js`, `app.js`-Reducer, `selectors.js`, `normalizeState`.
+4. Branch `feat/workset-a-core` (`FROZEN-CHANGE:`): `applyWorksetMutation` + CAS (`worksetEpoch`/`worksetRevision`), `putPhotos` update-only, `hydrateWorkset()` mit Status-Mapping + CURATING/LOCKED + Recovery, Reset-Scope, Legacy-Migration, `normalizeState` trägt neue Felder. Verifikation: `independent-verifier`, Lifecycle-Tests A–H, Determinismus-Gate.
+5. Branch `feat/workset-a-ui`: `StartScreen.js`, `IngestCurationGrid.js`, CSS.
+6. G5 Testanleitung; STATUS-Notiz; `baseline` verschieben; SoT §10.3/§10.5 auf „realisiert".
+
+DoD: DoD-Liste aus Phase-A-KONZEPT + Tests A–H + SoT nachgezogen + Regressionsschutz gegen Schritt-2-Exporte. Aufwand Claude 3–4 Sessions. Bewusst nicht: Solver, Szenen, Presets unberührt; keine Mehrfach-Projekte; kein Drag-and-drop-Komfort über das KONZEPT hinaus.
+</details>
 
 ---
 
-## 4. Schritte 4–7 bis RC1 (grob)
+## 4. Schritte 4 bis 7 bis RC1 (grob)
 
-| # | Schritt | Inhalt | Abhängig von | Ergebniskriterium | Aufwand Claude |
-|---|---|---|---|---|---|
-| 4 | **Qualitätsblock** | Reihenfolge nach D3. Kandidaten: Candidate Expansion (mehrere Kandidaten je Cluster), Intent Brief (`meta.intent`, Muss-Motive/Ausschlüsse), E11 Face-Clustering (EdgeFace, mit Backend-Ehrlichkeit §13.1), Score-Spreizung (FROZEN `W_*`/`momentScore`, D-Eintrag). Je Baustein ein KONZEPT + Branch. | D3, Schritt 2 | Override-Quote und „unverzichtbar verworfen" sinken messbar auf denselben drei Bibliotheken (§14.E); Determinismus-Gate grün | 4–6 Sessions |
-| 5 | **Robustheit** | Inferenz → Web-Worker (Architekturentscheid §9.1 revidieren, D-Eintrag), Pause/Resume/Wake-Lock gehärtet, HEIC-Performance, Backend-Status je Stufe sichtbar (§13.1), Proof Layer `curation-proof.json` (§13.2) | Schritt 4 (sonst doppelte Worker-Anpassung) | 1000-Bilder-Lauf übersteht Tab-Wechsel/Suspend; UI bleibt bedienbar während Inferenz; Fallbacks sichtbar | 3–4 Sessions |
-| 6 | **Deterministische Erzählschicht** | Context Packs je Kapitel/Szene (§13.3), Kapitel-/Szenen-Titel aus Zeit/Ort/Aktivität (Template, deutsch, facts-only), Export-Manifest v3 = Buch-Skelett (Kapitel → Szene → Bilder + Beat + Begründung + Titel-Rohdaten), Review zeigt Titel. **Optional** Geo/POI Opt-in (§12) nur bei D5 = ja (Legal: OSM-Attribution, Netzwerk-Prinzip §9.6) | Schritt 4 | Export reicht für Übernahme in ein Layoutwerkzeug ohne Nacharbeit an der Struktur; ChatGPT-Review bestätigt Lesbarkeit des Manifests | 2–3 Sessions (+2 bei Geo) |
-| 7 | **RC-Härtung** | Dead-CSS-Purge (deferred), Fehlertexte/Leerzustände, Erstnutzer-Hinweise (Modell-Download, Session-Gültigkeit der Originale), Abnahme-Lauf gegen §6-Kriterium auf ≥3 Bibliotheken, SoT final reconciled, Release-Notes, Netlify-Deploy, Tag `rc1` | 4–6 | Alle drei Bibliotheken ≤30 % Override, kein „unverzichtbar" verworfen; CI grün; Michael-Abnahme des Gesamtflows | 2–3 Sessions |
+| # | Schritt | Für den Nutzer | Woran man den Erfolg erkennt | Aufwand Claude |
+|---|---|---|---|---|
+| 4 | **Auswahlqualität** (Reihenfolge nach D3) | Er muss im Review deutlich weniger korrigieren, und seine „Unverzichtbar"-Bilder bleiben drin. Je nach Befund: die App reicht pro Situation mehrere Kandidaten statt eines durch, fragt ihn vorab nach Reiseart, wichtigen Personen und Ausschlüssen, oder erkennt wiederkehrende Personen. | Auf denselben drei Bibliotheken sinkt der Korrekturanteil messbar, kein „Unverzichtbar"-Bild verworfen | 4–6 Sessions |
+| 5 | **Verlässlichkeit bei langen Läufen** | Er kann 1000 Bilder rechnen lassen, nebenbei surfen, den Laptop zuklappen und morgen weitermachen. Die App bleibt dabei bedienbar und sagt ehrlich, wenn sie gerade im langsamen Modus läuft oder einen Schritt nicht leisten konnte. | Ein 1000-Bilder-Lauf übersteht Tab-Wechsel und Standby; keine eingefrorene Oberfläche | 3–4 Sessions |
+| 6 | **Vom Auswahl-Export zum Buch-Gerüst** | Statt einer Bilderliste bekommt er ein Gerüst: Kapitel mit Datum und Ort, darunter Situationen mit Überschriften-Vorschlägen („Nachmittag am Hafen"), darunter die Bilder in Buchreihenfolge mit ihrer Rolle (Aufmacher, Hero). Das kann er direkt in ein Fotobuch-Programm übertragen. Ortsnamen aus dem Internet nur, falls D5 das erlaubt. | Übernahme in ein Layoutprogramm ohne Umsortieren; Überschriften sind brauchbar, nicht peinlich | 2–3 Sessions (+2 bei Geo) |
+| 7 | **Reif für Fremde** | Jemand, der die App noch nie gesehen hat, kommt ohne Erklärung durch: versteht den ersten Modell-Download, versteht, warum nach einem Neuladen der Ordner erneut gewählt werden muss, bekommt verständliche Fehlermeldungen. | Drei Bibliotheken bestehen das Abnahmekriterium (höchstens 30 % Korrekturen, nichts Unverzichtbares verworfen); Michael nimmt den Gesamtfluss ab; Deploy mit Tag `rc1` | 2–3 Sessions |
 
-**Post-RC1 (Fernziel, nicht geplant, nur abgegrenzt):** D6 LLM-Weggabelung (lokal/remote/keins), Buchmodell und Seitenlayout aus Tag→Szene→Beat, PDF/Dienstleister-Export, LLM-Captions, Mobile.
+**Nach RC1 (Fernziel, hier nur abgegrenzt):** Soll die App selbst Texte schreiben und ein Buch gestalten, braucht sie ein Sprachmodell. Das ist die Weggabelung D6: lokal im Browser (groß, langsam, auf vielen Rechnern nicht möglich) oder über einen Dienst (schnell, gut, aber die Fotos-bleiben-bei-dir-Zusage bricht). Erst danach: Seitenmodell, Layout, PDF, Bildunterschriften.
 
 ---
 
 ## 5. Entscheidungen (offen, für Michael)
 
-| ID | Frage | Empfehlung | Fällig |
+| ID | Frage in Nutzerworten | Empfehlung | Fällig |
 |---|---|---|---|
-| D1 | RC1-Scope wie Abschnitt 2? Reihenfolge Phase A (3) vor Qualitätsblock (4)? | Scope ja. Reihenfolge ja, weil Phase A fertig auditiert ist und die Diagnose den heutigen Stand messen soll | Schritt 1 |
-| D2 | Beats 2 von 5: dokumentierte Vereinfachung oder Lücke? | Vereinfachung dokumentieren; Erweiterung nur, wenn Schritt 2 „Beat" als Fehlfall-Klasse zeigt | Schritt 1 |
-| D3 | Reihenfolge Qualitätsblock | nach Befundbericht | Ende Schritt 2 |
-| D4 | FROZEN-CHANGE für Phase A (`db.js`, `ingest.js`, `app.js`, `selectors.js`) | ja, mit Marker und Re-Audit | Beginn Schritt 3 |
-| D5 | Geo/POI Opt-in in RC1? | nein (Legal/Netzwerk-Prinzip; erst 2.0) | vor Schritt 6 |
-| D6 | LLM-Weggabelung | Post-RC1 | nach RC1 |
+| D1 | Ist RC1 das Buch-Gerüst aus Abschnitt 2, und kommt „mehrere Quellen" vor „bessere Auswahl"? | Ja zu beidem | Schritt 1 |
+| D2 | Das Konzept verspricht fünf Bildrollen pro Situation (Aufmacher, Aktion, Detail, Hero, Übergang), die App vergibt nur zwei. Vorerst akzeptieren oder als Lücke führen? | Akzeptieren und dokumentieren; erweitern nur, wenn Schritt 2 zeigt, dass dem Nutzer deshalb Bilder fehlen | Schritt 1 |
+| D3 | Was wird zuerst besser: Kandidatenvielfalt, Absichtsabfrage oder Personenerkennung? | nach Befundbericht | Ende Schritt 2 |
+| D4 | Darf das Herz der App (Speicherung, Arbeitsmenge) für Schritt 3 angefasst werden? | Ja, mit Marker und erneutem Audit | Beginn Schritt 3 |
+| D5 | Darf die App für Ortsnamen ins Internet (Opt-in, nur gerundete Koordinaten)? | Nein vor RC1 | vor Schritt 6 |
+| D6 | Sprachmodell lokal, über Dienst oder gar nicht? | Nach RC1 | nach RC1 |
 
 ---
 
-## 6. Risiken
+## 6. Arbeitsmechanik (Anhang)
 
-| ID | Risiko | Wirkung | Gegenmaßnahme |
-|---|---|---|---|
-| R1 | Phase-A-KONZEPT nicht mehr auffindbar | Schritt 3 verzögert sich um eine Rekonstruktion (2–3 Sessions, erneute Audit-Runden) | In Schritt 1 klären; notfalls Schritt 4 vorziehen |
-| R2 | Diagnose-Bibliotheken zu homogen | D3 auf falscher Basis | Drei explizit verschiedene Charaktere; Mindestgröße 300 |
-| R3 | Phase A bricht Determinismus/Overrides | Regressionen in abgenommener Auswahl | Regressionsschutz gegen Schritt-2-Exporte (gleiche Auswahl bei gleichem Bestand) |
-| R4 | Worker-Umbau (Schritt 5) destabilisiert CDN/WASM-Pfad | §9.1 hat genau davor gewarnt | Eigener Spike-Branch vor dem KONZEPT; Rückfallpfad Main-Thread bleibt |
-| R5 | Mission Creep durch Fernziel-Ideen (Layout, LLM) | Schritte verwässern | Parkplatz, Scope-Freeze, „Bewusst nicht"-Listen, Abschnitt 2 |
-| R6 | ChatGPT-Befunde werden ungeprüft übernommen | falsche Korrekturen | Triangulation am Code ist Pflicht (1.2) |
+### 6.1 Rollen
+| Rolle | Wer | Inhalt |
+|---|---|---|
+| Product Owner | Michael | Produkt-, Legal-, Effort- und FROZEN-Entscheidungen; Scope-Freeze je Schritt; UI/UX-Abnahme nach Testanleitung; Relais zum externen Reviewer (ChatGPT) |
+| KONZEPT-Autor + Implementierer | Claude | KONZEPT-first, Failure-Mode-Pass, Implementierung (ein Delta je Branch), Testanleitung für Michael |
+| Interner Reviewer | Subagent `konzept-reviewer` | Audit KONZEPT gegen Code vor Beauftragung |
+| Interner Verifizierer | Subagent `independent-verifier` | Audit Diff gegen DoD/FROZEN/`baseline` vor Merge |
+| Externer Reviewer | ChatGPT (über Michael) | Zweite, modellfremde Meinung auf KONZEPT und Abnahmebericht |
+| Mechanische Gates | `verify.sh`, `frozen-guard.sh`, CI, PreToolUse-Hook | teilen keine Annahmen |
+
+### 6.2 Gate-Kette je Schritt
+```
+G0 DoR  →  KONZEPT  →  G1 konzept-reviewer  →  G2 ChatGPT-Review-Paket  →  G3 Freigabe Michael (= Scope-Freeze)
+→ Implementierung  →  G4 verify.sh + independent-verifier + CI  →  G5 UI/UX-Abnahme Michael (Testanleitung)
+→ Merge --no-ff  →  git tag -f baseline  →  STATUS-Notiz
+```
+G2: Claude erzeugt ein selbsttragendes Paket (`docs/review/<schritt>-paket.md`), Michael pastet es, Claude prüft jeden Befund am Code und dokumentiert Annahme oder Widerlegung. G5 nur bei sichtbarer UI-Wirkung.
+
+### 6.3 Anti-Mission-Creep
+1. Scope-Freeze bei G3; Änderung nur per Änderungsantrag an Michael (Problem → Grund → Konsequenz).
+2. Ideen gehen datiert nach `docs/PARKPLATZ.md`, Sichtung nur an Schrittgrenzen.
+3. „Bewusst nicht"-Liste in jedem KONZEPT und PR-Body.
+4. Ein offener Implementierungsbranch gleichzeitig.
+5. Messbares Ergebniskriterium je Schritt.
+6. Entscheidungslog `docs/DECISIONS.md`.
+7. FROZEN nur mit `FROZEN-CHANGE:`-Marker nach D-Eintrag.
+
+### 6.4 Codequalität je Delta
+`verify.sh`, CI und frozen-guard grün; Full-File-Read vor Spezifikation; Failure-Mode-Pass über sieben Achsen; keine neuen Laufzeit-Abhängigkeiten ohne D-Eintrag; kein toter Code; Determinismus-Gate bei Segmentierung/Solver.
+
+### 6.5 Bezug Jungle Jiggle
+Keine Artefakte im Repo; Mechanik aus `GOVERNANCE.md` abgeleitet und erweitert. Offen: Michael nennt zusätzlich zu übernehmende Praktiken (Schritt 1, Punkt 7).
 
 ---
 
-## 7. Sofort nächste Aktion
-Nach Michaels Antwort auf D1 und D2 startet Schritt 1 auf `chore/governance-close`. Michael: Phase-A-Datei suchen, Jungle-Jiggle-Praktiken benennen.
+## 7. Risiken
+
+| ID | Risiko | Für den Nutzer | Gegenmaßnahme |
+|---|---|---|---|
+| R1 | Phase-A-Konzept nicht mehr auffindbar | „Mehrere Quellen" kommt später | In Schritt 1 klären; notfalls Qualitätsblock vorziehen |
+| R2 | Diagnose-Bibliotheken zu ähnlich | Wir verbessern das Falsche | Drei klar verschiedene Charaktere, mindestens 300 Bilder |
+| R3 | Umbau in Schritt 3 verändert bestehende Auswahlen | Vertrauensverlust nach Update | Gleiche Auswahl bei gleichem Bestand als Pflichtprüfung |
+| R4 | Worker-Umbau (Schritt 5) destabilisiert Modell-Laden | App startet auf manchen Rechnern nicht | Spike vorab; Rückfall auf heutigen Pfad bleibt |
+| R5 | Fernziel-Ideen (Layout, Texte) fließen vorzeitig ein | RC1 verzögert sich | Parkplatz, Scope-Freeze, Abschnitt 2 |
+| R6 | ChatGPT-Befunde ungeprüft übernommen | Falsche Korrekturen | Prüfung am Code ist Pflicht |
+
+---
+
+## 8. Sofort nächste Aktion
+Nach Michaels Antwort auf D1 und D2 startet Schritt 1. Michael: Phase-A-Datei suchen, Jungle-Jiggle-Praktiken benennen.
