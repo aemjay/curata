@@ -1,0 +1,448 @@
+{
+  "library": "suedengland",
+  "judge": "claude-local-proxy",
+  "unverzichtbar": [
+    "IMG_0236.jpg",
+    "IMG_0239.jpg",
+    "IMG_0247.jpg",
+    "IMG_0265.jpg",
+    "IMG_0272.jpg",
+    "IMG_0274.jpg",
+    "IMG_0315.jpg",
+    "IMG_0347.jpg",
+    "IMG_0365-Bearbeitet.jpg",
+    "IMG_0386.jpg",
+    "IMG_0406.jpg",
+    "IMG_0413.jpg",
+    "IMG_0440.jpg",
+    "IMG_0445.jpg",
+    "IMG_0459.jpg",
+    "IMG_0486.jpg",
+    "IMG_0502.jpg",
+    "IMG_0546.jpg",
+    "IMG_0584.jpg",
+    "IMG_0610.jpg",
+    "IMG_0623.jpg",
+    "IMG_0636.jpg",
+    "IMG_0650.jpg",
+    "IMG_0699.jpg"
+  ],
+  "remove": [
+    {
+      "file": "IMG_0258.jpg",
+      "reason": "Fast identisch mit IMG_0257 (gleicher Waldweg mit Schild)"
+    },
+    {
+      "file": "IMG_0273.jpg",
+      "reason": "Dublette von IMG_0272 (Paar auf den Kreidefelsen, nur leicht anders)"
+    },
+    {
+      "file": "IMG_0283.jpg",
+      "reason": "Zweite Felsstruktur-Nahaufnahme, IMG_0279 reicht"
+    },
+    {
+      "file": "IMG_0291.jpg",
+      "reason": "Dublette von IMG_0290 (gleicher Stadtblick)"
+    },
+    {
+      "file": "IMG_0300.jpg",
+      "reason": "Dublette von IMG_0299 (gleiche Parade-Szene vor den Arkaden)"
+    },
+    {
+      "file": "IMG_0307.jpg",
+      "reason": "Fehlauslösung: nur Asphalt und Beine"
+    },
+    {
+      "file": "IMG_0312.jpg",
+      "reason": "Fehlauslösung: Lenker und Daumen"
+    },
+    {
+      "file": "IMG_0320.jpg",
+      "reason": "Burgfassade dreifach (IMG_0321, IMG_0336); IMG_0321 ist die stärkere Ansicht"
+    },
+    {
+      "file": "IMG_0339.jpg",
+      "reason": "Dublette von IMG_0340 (Bank mit Rädern am Strand)"
+    },
+    {
+      "file": "IMG_0343.jpg",
+      "reason": "Gesichter-Aufsteller viermal; IMG_0347 ist die beste, enge Version"
+    },
+    {
+      "file": "IMG_0348.jpg",
+      "reason": "Dublette von IMG_0347/IMG_0343 (Gesichter-Aufsteller)"
+    },
+    {
+      "file": "IMG_0356.jpg",
+      "reason": "Abfotografierter alter Stich, ohne Erzählwert"
+    },
+    {
+      "file": "IMG_0368.jpg",
+      "reason": "Infotafel – die Serie aus 9 Tafeln dominiert die Szene; IMG_0362 genügt als Kontext"
+    },
+    {
+      "file": "IMG_0369.jpg",
+      "reason": "Infotafel, abfotografiert – kein Erinnerungswert"
+    },
+    {
+      "file": "IMG_0370.jpg",
+      "reason": "Infotafel, abfotografiert – kein Erinnerungswert"
+    },
+    {
+      "file": "IMG_0371.jpg",
+      "reason": "Infotafel, abfotografiert – kein Erinnerungswert"
+    },
+    {
+      "file": "IMG_0372.jpg",
+      "reason": "Infotafel, abfotografiert – kein Erinnerungswert"
+    },
+    {
+      "file": "IMG_0373.jpg",
+      "reason": "Infotafel, abfotografiert – kein Erinnerungswert"
+    },
+    {
+      "file": "IMG_0375.jpg",
+      "reason": "Infotafel, abfotografiert – kein Erinnerungswert"
+    },
+    {
+      "file": "IMG_0376.jpg",
+      "reason": "Infotafel, abfotografiert – kein Erinnerungswert"
+    },
+    {
+      "file": "IMG_0377.jpg",
+      "reason": "Infotafel, abfotografiert – kein Erinnerungswert"
+    },
+    {
+      "file": "IMG_0382.jpg",
+      "reason": "Hafenmauer, redundant zu IMG_0381/IMG_0384 (Fährfahrt hat 6 reine Szeneriebilder)"
+    },
+    {
+      "file": "IMG_0397.jpg",
+      "reason": "Fast gleiche Heidelandschaft wie IMG_0396"
+    },
+    {
+      "file": "IMG_0399.jpg",
+      "reason": "Schafweide wie IMG_0398 und IMG_0402 – dreimal dasselbe Motiv"
+    },
+    {
+      "file": "IMG_0419.jpg",
+      "reason": "Fehlauslösung: nur Straßenrand"
+    },
+    {
+      "file": "IMG_0420.jpg",
+      "reason": "Verdrehte Fehlauslösung während der Fahrt"
+    },
+    {
+      "file": "IMG_0431.jpg",
+      "reason": "Leerer Hohlweg, IMG_0429 mit Radler erzählt dasselbe besser"
+    },
+    {
+      "file": "IMG_0438.jpg",
+      "reason": "Dritte Variante Frau beim Mittagessen (IMG_0437, IMG_0439), zudem unscharf"
+    },
+    {
+      "file": "IMG_0451.jpg",
+      "reason": "Küstenblick fast wie IMG_0452"
+    },
+    {
+      "file": "IMG_0457.jpg",
+      "reason": "Dublette von IMG_0456 (Frau am Café-Tisch)"
+    },
+    {
+      "file": "IMG_0458.jpg",
+      "reason": "Mann am Café-Tisch dreifach; IMG_0459 (Tasse am Mund) ist der Moment"
+    },
+    {
+      "file": "IMG_0460.jpg",
+      "reason": "Mann am Café-Tisch dreifach; IMG_0459 reicht"
+    },
+    {
+      "file": "IMG_0466.jpg",
+      "reason": "Leerer Waldweg direkt vor IMG_0467 mit Radlerin"
+    },
+    {
+      "file": "IMG_0473.jpg",
+      "reason": "Unspezifischer Platz, schwaches Motiv"
+    },
+    {
+      "file": "IMG_0490.jpg",
+      "reason": "Dritte Straßenansicht neben IMG_0491 und IMG_0499"
+    },
+    {
+      "file": "IMG_0493.jpg",
+      "reason": "Rinder winzig; IMG_0496/IMG_0497 zeigen sie besser"
+    },
+    {
+      "file": "IMG_0507.jpg",
+      "reason": "Etagenbett-Serie dreifach; IMG_0509 reicht"
+    },
+    {
+      "file": "IMG_0508.jpg",
+      "reason": "Etagenbett-Serie dreifach; IMG_0509 reicht"
+    },
+    {
+      "file": "IMG_0533.jpg",
+      "reason": "Mann am Steuer doppelt; IMG_0539 mit Meer im Fenster ist schöner"
+    },
+    {
+      "file": "IMG_0536.jpg",
+      "reason": "Straße durch Windschutzscheibe wie IMG_0535"
+    },
+    {
+      "file": "IMG_0547.jpg",
+      "reason": "Dublette von IMG_0546 (Selfie Burgwiese)"
+    },
+    {
+      "file": "IMG_0576.jpg",
+      "reason": "Teichspiegelung wie IMG_0575"
+    },
+    {
+      "file": "IMG_0583.jpg",
+      "reason": "Kuss-Selfie doppelt; IMG_0584 ist schärfer und offener"
+    },
+    {
+      "file": "IMG_0592.jpg",
+      "reason": "Verwackelt durch Windschutzscheibe"
+    },
+    {
+      "file": "IMG_0595.jpg",
+      "reason": "Verwackelt durch Windschutzscheibe, Armaturenbrett im Bild"
+    },
+    {
+      "file": "IMG_0607.jpg",
+      "reason": "Blasse Küstenlinie, gegenüber IMG_0605/IMG_0615 schwach"
+    },
+    {
+      "file": "IMG_0611.jpg",
+      "reason": "Felsküste wie IMG_0605, Hochformat ohne Zusatzwert"
+    },
+    {
+      "file": "IMG_0622.jpg",
+      "reason": "Wattweg zum Inselberg wie IMG_0620"
+    },
+    {
+      "file": "IMG_0629.jpg",
+      "reason": "Farnkraut vor Himmel, nichtssagend"
+    },
+    {
+      "file": "IMG_0631.jpg",
+      "reason": "Wiesenrand vor Meer, nichtssagend (wie IMG_0630)"
+    },
+    {
+      "file": "IMG_0633.jpg",
+      "reason": "Durch Windschutzscheibe mit Armaturenbrett; IMG_0635 zeigt Weg und Schornstein besser"
+    },
+    {
+      "file": "IMG_0640.jpg",
+      "reason": "Gitter über Schacht, unlesbar ohne Kontext"
+    },
+    {
+      "file": "IMG_0648.jpg",
+      "reason": "Dunkles Maschinendetail, schwer lesbar"
+    },
+    {
+      "file": "IMG_0656.jpg",
+      "reason": "Förderkorb-Ausstellungsstück, Maschinen-Überhang in der Szene"
+    },
+    {
+      "file": "IMG_0664.jpg",
+      "reason": "Werkstattmaschine, redundant zu IMG_0663"
+    },
+    {
+      "file": "IMG_0673.jpg",
+      "reason": "Spindhalle wie IMG_0668"
+    },
+    {
+      "file": "IMG_0674.jpg",
+      "reason": "Vitrine mit Fundstücken, Museumsdoku"
+    },
+    {
+      "file": "IMG_0682.jpg",
+      "reason": "Leerer Waschraum, Museumsdoku ohne Person"
+    },
+    {
+      "file": "IMG_0689.jpg",
+      "reason": "Durchblick durch Tür, schwaches Motiv"
+    },
+    {
+      "file": "IMG_0691.jpg",
+      "reason": "Aufbereitungshalle mehrfach; IMG_0692/IMG_0697 reichen"
+    },
+    {
+      "file": "IMG_0694.jpg",
+      "reason": "Mühle mit Infotafel, redundant"
+    },
+    {
+      "file": "IMG_0696.jpg",
+      "reason": "Halle mit Rüttelherden, redundant"
+    },
+    {
+      "file": "IMG_0698.jpg",
+      "reason": "Maschine mit Infotafel, redundant"
+    }
+  ],
+  "bringBack": [
+    {
+      "file": "IMG_0353.jpg",
+      "reason": "Person allein im riesigen Burgsaal – einziges Personenbild im Burginneren, schafft Maßstab; alle drei Varianten verworfen"
+    },
+    {
+      "file": "IMG_0385.jpg",
+      "reason": "Zelt mit den Rädern im Nebel – das einzige Bild, das Zelt und Reisemittel zusammen zeigt"
+    },
+    {
+      "file": "IMG_0565.jpg",
+      "reason": "Frau unter Riesenrhabarber – Gegenstück zum gepickten IMG_0566 mit dem Mann; Paar-Bildpaar"
+    },
+    {
+      "file": "IMG_0588.jpg",
+      "reason": "Bambustunnel – eigenständiges, starkes Gartenmotiv, beide Varianten verworfen"
+    },
+    {
+      "file": "IMG_0704.jpg",
+      "reason": "Frau mit Schokoladenkuchen – persönlicher Genussmoment, wohl Ausklang der Reise; als stream verworfen"
+    }
+  ],
+  "sceneNotes": [
+    {
+      "sceneId": "scene-0-0",
+      "note": "Kofferpacken als Auftakt – gut, dass es drin ist."
+    },
+    {
+      "sceneId": "scene-0-1",
+      "note": "Gelungen: Kirche innen/außen plus erstes Paar-Selfie."
+    },
+    {
+      "sceneId": "scene-1-0",
+      "note": "Pub-Mittag ok; IMG_0240 (Körbe) ist schwach, aber tragbar."
+    },
+    {
+      "sceneId": "scene-2-0",
+      "note": "Tretboote und Paar am Teich gut; Dubletten korrekt verworfen."
+    },
+    {
+      "sceneId": "scene-3-0",
+      "note": "Café-Porträts beider Personen gut; zwei fast gleiche Waldweg-Bilder (0257/0258)."
+    },
+    {
+      "sceneId": "scene-4-0",
+      "note": "Überrepräsentiert (15 Picks): Paarbild doppelt, Felsstruktur doppelt, Stadtblick doppelt. Kern: Selfie 0265, Paar 0272, Klippe 0274."
+    },
+    {
+      "sceneId": "scene-5-0",
+      "note": "Parade: zwei fast gleiche Arkadenbilder (0299/0300)."
+    },
+    {
+      "sceneId": "scene-5-1",
+      "note": "Zwei Fehlauslösungen (0307 Asphalt, 0312 Lenker) wurden gepickt – reiner Ausschuss."
+    },
+    {
+      "sceneId": "scene-6-0",
+      "note": "Lustiges Ruder-Gerät-Bild – korrekt genau einmal."
+    },
+    {
+      "sceneId": "scene-6-1",
+      "note": "Burgfassade mehrfach (auch 0336 in scene-6-2); Bowling-Green ist schöne Abwechslung."
+    },
+    {
+      "sceneId": "scene-7-0",
+      "note": "Strand mit Rädern zweimal fast identisch (0339/0340)."
+    },
+    {
+      "sceneId": "scene-8-0",
+      "note": "Gesichter-Aufsteller viermal gepickt – witziges Motiv, aber einmal (0347) reicht."
+    },
+    {
+      "sceneId": "scene-9-0",
+      "note": "Schwerster Fehler der Auswahl: 9 abfotografierte Infotafeln gepickt, dafür die Person im Burgsaal (0353–0355) komplett verworfen."
+    },
+    {
+      "sceneId": "scene-10-0",
+      "note": "Sechs reine Hafen-/Küstenbilder ohne Personen; leicht überrepräsentiert."
+    },
+    {
+      "sceneId": "scene-11-0",
+      "note": "Camping im Nebel – emotional stark, Zeltbild mit Rädern fehlt."
+    },
+    {
+      "sceneId": "scene-12-0",
+      "note": "Vier sehr ähnliche Heide-Landschaften; Radlerin 0392 ist das Herzstück."
+    },
+    {
+      "sceneId": "scene-13-0",
+      "note": "Schafweiden dreifach; Mauer im Gegenlicht und Pub-Abend sind gut."
+    },
+    {
+      "sceneId": "scene-14-0",
+      "note": "Gute Auswahl: Burgruine, Radlerin, Kammweg, Paar vor Schloss."
+    },
+    {
+      "sceneId": "scene-15-0",
+      "note": "Zwei Fehlauslösungen (0419, 0420) gepickt; Hohlweg-Serie gut ausgedünnt."
+    },
+    {
+      "sceneId": "scene-16-0",
+      "note": "Frau beim Essen dreifach – zwei Varianten genügen."
+    },
+    {
+      "sceneId": "scene-16-1",
+      "note": "Welcome-to-Devon-Schild – Meilenstein der Reise, korrekt einmal."
+    },
+    {
+      "sceneId": "scene-17-0",
+      "note": "Cream-Tea-Paarbild ist ein Schlüsselbild."
+    },
+    {
+      "sceneId": "scene-18-0",
+      "note": "Stark überrepräsentiert (18 Picks): Café-Porträts 5x (Frau 2x, Mann 3x), Küstenblicke doppelt."
+    },
+    {
+      "sceneId": "scene-19-0",
+      "note": "Stadtrundgang solide, etwas viele Architekturbilder ohne Menschen."
+    },
+    {
+      "sceneId": "scene-20-0",
+      "note": "Paarbild auf Fels gut ausgedünnt (1 von 6); Straßen und Rinder je dreifach."
+    },
+    {
+      "sceneId": "scene-21-0",
+      "note": "Etagenbett dreimal fast identisch gepickt."
+    },
+    {
+      "sceneId": "scene-21-1",
+      "note": "Ponys mit Fohlen gut gewählt."
+    },
+    {
+      "sceneId": "scene-22-0",
+      "note": "Ausgewogen."
+    },
+    {
+      "sceneId": "scene-23-0",
+      "note": "Fahrer zweimal, Straße zweimal."
+    },
+    {
+      "sceneId": "scene-23-1",
+      "note": "Überrepräsentiert (23 Picks): Selfies doppelt (0546/0547, 0583/0584), Teichbilder mehrfach, verwackelte Autofahrt-Bilder gepickt; Frau unter Riesenblatt (0565) und Bambustunnel fehlen."
+    },
+    {
+      "sceneId": "scene-24-0",
+      "note": "Viele ähnliche Küstenbilder; einziges Paarbild 0610 ist zentral."
+    },
+    {
+      "sceneId": "scene-24-1",
+      "note": "Annäherung an den Inselberg doppelt (0620/0622)."
+    },
+    {
+      "sceneId": "scene-25-0",
+      "note": "Nichtssagende Landschaftsbilder und Windschutzscheibe gepickt; Bergbauküste 0636 ist der Höhepunkt."
+    },
+    {
+      "sceneId": "scene-25-1",
+      "note": "Personenbilder (Helm-Porträt 0650, Führer) gut; Maschinen-Überhang."
+    },
+    {
+      "sceneId": "scene-25-2",
+      "note": "Museumsdoku dominiert (18 Picks, fast nur leere Räume/Maschinen); Personenbilder 0681/0699 tragen. Kuchen-Moment 0704 fehlt."
+    }
+  ]
+}

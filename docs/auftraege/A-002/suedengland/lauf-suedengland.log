@@ -1,0 +1,25 @@
+2026-10-23T19:45:05.761Z Start suedengland: D:/Claude/Gemma/testbilder/Südengland (468 Bilddateien)
+2026-10-23T19:45:10.040Z Nach Privacy-Clear: {"Fotos":"0","HEIC":"—","GPS":"—","Status":"offen","Beschleunigung":"aktiv"}
+2026-10-23T19:45:16.185Z Geladen: {"Fotos":"468","HEIC":"0%","GPS":"61%","Status":"offen","Beschleunigung":"aktiv"}
+2026-10-23T19:45:16.458Z nav=Laden gesamt=null | 
+2026-10-23T19:45:21.476Z nav=Verarbeitung gesamt=36% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=Schritt 409 von 468 ; Personen-IDs=ausstehend ; Ähnlichkeit=ausstehend ; Bildanalyse (VLM)=ausstehend ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T19:46:21.480Z nav=Verarbeitung gesamt=63% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 22 von 330 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T19:47:21.496Z nav=Verarbeitung gesamt=65% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 56 von 330 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T19:48:21.497Z nav=Verarbeitung gesamt=66% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 89 von 330 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T19:49:21.514Z nav=Verarbeitung gesamt=67% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 122 von 330 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T19:50:21.527Z nav=Verarbeitung gesamt=68% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 157 von 330 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T19:51:21.530Z nav=Verarbeitung gesamt=70% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 188 von 330 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T19:52:21.540Z nav=Verarbeitung gesamt=71% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 228 von 330 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T19:53:21.563Z nav=Verarbeitung gesamt=72% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 261 von 330 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T19:54:21.590Z nav=Verarbeitung gesamt=74% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 294 von 330 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T19:55:21.598Z nav=Verarbeitung gesamt=75% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 325 von 330 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T19:56:21.614Z nav=Verarbeitung gesamt=100% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=OK ; Szenen=OK ; Auswahl=OK
+2026-10-23T19:56:21.617Z Pipeline fertig nach 11.1 min → „Review öffnen"
+2026-10-23T19:56:24.749Z nav=Review gesamt=null | 
+2026-10-23T19:56:24.750Z Review erreicht nach 11.1 min
+2026-10-23T19:56:39.126Z Kapitel-Screenshots (Alle Verwürfe): 26
+2026-10-23T19:56:39.404Z Export gesichert: selection.json
+2026-10-23T19:56:39.500Z Export gesichert: diagnose.json
+2026-10-23T19:56:39.500Z FERTIG
+2026-10-23T19:56:39.509Z Seite geschlossen
+2026-10-23T19:56:39.535Z Browser-Kontext geschlossen
