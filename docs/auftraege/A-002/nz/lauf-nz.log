@@ -1,0 +1,35 @@
+2026-10-23T20:06:45.814Z Start nz: D:/Claude/Gemma/testbilder/NZ (2264 Bilddateien)
+2026-10-23T20:06:50.205Z Nach Privacy-Clear: {"Fotos":"0","HEIC":"—","GPS":"—","Status":"offen","Beschleunigung":"aktiv"}
+2026-10-23T20:07:18.721Z Geladen: {"Fotos":"2264","HEIC":"0%","GPS":"47%","Status":"offen","Beschleunigung":"aktiv"}
+2026-10-23T20:07:19.011Z nav=Laden gesamt=null | 
+2026-10-23T20:07:24.028Z nav=Verarbeitung gesamt=6% | Technik-Analyse=Schritt 1012 von 2264 ; Kapitel (Tag)=ausstehend ; Gesichter (P/S/M)=ausstehend ; Personen-IDs=ausstehend ; Ähnlichkeit=ausstehend ; Bildanalyse (VLM)=ausstehend ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:08:24.057Z nav=Verarbeitung gesamt=54% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=Schritt 1516 von 4528 ; Bildanalyse (VLM)=ausstehend ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:09:24.064Z nav=Verarbeitung gesamt=63% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 25 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:10:24.076Z nav=Verarbeitung gesamt=63% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 60 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:11:24.087Z nav=Verarbeitung gesamt=64% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 105 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:12:24.094Z nav=Verarbeitung gesamt=65% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 146 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:13:24.118Z nav=Verarbeitung gesamt=66% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 183 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:14:24.170Z nav=Verarbeitung gesamt=66% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 226 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:15:24.187Z nav=Verarbeitung gesamt=67% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 265 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:16:24.204Z nav=Verarbeitung gesamt=68% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 304 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:17:24.210Z nav=Verarbeitung gesamt=68% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 343 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:18:24.220Z nav=Verarbeitung gesamt=69% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 384 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:19:24.225Z nav=Verarbeitung gesamt=70% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 423 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:20:24.235Z nav=Verarbeitung gesamt=70% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 463 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:21:24.241Z nav=Verarbeitung gesamt=71% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 504 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:22:24.278Z nav=Verarbeitung gesamt=72% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 543 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:23:24.305Z nav=Verarbeitung gesamt=72% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 583 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:24:24.314Z nav=Verarbeitung gesamt=73% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 622 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:25:24.331Z nav=Verarbeitung gesamt=73% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 663 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:26:24.336Z nav=Verarbeitung gesamt=74% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 698 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:27:24.352Z nav=Verarbeitung gesamt=75% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=Schritt 738 von 754 ; Szenen=ausstehend ; Auswahl=ausstehend
+2026-10-23T20:28:24.363Z nav=Verarbeitung gesamt=100% | Technik-Analyse=OK ; Kapitel (Tag)=OK ; Gesichter (P/S/M)=OK ; Personen-IDs=übersprungen ; Ähnlichkeit=OK ; Bildanalyse (VLM)=OK ; Szenen=OK ; Auswahl=OK
+2026-10-23T20:28:24.367Z Pipeline fertig nach 21.1 min → „Review öffnen"
+2026-10-23T20:28:27.620Z nav=Review gesamt=null | 
+2026-10-23T20:28:27.620Z Review erreicht nach 21.1 min
+2026-10-23T20:29:01.002Z Kapitel-Screenshots (Alle Verwürfe): 39
+2026-10-23T20:29:01.303Z Export gesichert: selection.json
+2026-10-23T20:29:01.406Z Export gesichert: diagnose.json
+2026-10-23T20:29:01.406Z FERTIG
+2026-10-23T20:29:01.415Z Seite geschlossen
+2026-10-23T20:29:01.431Z Browser-Kontext geschlossen

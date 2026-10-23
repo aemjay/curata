@@ -2,7 +2,7 @@
 Auftrag:   A-002
 Titel:     Diagnoseläufe auf drei heterogenen Bibliotheken (Ablaufplan Schritt 2)
 Ziel:      lokal
-Status:    LÄUFT (Ersatz-Eingaben laut Michael: D:/Claude/Gemma/testbilder/{Südengland,Schottland,NZ}; keine Unverzichtbar-Liste)
+Status:    BLOCKIERT: Proxy-Review NZ Kapitel 1–20 offen (Ausgabenlimit, Reset 02:00); Rest fertig, siehe A-002.ergebnis.md
 Erstellt:  2026-10-22 (Cloud-Session)
 Branch:    auftrag/A-002
 Voraussetzung: A-001 FERTIG (GPU aktiv, Playwright mit channel 'chrome', Push-Recht)

@@ -1,0 +1,24 @@
+2026-10-23T20:06:45.882Z [error] Failed to load resource: the server responded with a status of 404 (File not found)
+2026-10-23T20:07:17.341Z [pageerror] Cannot set properties of null (setting 'value')
+2026-10-23T20:07:30.800Z [warning] W1023 20:07:30.799000 2136208 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+2026-10-23T20:07:30.812Z [warning] W1023 20:07:30.812000 2136208 gl_context.cc:1118] OpenGL error checking is disabled
+2026-10-23T20:07:30.926Z [error] INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2026-10-23T20:07:45.130Z [warning] Unable to determine content-length from response headers. Will expand buffer when needed.
+2026-10-23T20:07:45.341Z [warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-23T20:07:45.466Z [error] [0;93m2026-10-23 22:07:45.466198 [W:onnxruntime:, session_state.cc:1280 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2026-10-23T20:07:45.466Z [error] [0;93m2026-10-23 22:07:45.466799 [W:onnxruntime:, session_state.cc:1282 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2026-10-23T20:08:42.997Z [warning] Unable to determine content-length from response headers. Will expand buffer when needed.
+2026-10-23T20:08:43.041Z [warning] Unable to determine content-length from response headers. Will expand buffer when needed.
+2026-10-23T20:08:43.212Z [error] [0;93m2026-10-23 22:08:43.212898 [W:onnxruntime:, session_state.cc:1280 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2026-10-23T20:08:43.212Z [error] [0;93m2026-10-23 22:08:43.213198 [W:onnxruntime:, session_state.cc:1282 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2026-10-23T20:08:43.326Z [warning] Unable to determine content-length from response headers. Will expand buffer when needed.
+2026-10-23T20:08:43.327Z [warning] Unable to determine content-length from response headers. Will expand buffer when needed.
+2026-10-23T20:08:43.327Z [warning] Unable to determine content-length from response headers. Will expand buffer when needed.
+2026-10-23T20:08:43.327Z [warning] Unable to determine content-length from response headers. Will expand buffer when needed.
+2026-10-23T20:08:43.391Z [warning] Unable to determine content-length from response headers. Will expand buffer when needed.
+2026-10-23T20:08:43.524Z [error] [0;93m2026-10-23 22:08:43.521799 [W:onnxruntime:, session_state.cc:1280 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2026-10-23T20:08:43.524Z [error] [0;93m2026-10-23 22:08:43.524798 [W:onnxruntime:, session_state.cc:1282 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2026-10-23T20:08:43.839Z [error] [0;93m2026-10-23 22:08:43.839198 [W:onnxruntime:, session_state.cc:1280 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2026-10-23T20:08:43.839Z [error] [0;93m2026-10-23 22:08:43.839598 [W:onnxruntime:, session_state.cc:1282 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m
+2026-10-23T20:08:44.383Z [error] [0;93m2026-10-23 22:08:44.383598 [W:onnxruntime:, session_state.cc:1280 VerifyEachNodeIsAssignedToAnEp] Some nodes were not assigned to the preferred execution providers which may or may not have an negative impact on performance. e.g. ORT explicitly assigns shape related ops to CPU to improve perf.[m
+2026-10-23T20:08:44.387Z [error] [0;93m2026-10-23 22:08:44.388098 [W:onnxruntime:, session_state.cc:1282 VerifyEachNodeIsAssignedToAnEp] Rerunning with verbose output on a non-minimal build will show node assignments.[m

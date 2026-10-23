@@ -1,0 +1,6274 @@
+{
+  "schema": "photobook-selection-v2",
+  "select": {
+    "implVersion": "select-v5",
+    "tauAuto": 0.35,
+    "tauEffective": 0.35,
+    "tauSliderPos": 0,
+    "tauOffset": 0,
+    "floorGate": 0.35,
+    "maxPickCap": null,
+    "candidateCount": 754,
+    "pickedCount": 447
+  },
+  "selection": [
+    {
+      "id": "ebef30c815b8cbfe76bf7721b7574b3faa0bb340",
+      "filename": "2018_0101_000137_001.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8578,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6c1c18eddd5ae0a14fe6e09c5cf78b2865cf7e2f",
+      "filename": "2018_0101_000147_002.jpg",
+      "chapter": 0,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.7734,
+        "moment": 0.6476,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 1 — bestes Bild der Szene (Score 0.70, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "5498f678a6af8cdd2726e9854b8cca8586e6048b",
+      "filename": "2018_0101_014549_001.jpg",
+      "chapter": 0,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.7508,
+        "moment": 0.5988,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.6, Technik 75 %, Hero, Grenznutzen 0.65 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f3a929ec58629d6fae76550cde735a282b3f5fe9",
+      "filename": "2018_0101_014614_003.jpg",
+      "chapter": 0,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.7684,
+        "moment": 0.6453,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 2 — bestes Bild der Szene (Score 0.70, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "7bd771604e87ad255e2d3ab79cf55d8a830342bd",
+      "filename": "2018_0101_054710_001.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "P",
+      "scores": {
+        "tech": 0.5391,
+        "moment": 0.5561,
+        "smile": 0.949
+      },
+      "reason": "Szenen-Floor Szene 3 — bestes Bild der Szene (Score 0.63, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "78af885255d1cd1e472c2f9201f45813ca9ecb95",
+      "filename": "_DSC0029.jpg",
+      "chapter": 1,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8536,
+        "moment": 0.405,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 4 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "b99c77a7de8580724be79d64f4ca8dd31b2640b2",
+      "filename": "_DSC0032.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8094,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 5 — bestes Bild der Szene (Score 0.52, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "9c60459f138db9d1672f203daf24a20d7fe32c3d",
+      "filename": "_DSC0036.jpg",
+      "chapter": 2,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8856,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 6 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "ff8db36aff14cbb0a1112964ecd6f30735550724",
+      "filename": "DSC07908.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9424,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 7 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "10891a073e483d9231e6385f11db1bd912ac9d94",
+      "filename": "_DSC0037.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9326,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c0b1a59293d5c1702c250d9ba51660a15327f840",
+      "filename": "_DSC0040.jpg",
+      "chapter": 2,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9386,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Übergang, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0370e79d36a93ee390171cda7b8191ca59334aa9",
+      "filename": "DSC07913.jpg",
+      "chapter": 2,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9282,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Übergang, Grenznutzen 0.54 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "11001892952eb4fd107ecaba8b99ef5195b5eb43",
+      "filename": "_DSC0042.jpg",
+      "chapter": 3,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.768,
+        "moment": 0.6946,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 8 — bestes Bild der Szene (Score 0.73, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "488b06ea7c3d9f02ec9b978335452c04e46f9d26",
+      "filename": "_DSC0043.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9066,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 91 %, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "76391e99460b63716ab77a378ec9260653837712",
+      "filename": "_DSC0044.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8854,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e403d386da485c1a018db43633e5820482a262e2",
+      "filename": "_DSC0046.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9596,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 96 %, Übergang, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "20067fd96fe3a0fecc2f9c9d173d7f89ff3a5e6b",
+      "filename": "DSC07917.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7816,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 78 %, Übergang, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "85f63a36ef3738e582cc4c5bf93fca2bb9c90275",
+      "filename": "DSC07919.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9271,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Übergang, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "389c321caf22ca63d834e87d7c38ca34546f0778",
+      "filename": "DSC07925.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9246,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "1091009bd6ea09ed1006726507953b7d14ce6b96",
+      "filename": "_DSC0048.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9353,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a7e775b2c115e530207d60e700494117e4141a7d",
+      "filename": "DSC07926.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9385,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Übergang, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "04c0ddeccff05dc14d355a16cc365b61dd21b972",
+      "filename": "_DSC0050.jpg",
+      "chapter": 3,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.5684,
+        "moment": 0.6031,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.6, Technik 57 %, Hero, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "cfc542eb3e0d1a29c30b468189efabc0dfbb61a9",
+      "filename": "DSC07931.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9336,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Übergang, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3b0955e33133608f926c39416fea464bdb00bd9d",
+      "filename": "_DSC0054.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8887,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Übergang, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4c8fc025b283b28b7380480689f6fea5a0e50a28",
+      "filename": "DSC07942.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9532,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Übergang, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "afa502c4aa87b7e9a614a00366aa2db35ee4a8df",
+      "filename": "DSC07946.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9486,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Übergang, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ec03d4bd1ac0a95f78d5030841d7e4173b36d415",
+      "filename": "_DSC0057.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8559,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c784537d6db15fb17a84fbf1b94ef834660cb856",
+      "filename": "_DSC0058.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9324,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Übergang, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3badfd506538504080bc7eaca8c5275653bcff52",
+      "filename": "_DSC0059.jpg",
+      "chapter": 3,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.8688,
+        "moment": 0.5389,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 87 %, Hero, Grenznutzen 0.65 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a0a21c05c565233c2196d7bad434f9f49c56e96e",
+      "filename": "DSC07955.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9008,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2c94be6385c54fc4f0f6c1b2f21cdfe51a0c68ef",
+      "filename": "DSC07956.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8487,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Aufmacher, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b8244c16231ab8e413bdaf7f9dd8ba52042c48e5",
+      "filename": "_DSC0065.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8913,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "263c0a6010b3b54e1c98e39398c44f38e87d3f71",
+      "filename": "_DSC0066.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8873,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5eaa914f3ba296e7ace40014e3769cfabc92e45e",
+      "filename": "_DSC0067.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8947,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ab44e5cde420eff6463b933b95925cf99ec7eae9",
+      "filename": "DSC07960.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9215,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 9 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "072b066e12c3743062759000e84a7bdead661a5a",
+      "filename": "DSC07961.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9209,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "069bcf1416782460e1f7576ee78a15a0c04deef9",
+      "filename": "DSC07964.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8764,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c8ed01c6bf50717a8eb4f04a15a94843d24bbfac",
+      "filename": "DSC07966.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8808,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Übergang, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "1a98b111f8b5f1660a46e7a3f056ce447fddba26",
+      "filename": "DSC07969.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8795,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Übergang, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4793b735fa1618fb01464b5922ce3f8ca5ac662e",
+      "filename": "C0001T01.jpg",
+      "chapter": 4,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.6709,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 67 %, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8f13386d9acf1e98d7fea0c0a8e3193c06818518",
+      "filename": "_DSC0072.jpg",
+      "chapter": 4,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8609,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "47d232f3aaf575cc253b8787990935195185a55e",
+      "filename": "_DSC0073.jpg",
+      "chapter": 4,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9525,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 10 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "6eda76e136463fa2286e622c345ae4a1bca06dc9",
+      "filename": "_DSC0077.jpg",
+      "chapter": 4,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.906,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4c64e219f616d14abba96f62235d1641b857e285",
+      "filename": "_DSC0082.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8831,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d111338040f3622d2154e07539dd2a8deb09b60d",
+      "filename": "_DSC0084.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9336,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2a17bccc9080075a85b1e89afd6820b48aca112d",
+      "filename": "_DSC0085.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7251,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 73 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b8459f8c7db98cb9aaaa33f1d4f5973a1b03a1df",
+      "filename": "_DSC0086.jpg",
+      "chapter": 4,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6834,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 68 %, Übergang, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9e6e3d018feca11ea2aedcaccf0f62ff3cc5b77e",
+      "filename": "_DSC0089.jpg",
+      "chapter": 4,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.875,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Übergang, Grenznutzen 0.58 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9b6439f86bacaad634ac6c59630925b83d692faa",
+      "filename": "_DSC0091.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8684,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 11 — bestes Bild der Szene (Score 0.54, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "b93aa8fa2bf87511d4686027be1d23070f37271d",
+      "filename": "DSC07972.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9312,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "26878881094ea5800876b8dc28a67b783d28640c",
+      "filename": "DSC07973.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9416,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f747a482eff1f2033e2a0c069f8c4dfbad94b4a5",
+      "filename": "DSC07982.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9042,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8257eaffcb8bfc50103a26ef543eec6b1755ec65",
+      "filename": "DSC07989.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9384,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "395d3ba53a4165834cdb46aa1b58b2e002488cb7",
+      "filename": "DSC07998.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9292,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "15d7d0b5571d71b92b22bc5ca1ec5a64650044e1",
+      "filename": "DSC08012.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9062,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "42165c915f57921f9ae32438fe9b4c28175e0746",
+      "filename": "DSC08027.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9282,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ecdbef4cdde3c1c2cded362d88c554c5206c6bcc",
+      "filename": "DSC08029.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9322,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f532a48cb2bb953c384738563b93647c022c172a",
+      "filename": "DSC08053.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8958,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "fcbe8ce799fc11d3604f0347efe19d9ed43389eb",
+      "filename": "DSC08059.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8957,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "26c76a79528ad7e9765bbeaf95a83e16770ae9c4",
+      "filename": "DSC08066.jpg",
+      "chapter": 5,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9127,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Detail, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6a3ee7f40a2d0739671405d8b350c88c7c654751",
+      "filename": "DSC08067.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9115,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "aed60eb8b71c0d7e585a2d9b89e460e9bc9f06c1",
+      "filename": "DSC08070.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9259,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4786c8cd0575ddb1facf27c6fa707ebb2fa9a0eb",
+      "filename": "DSC08071.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9347,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "bab6e08afc20303e6b85e34d231197b5eb454485",
+      "filename": "DSC08075.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9291,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "24e6dd790bc36d80d82c0102df3560ef0df87f9c",
+      "filename": "DSC08077.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9167,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "01210bf961c5915d56e7ab4faac54effddf00d65",
+      "filename": "DSC08078.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9068,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "adf3a76527b4644944dafcabf29c608628752821",
+      "filename": "DSC08080.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9337,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e7a17f975d041222de88b224e438d1a828614d93",
+      "filename": "DSC08081.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9407,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9cd90613881333fe99a461276563590f5b21661e",
+      "filename": "DSC08093.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9103,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e1a286734648c242758a5960f287df4520fe7dba",
+      "filename": "DSC08094.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9434,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7499aad9db91816528f32ebe26bec558077c9ed8",
+      "filename": "DSC08095.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9325,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "1f2e39d8d953a4fad53cce445e4b68339fd0d869",
+      "filename": "DSC08099.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9446,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 12 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "7be15e21b2f73048b04606a3ef5fdda0f5c0b5cb",
+      "filename": "DSC08103.jpg",
+      "chapter": 5,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9271,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Übergang, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f8e387ab7db4c733a00ee6147eced7a4bfe9a229",
+      "filename": "DSC00094.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7993,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 13 — bestes Bild der Szene (Score 0.58, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "3e9cdef65728c495c6a1ebc9a4703a0bc9199f8d",
+      "filename": "DSC00095.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9522,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "54a04b9856af0cc379152eeba13ac6a86d4126c8",
+      "filename": "DSC00096.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9601,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 96 %, Grenznutzen 0.54 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0f8cb2167c3bccdd474e2499d57a7928e9377b2f",
+      "filename": "DSC00100.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9578,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 96 %, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "bbe1caec6768c6d202c2ab37f94eacdfd1dbe8be",
+      "filename": "DSC00103.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9196,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4a9e3817d7e680295f5a4f1a2e8f91e1961396c1",
+      "filename": "DSC00105.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9491,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "39f6cb81ec4324c6d8151abac34351eab170aa4f",
+      "filename": "DSC00106.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9513,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "fa0d12f69dabdf12c759bab9c2e6692391f6a0f5",
+      "filename": "DSC00108.jpg",
+      "chapter": 6,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9625,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 96 %, Aufmacher, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7046857ff1ccce441b7852b68eda65a1127e3b52",
+      "filename": "DSC00109.jpg",
+      "chapter": 6,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9571,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 96 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "1a2b5d94e39d18af9f186874405e360f88c7a06e",
+      "filename": "DSC00116.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.931,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e169ac52cfca9d8245640070b8035d9d19832abe",
+      "filename": "_DSC0117.jpg",
+      "chapter": 6,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9321,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "314b43a005f3304dc7c11df3631d17cb93cdf5cd",
+      "filename": "_DSC0125.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.928,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4e4858833e0b4aec1b8f96482b78357efbc44f8c",
+      "filename": "_DSC0130.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9186,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "281a3ce14496c862cba22bd3e75e6fbad1d25c81",
+      "filename": "_DSC0132.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9273,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5cbe241ec482b2bfd961f176a49596e3a6b5cec3",
+      "filename": "_DSC0140.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9583,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 96 %, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "fc156f4ed8ef42969ba3b932f97dd92e1a2938d7",
+      "filename": "_DSC0148.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9209,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "70cbf7f2f9b4173f365c6db36f119879c3bd83a3",
+      "filename": "_DSC0149.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9191,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "497accde5d7832d7e375d230208013e1ebe02da7",
+      "filename": "_DSC0154.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9417,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a2c013d0bded45c4755b77ef6188bafdaf71825a",
+      "filename": "_DSC0156.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9494,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "61b9e5b466485b15ac0f0a2a5c8c0ab686a31b3c",
+      "filename": "_DSC0185.jpg",
+      "chapter": 6,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9308,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Detail, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5163f048e48c0b76068006cda9a84ea9ded77550",
+      "filename": "_DSC0187.jpg",
+      "chapter": 6,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9482,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Übergang, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "60a85240849e08bb85e40235f8272e7fe11af1b5",
+      "filename": "_DSC0189.jpg",
+      "chapter": 6,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9261,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Übergang, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ccb702db986587f8e1957b6a3a8b842668cc288f",
+      "filename": "C0021T01.jpg",
+      "chapter": 6,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9183,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a6024af0fe7b7cba64ffaefb155069033670971c",
+      "filename": "_DSC0212.jpg",
+      "chapter": 6,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9294,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d8e9270bb3e053aca07673e6f3a0724b1a066f60",
+      "filename": "_DSC0221.jpg",
+      "chapter": 6,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9273,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "228409b574df10f3c44c859abddc4aa80ec3642e",
+      "filename": "2019_0227_220651_001.jpg",
+      "chapter": 7,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8967,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "056715b9838f50eceb4b7483f2e01bd98ad5def1",
+      "filename": "2019_0227_220709_002.jpg",
+      "chapter": 7,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8978,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8f6fa5e389d4d7ebdd8393918ad9b336416dd153",
+      "filename": "DSC08116.jpg",
+      "chapter": 7,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9206,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "94db232d473a38d76d6228fac5606b460236872f",
+      "filename": "DSC08122.jpg",
+      "chapter": 7,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.941,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ac8a2b37b595cc7da33f285209eaa1faeffd4913",
+      "filename": "DSC08123.jpg",
+      "chapter": 7,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9259,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "cecf991af07709ac68da7eddec9b75d9fe9512f2",
+      "filename": "DSC08125.jpg",
+      "chapter": 7,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8749,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Übergang, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5c4ef4b06e1c7a55d68cb972c8cd4c0d4ee60725",
+      "filename": "DSC08127.jpg",
+      "chapter": 7,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9461,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 14 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "f7b0de6f47c26b83614286d11232d5a7212a64de",
+      "filename": "DSC08128.jpg",
+      "chapter": 7,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8552,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Übergang, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4b1e7906f0ecad587c14957c365aaa38715f514d",
+      "filename": "DSC08129.jpg",
+      "chapter": 7,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9233,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ccc7d1b0cac7ebf19a4c86fa4d5dae1b9611fc69",
+      "filename": "DSC08130.jpg",
+      "chapter": 7,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9214,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9e2a9e52243b68729fe84e2a61aeb1ec3c21b316",
+      "filename": "DSC08143.jpg",
+      "chapter": 7,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9016,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "37f9edd8c3f08669e6081ad2e2def9124f010925",
+      "filename": "DSC08146.jpg",
+      "chapter": 7,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9347,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 15 — bestes Bild der Szene (Score 0.63, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "62f73182b9abb4a0b41f454bbe051ca3b98ce84b",
+      "filename": "DSC08148.jpg",
+      "chapter": 7,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9193,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Detail, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "fc0bfbfa28893f08ebcdab57cdbc42c6c8790a80",
+      "filename": "DSC08149.jpg",
+      "chapter": 7,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9278,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7cffd047aa99fb412eec207a4bd0c1c82d33e515",
+      "filename": "DSC08151.jpg",
+      "chapter": 7,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9335,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 16 — bestes Bild der Szene (Score 0.63, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "d4c4a9750f95c2d106303950b64c2d70c457bdd4",
+      "filename": "DSC08152.jpg",
+      "chapter": 7,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8627,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 17 — bestes Bild der Szene (Score 0.54, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "7362c94c75765deb1594014ee342743a8368a108",
+      "filename": "_DSC0224.jpg",
+      "chapter": 8,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9605,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 96 %, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7382cfcf25c85594e8fd96aef2478224325b0550",
+      "filename": "_DSC0225.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9402,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ac53a210d5b892ec4399c9fd717cbb6a30b668cd",
+      "filename": "_DSC0226.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6939,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 69 %, Aufmacher, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0fb8c6282553f8dd22358bd427a8ee456bbc532f",
+      "filename": "_DSC0230.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9255,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4303749ebb456bbff7348f81a06c3bf89a318aa5",
+      "filename": "_DSC0236.jpg",
+      "chapter": 8,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9454,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "1f4d52e249e9af8baead8a87adc6074af03ad5c1",
+      "filename": "_DSC0240.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9528,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Aufmacher, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "11dcc7a8bb4914c911603988385cbe1787e69a61",
+      "filename": "_DSC0250.jpg",
+      "chapter": 8,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8862,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 89 %, Übergang, Grenznutzen 0.66 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "11a8479695bbef2167ccf88968bb14e18e32acae",
+      "filename": "_DSC0251.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6466,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 65 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "485e217f51b8559d0f4053dcf8ebce72a0d294e9",
+      "filename": "_DSC0253.jpg",
+      "chapter": 8,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.7754,
+        "moment": 0.5863,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 18 — bestes Bild der Szene (Score 0.63, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "44bcc31347c36cf04d2cb387583eeef8d26ffbe2",
+      "filename": "_DSC0255.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9085,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "146e72d00cc0559d9576a8b000b6cb344fad3053",
+      "filename": "_DSC0256.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.805,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 19 — bestes Bild der Szene (Score 0.52, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "cbf58e28845b49ee5a8179804ea933469c98a821",
+      "filename": "_DSC0257.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5865,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 59 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8e56f0a180bd38ca817c8e3d438f3f6f4d9876ed",
+      "filename": "_DSC0258.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5639,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 56 %, Aufmacher, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d7dbba7eb3cf57a2d68bdaa13d45b92f42a51e27",
+      "filename": "DSC08154.jpg",
+      "chapter": 9,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.852,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 20 — bestes Bild der Szene (Score 0.53, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "d83f8eb4d65de7595f038afc6dd1e40dc0f6fe83",
+      "filename": "DSC08157.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8786,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "12520f74aa38e3b1f96b4b336a5f2e6d58bb72af",
+      "filename": "DSC08165.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6826,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 68 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "126990b33267ac81d80296618ba3f630d1a85465",
+      "filename": "DSC08166.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8774,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "718848c5028260b94a705d14333573653c0de4f9",
+      "filename": "DSC08169.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7936,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 79 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0cf592fa62e6c8e86db90a6beba1735969b8b7fe",
+      "filename": "DSC08182.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8282,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3724a5b661072afb671fe0d56bf4bc487ed491c7",
+      "filename": "DSC08187.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8384,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b086de6975fbee7233e286b9ea3b0e561f816b65",
+      "filename": "DSC08191.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5867,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 59 %, Aufmacher, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5d5bc4c9296c9efcc537d4d2530516d87be8e5a5",
+      "filename": "DSC08194.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8428,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "bf7606abcb204fd6bf4a82eed531f643bb530548",
+      "filename": "DSC08196.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8821,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8fbe1a6b6bb5d54bab20752b910c9ef4dacb58e7",
+      "filename": "DSC08202.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.909,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "68073cade45ee9eb132e356ff00ab6d438c3b4fd",
+      "filename": "DSC08208.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8138,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b747c3aef46a751bc6bd8d810675a2a946e92bd4",
+      "filename": "DSC08210.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9097,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 91 %, Aufmacher, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e302d053572adceb54c916eb9c0fe7ef31c772a1",
+      "filename": "DSC08211.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9201,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 21 — bestes Bild der Szene (Score 0.62, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "710df8f684b41fc3da99ca60a1cc0a7b5752ae5f",
+      "filename": "DSC08218.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9258,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a82be1f707c25fd581a981867586ca6bca1d905e",
+      "filename": "DSC08219.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9039,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 90 %, Aufmacher, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "fdf3e5ab8107c429b7e45773a27206714220f9a2",
+      "filename": "DSC08223.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8888,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e2e5e15ed871e8107767548f13dbc94a6c1fbc5f",
+      "filename": "DSC08230.jpg",
+      "chapter": 10,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9186,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 22 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "30a5c760b02ae2240aba1dbd60c768857a94d64d",
+      "filename": "_DSC0260.jpg",
+      "chapter": 11,
+      "beat": null,
+      "stream": "P",
+      "scores": {
+        "tech": 0.3125,
+        "moment": 0.6382,
+        "smile": 0.8854
+      },
+      "reason": "Score-Auswahl — Moment 0.6, Technik 31 %, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "61e50c48b268410125f51cbf715f1763df3d7404",
+      "filename": "_DSC0261.jpg",
+      "chapter": 11,
+      "beat": null,
+      "stream": "P",
+      "scores": {
+        "tech": 0.506,
+        "moment": 0.6685,
+        "smile": 0.7276
+      },
+      "reason": "Szenen-Floor Szene 23 — bestes Bild der Szene (Score 0.64, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "add3ba65743ffa515f94828959a4134a71216dcf",
+      "filename": "_DSC0288.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8223,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 82 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "61acef9e895550a3890cd5c380c2a2e23b9645d6",
+      "filename": "_DSC0290.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.859,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 86 %, Aufmacher, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8b964391321c2f6c9043f23ec351d3a229d53417",
+      "filename": "_DSC0297.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9397,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b77d347330deb699ed1f0803bb186594150e6530",
+      "filename": "_DSC0298.jpg",
+      "chapter": 11,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9221,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2a7dd68e4def1561005f32a0232a4b9ce126fe3c",
+      "filename": "_DSC0301.jpg",
+      "chapter": 11,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9649,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 96 %, Detail, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "11040617961d24d3d85344fa1209d89bac78920f",
+      "filename": "_DSC0302.jpg",
+      "chapter": 11,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9226,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9836d16cb823e7deed8cae989870d49ef3d15331",
+      "filename": "_DSC0306.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8329,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 83 %, Aufmacher, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "cd9bbfaf51f5d12b0ffdcc7b4839b3e542c323af",
+      "filename": "_DSC0311.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9312,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3af953cf15bc7027952afc0191dfb46778ff9f1d",
+      "filename": "_DSC0312.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8059,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 81 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a99dff946c965404df299314ea443b45ccdec57a",
+      "filename": "_DSC0322.jpg",
+      "chapter": 11,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9606,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 96 %, Detail, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6c74b4b648aa805e66c085afa71bf54022b0affd",
+      "filename": "_DSC0323.jpg",
+      "chapter": 11,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9239,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0bc24e2a0a4c2e23d640c22ed4ef8c5a7c25ee1d",
+      "filename": "_DSC0327.jpg",
+      "chapter": 11,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9549,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6f553fd736d1a8599dca1b7510147e8655f7e973",
+      "filename": "_DSC0372.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8905,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 89 %, Aufmacher, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "82c8c9d79198d53d94859d0fc357bac4a248cdb5",
+      "filename": "_DSC0384.jpg",
+      "chapter": 11,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8868,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 89 %, Grenznutzen 0.58 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8de63129bdc7006b7d9859dce6c50f14967c7715",
+      "filename": "_DSC0389.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9443,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "191a22fbad8046e602b5aba018ef8b59ab343ec0",
+      "filename": "C0028T01.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8959,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 90 %, Aufmacher, Grenznutzen 0.65 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2f64e3247b9eeecee5d00eba132fb8aa3e910ae4",
+      "filename": "_DSC0407.jpg",
+      "chapter": 11,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8624,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 86 %, Grenznutzen 0.56 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c54946aa0ba34bca87efcbcbcf61581f25f71c00",
+      "filename": "_DSC0416.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9122,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "444fb728bc841b9cc2df90ad3412caf671c41a4b",
+      "filename": "_DSC0419.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9129,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8b307888a8f9e67bb21bff4f6214e3eac80e4c34",
+      "filename": "_DSC0424.jpg",
+      "chapter": 11,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9539,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Übergang, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "833f7e561c12733b0b3f158dfe83ececb32209c4",
+      "filename": "_DSC0427.jpg",
+      "chapter": 11,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8708,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 87 %, Aufmacher, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "384f3c66a06d55296ec32904936fae35243879b9",
+      "filename": "_DSC0449.jpg",
+      "chapter": 11,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.905,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 90 %, Übergang, Grenznutzen 0.66 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "53c99979f5ead4dea3f5d869f1f491fbe24f7c92",
+      "filename": "_DSC0455.jpg",
+      "chapter": 11,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9373,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Übergang, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4bed78d47b9336491dd8815e65824e1df4d06f3c",
+      "filename": "_DSC0475.jpg",
+      "chapter": 12,
+      "beat": null,
+      "stream": "P",
+      "scores": {
+        "tech": 0.5099,
+        "moment": 0.6945,
+        "smile": 0.9364
+      },
+      "reason": "Szenen-Floor Szene 24 — bestes Bild der Szene (Score 0.69, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "f6a02799caf94afb2a3efce54464839fe13c994d",
+      "filename": "_DSC0481.jpg",
+      "chapter": 12,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8155,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 82 %, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "cdd7bf243901a839fdef97d672458d7e35c94318",
+      "filename": "DSC08234.jpg",
+      "chapter": 13,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7528,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 75 %, Aufmacher, Grenznutzen 0.54 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8f0af2579122748973eb22d6ef82c0cbcd22c7ea",
+      "filename": "DSC08238.jpg",
+      "chapter": 13,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7384,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 25 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "35db5ffb0658ffe13f4d0630eda63419f1e1936c",
+      "filename": "_DSC8239.jpg",
+      "chapter": 13,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6939,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 69 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "37f158ae1eba58e3e62c90b9a029a40d01fa1a33",
+      "filename": "_DSC8240.jpg",
+      "chapter": 13,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7381,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 74 %, Übergang, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0e005d3f32646637fc46ef1953cefb22f314a437",
+      "filename": "_DSC8241.jpg",
+      "chapter": 14,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8331,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 26 — bestes Bild der Szene (Score 0.53, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "6455b048846b43806b755b58c5950f5100fa2c73",
+      "filename": "_DSC8242.jpg",
+      "chapter": 14,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6752,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 68 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "65509bf9f0405922b6d779c442c013d016e216a2",
+      "filename": "_DSC8244.jpg",
+      "chapter": 14,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8091,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "16ab67ea33b289420d9946c351c43341ca1e5bfa",
+      "filename": "_DSC8245.jpg",
+      "chapter": 14,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8004,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 80 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "168143c5d44d4964b774d9b541263542312fed7c",
+      "filename": "_DSC8249.jpg",
+      "chapter": 14,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6563,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 66 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "614a6265db84629190049540fd86af5a00cceb80",
+      "filename": "_DSC8252.jpg",
+      "chapter": 14,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9285,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 27 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "80c2135cbc92fe24ca4259162850205802fcd3a8",
+      "filename": "_DSC8253.jpg",
+      "chapter": 14,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5224,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 52 %, Aufmacher, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4432bc4e4d90f9a06ecf30a44707ce939a4d8e89",
+      "filename": "_DSC0487.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9248,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "25b6aff2d42031c83600ac9565cf23c88e65524a",
+      "filename": "_DSC0490.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9186,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6743f562ac13110b7824f6f7c9cc69ddf0009656",
+      "filename": "_DSC0491.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9083,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "71f7cc63820f454e6b3120130db7f8af930ee378",
+      "filename": "_DSC0494.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8302,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Aufmacher, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "493a6dfab8399765579364a25504a99e92b000c2",
+      "filename": "_DSC0495.jpg",
+      "chapter": 15,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.892,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4f0d52f167b93edf4ad066fe0b56dbfc08f6d0ee",
+      "filename": "_DSC0497.jpg",
+      "chapter": 15,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9126,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8faee8d5feb24fe2bf0a8597db1e30edfce4764f",
+      "filename": "_DSC0498.jpg",
+      "chapter": 15,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9146,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Detail, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4631a1c0f79fbca58e49506a290d6700de9a4366",
+      "filename": "_DSC0499.jpg",
+      "chapter": 15,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9398,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "69d0b56754ea658be347e4bd174119f5c79e3781",
+      "filename": "_DSC0500.jpg",
+      "chapter": 15,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9151,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e8e63c5e12047e3ab035dde53b41f86e0aecc257",
+      "filename": "_DSC0501.jpg",
+      "chapter": 15,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9376,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Detail, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "25e88787671a212e52d2124b915df06113ba04d7",
+      "filename": "_DSC0502.jpg",
+      "chapter": 15,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.944,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Detail, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "117ace6e8f7a657583c4a41836e768af7d27d26f",
+      "filename": "_DSC0503.jpg",
+      "chapter": 15,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8556,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Detail, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3ec48a520bc3ea782ee702731e301c49bbd81448",
+      "filename": "_DSC0511.jpg",
+      "chapter": 15,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9395,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "03e44dc251f931f9a0849d849f2e03d2e82fd091",
+      "filename": "_DSC0513.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9473,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Aufmacher, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "1dcf8793047dc7b798f434d37ae2bdc8b5503e25",
+      "filename": "_DSC0515.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9091,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3136ef51e54285423fb5f091ac1bcb38487e61a4",
+      "filename": "_DSC0516.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9325,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "aa57eee8c42d1c199ec09b38aa49df44f43d4f2f",
+      "filename": "_DSC0521.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8581,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Aufmacher, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "792a88050271e809cd3cb8f1b6f244cd09a70b4d",
+      "filename": "_DSC0535.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9302,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "df5faf12f0f075e9b58406633e4b4b41bb831858",
+      "filename": "C0031T01.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7353,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 74 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "db1a9088f33fa067cf9b16a68dacf9a8e4d00552",
+      "filename": "_DSC0536.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9476,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 28 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "0e69203d9ef79999d34de9c774b935d2983f13b4",
+      "filename": "_DSC0538.jpg",
+      "chapter": 15,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8613,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Übergang, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "59590d90157cb8e48b9a33d5b93b46f434f011b3",
+      "filename": "_DSC0605.jpg",
+      "chapter": 15,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8543,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 29 — bestes Bild der Szene (Score 0.53, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "9e5fe0d2ea9c1ccd3f8d37d5caba083470b5d169",
+      "filename": "_DSC0606.jpg",
+      "chapter": 15,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.5528,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 55 %, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f93daf7f425aa0d2261afad5cbc37871f5c290dc",
+      "filename": "_DSC0607.jpg",
+      "chapter": 15,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.4462,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 45 %, Übergang, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "40fe19d3d48480a2dd21005f5dd934ae7de4c5f7",
+      "filename": "_DSC8255.jpg",
+      "chapter": 16,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7913,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 79 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "73864e2c416cff1025de013ba1f357dc5e953f17",
+      "filename": "_DSC8257.jpg",
+      "chapter": 16,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9115,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 30 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "2cc3e9644b187716a75f07bd0532dc8b707a229b",
+      "filename": "_DSC8259.jpg",
+      "chapter": 16,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7782,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 78 %, Übergang, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "97de4d32cb2f1d743a55bd57d79a8c70188312a1",
+      "filename": "_DSC8261.jpg",
+      "chapter": 16,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8787,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Übergang, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b53e45d0d396c9c50964be673016617294a31f1b",
+      "filename": "_DSC8263.jpg",
+      "chapter": 17,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8082,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "70de1c6a42313cef98cf334e5b1b49a7d463d443",
+      "filename": "_DSC8264.jpg",
+      "chapter": 17,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9119,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 31 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "8abccc2b66c86aeece90022f402cf738b23a6dc2",
+      "filename": "_DSC8266.jpg",
+      "chapter": 17,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8907,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "edb1c43985a3db30a63285f08f4e0e9608737d48",
+      "filename": "_DSC8270.jpg",
+      "chapter": 17,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8529,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ebb6ff305bda9e5b8b42be1db32bf0c1d065ab63",
+      "filename": "_DSC8272.jpg",
+      "chapter": 17,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9329,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 32 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "95a3c056548e7048c14e333d9df8e0659b21ecea",
+      "filename": "_DSC8277.jpg",
+      "chapter": 17,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8736,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "39d60b5ebc5c15532d78ef238d79b5f1133c1c05",
+      "filename": "_DSC0611.jpg",
+      "chapter": 18,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9559,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 96 %, Aufmacher, Grenznutzen 0.54 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9e90eb74bb14755fbe25013fb0e3f467ca41e74c",
+      "filename": "_DSC0615.jpg",
+      "chapter": 18,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9328,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "1421b5861a64215ea98f3c00d02475f507298f99",
+      "filename": "_DSC0631.jpg",
+      "chapter": 18,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8775,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "dfeea3e3ab7ecb58d13ffe5331b3405274617d34",
+      "filename": "_DSC0640.jpg",
+      "chapter": 18,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7769,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 78 %, Grenznutzen 0.56 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5514ea55872d68d3a384a3adfdd85db78686133b",
+      "filename": "_DSC0643.jpg",
+      "chapter": 18,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8797,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4325d730276065bb69afcb346828804ed72dae6f",
+      "filename": "_DSC0646.jpg",
+      "chapter": 18,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9411,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d68e88e12bbd02038a3efb737c781f727ea0625b",
+      "filename": "_DSC0648.jpg",
+      "chapter": 18,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9297,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6c67419c671f60e8c28f9bc0ad32459c27619124",
+      "filename": "_DSC0649.jpg",
+      "chapter": 18,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8981,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 90 %, Aufmacher, Grenznutzen 0.66 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e0da5bb16930f4977d6c20285b213a20047f63d5",
+      "filename": "_DSC0694.jpg",
+      "chapter": 18,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9522,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "eab981b9bd86ab71816299864e5b89d643087141",
+      "filename": "_DSC0697.jpg",
+      "chapter": 18,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9501,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0fdbf2dc7763f91989c2a6cfb27b9cc88f5dc430",
+      "filename": "_DSC0713.jpg",
+      "chapter": 18,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8979,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4a1188f07436eab5101fbfff845d2c60d2fed4de",
+      "filename": "_DSC0714.jpg",
+      "chapter": 18,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.947,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8bb9c3bf44422ec82e2402c0fd09ab190a8b4161",
+      "filename": "_DSC0722.jpg",
+      "chapter": 18,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8238,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 82 %, Detail, Grenznutzen 0.56 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "36f4bbab05dffd72f8c5f24cd4b91101807dd787",
+      "filename": "_DSC0726.jpg",
+      "chapter": 18,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8835,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b16238a2e7930c2e580485ebcb26b3efe79cb806",
+      "filename": "_DSC0727.jpg",
+      "chapter": 18,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9339,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2d3143f00d4b05ad45f0ebd563381ddb3f593066",
+      "filename": "_DSC0728.jpg",
+      "chapter": 18,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9116,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0e2871fb63506c9d173c447358a09d5847f3887f",
+      "filename": "_DSC0732.jpg",
+      "chapter": 18,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8846,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Übergang, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5d537fe53c9d0d0d0c25c13ae1b750cac633754e",
+      "filename": "_DSC0734.jpg",
+      "chapter": 18,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9306,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c2fffa723bb4487797298b8adfbad6a826aeb572",
+      "filename": "_DSC0735.jpg",
+      "chapter": 18,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9327,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Übergang, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c57c959b966fd0b38ade13a886b615a495ed6438",
+      "filename": "_DSC0740.jpg",
+      "chapter": 18,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9056,
+        "moment": 0.585,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 33 — bestes Bild der Szene (Score 0.69, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "fc744d54d424233691b1f257c055a7212c22acb8",
+      "filename": "_DSC0741.jpg",
+      "chapter": 18,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8885,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c90abba050a82024bff9fd6ff84b6e71dbe73fce",
+      "filename": "_DSC0763.jpg",
+      "chapter": 18,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9031,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Übergang, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "59756c22b6deb832214c38aaf16578ce347e5c06",
+      "filename": "_DSC0768.jpg",
+      "chapter": 18,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8954,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Übergang, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ed2a1073b35a329c69bfed6f56be0b805035fd63",
+      "filename": "_DSC8279.jpg",
+      "chapter": 19,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7261,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 34 — bestes Bild der Szene (Score 0.49, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "fd915bf75d3902bfa5a8c8b82560f3659a5c62c1",
+      "filename": "_DSC8280.jpg",
+      "chapter": 19,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7376,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 74 %, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a2cff88725c4305880198f047626f37f20a3a564",
+      "filename": "_DSC8288.jpg",
+      "chapter": 19,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9211,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "da3e717c4755502e61d4316958e9915682ebe4de",
+      "filename": "_DSC8292.jpg",
+      "chapter": 19,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8689,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "39e8be7767af5b7a8110dfe84870fee251e46e62",
+      "filename": "_DSC8298.jpg",
+      "chapter": 19,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7374,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 74 %, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8e91812657c9e117faaeac465a17f0a78874f444",
+      "filename": "_DSC8303.jpg",
+      "chapter": 19,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7773,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 78 %, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7c4793793f38febee757c17a271d9478770bc798",
+      "filename": "_DSC8304.jpg",
+      "chapter": 19,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7999,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 80 %, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "00ef014a988f9fa408ee499d23d6efb44eccfd00",
+      "filename": "_DSC8314.jpg",
+      "chapter": 19,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.5163,
+        "moment": 0.5656,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.6, Technik 52 %, Hero, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "720f89dacf0d3db7fb432d3ca94d19075cdc32a6",
+      "filename": "_DSC8317.jpg",
+      "chapter": 19,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8476,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "012bc251bac4e1f5e567189196efb0eafa389aa5",
+      "filename": "_DSC8329.jpg",
+      "chapter": 19,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9171,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "931e2bdcc0b6eb6f8b5c553527942d9d5be7d11a",
+      "filename": "_DSC8336.jpg",
+      "chapter": 19,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7291,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 73 %, Aufmacher, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8f25bfa198d9403c2d9989b00f9960ae69db03bc",
+      "filename": "_DSC8346.jpg",
+      "chapter": 19,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7875,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 79 %, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f88d938dbf7679b67dfa6c27c363ac9e3036472e",
+      "filename": "_DSC8357.jpg",
+      "chapter": 19,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9028,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "debf0ce96b1a47749ff7b74be1f2b8e03a3d05f4",
+      "filename": "_DSC8365.jpg",
+      "chapter": 19,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9042,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e20780cfa207d87538e7523c047696972db9a911",
+      "filename": "_DSC8378.jpg",
+      "chapter": 19,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9461,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 35 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "2cbdc67d79c7852385f20da92092a12d54b7c732",
+      "filename": "_DSC8385.jpg",
+      "chapter": 19,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9189,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6c72ed8c544a20055ccc7d7d2c2f034c2e365a84",
+      "filename": "_DSC0771.jpg",
+      "chapter": 21,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8275,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "33f406376b5246cbab1d381a64b68bfa1000aeb2",
+      "filename": "C0033T01.jpg",
+      "chapter": 21,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8286,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b3e47ce74ad0281883dc6195dabb57dd1beba4f1",
+      "filename": "C0034T01.jpg",
+      "chapter": 21,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7759,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 36 — bestes Bild der Szene (Score 0.58, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "10f4d19fd184bf519dcfadd45f429c367be305e0",
+      "filename": "_DSC0775.jpg",
+      "chapter": 21,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8182,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 82 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "fbf89f15268b2a4eb4f0ce03026b9cb79af09aa7",
+      "filename": "_DSC0776.jpg",
+      "chapter": 21,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9061,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c207f69eb86e5b75ab2e539fd3df2b0e6f1f824f",
+      "filename": "_DSC0778.jpg",
+      "chapter": 21,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8542,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3b9f4d810ee1dfffe0b11dfa6336b307e51f8338",
+      "filename": "_DSC0779.jpg",
+      "chapter": 21,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6745,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 67 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "540eb5536b3a0d04e04901727a324e01a1b5e816",
+      "filename": "_DSC0780.jpg",
+      "chapter": 21,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8441,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Übergang, Grenznutzen 0.58 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "01e01c04d54d5c2bd3e65184f921f47d9aae895c",
+      "filename": "_DSC0795.jpg",
+      "chapter": 22,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8485,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d940148ea1c070519795b6cf2bbe4cf142e4f9c4",
+      "filename": "_DSC0799.jpg",
+      "chapter": 22,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8755,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5213042cb4aa596d8a2eccd637a545c16fbe20f5",
+      "filename": "_DSC0800.jpg",
+      "chapter": 22,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.868,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ef75619670d8f205ccbb8ae4a592191e98b92cd1",
+      "filename": "_DSC0801.jpg",
+      "chapter": 22,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8085,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "af677d2d29f710a9343c2b0adc646439cdd5060c",
+      "filename": "_DSC0802.jpg",
+      "chapter": 22,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8498,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 85 %, Aufmacher, Grenznutzen 0.64 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8d3377940af7818d97728a654681a67340af8040",
+      "filename": "_DSC0804.jpg",
+      "chapter": 22,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7952,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 80 %, Aufmacher, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5948a9b675206c87227b1eae04446bee6de36996",
+      "filename": "_DSC0805.jpg",
+      "chapter": 22,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7895,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 79 %, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d51f6a14396566232d3a5a4eb9a84e01f9df3baf",
+      "filename": "_DSC0807.jpg",
+      "chapter": 22,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8092,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3c39a9a2cadac35253438d6bd1b2f7b3d7bdfba7",
+      "filename": "_DSC0818.jpg",
+      "chapter": 22,
+      "beat": null,
+      "stream": "P",
+      "scores": {
+        "tech": 0.4565,
+        "moment": 0.6942,
+        "smile": 0.9336
+      },
+      "reason": "Score-Auswahl — Moment 0.7, Technik 46 %, Grenznutzen 0.67 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ec75792accb4e1d86d15566a13a7b55ebc72929f",
+      "filename": "_DSC0819.jpg",
+      "chapter": 22,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8509,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "42594a27ecda7fb92fe50224427c96162f13e216",
+      "filename": "_DSC0821.jpg",
+      "chapter": 22,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8115,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "877419105e022424e0d0e33d2f29d1980069b235",
+      "filename": "_DSC0822.jpg",
+      "chapter": 22,
+      "beat": null,
+      "stream": "P",
+      "scores": {
+        "tech": 0.6944,
+        "moment": 0.6084,
+        "smile": 0.9673
+      },
+      "reason": "Szenen-Floor Szene 37 — bestes Bild der Szene (Score 0.70, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "8fcdbbc22285fe951c58447b65c0849e2626ffd6",
+      "filename": "_DSC0824.jpg",
+      "chapter": 22,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8886,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4bb102109389821fdaa4cdfd7c9c74370cea5211",
+      "filename": "_DSC0825.jpg",
+      "chapter": 22,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8276,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Übergang, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a6056bb7b8eb585d8c2c6ddbb74b61ca53b633bf",
+      "filename": "_DSC0826.jpg",
+      "chapter": 22,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8131,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "14888cf6e1e53fdbff77e07a405a065f2c88d77a",
+      "filename": "_DSC0829.jpg",
+      "chapter": 22,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8459,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2d49ccab1b983f1f9c7e619ccde53df5be14e000",
+      "filename": "_DSC0833.jpg",
+      "chapter": 22,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8513,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Übergang, Grenznutzen 0.56 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d557c1b1fbee0a413c0ee9a0d5d1549a60bc786e",
+      "filename": "_DSC0834.jpg",
+      "chapter": 22,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8779,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6b3b9b8fd59c51f7006b4cad422788b5b8bdc261",
+      "filename": "_DSC8399.jpg",
+      "chapter": 23,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9002,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "df70886410ca5206121f78ab7bed55fc2f2ef523",
+      "filename": "_DSC8401.jpg",
+      "chapter": 23,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9057,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d910e40ba7692b7a621c834d48b19e17f0b29fb0",
+      "filename": "_DSC8406.jpg",
+      "chapter": 23,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8877,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "97597fa4b05a9700def419532d92a690b379c39f",
+      "filename": "_DSC8410.jpg",
+      "chapter": 23,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9234,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.54 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3c46ea7d32d25e5c93dbec5506b87950e8d4c4e1",
+      "filename": "_DSC8418.jpg",
+      "chapter": 23,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8757,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8945f521b3ad2f26e278811ccb14951435ecba32",
+      "filename": "_DSC8420.jpg",
+      "chapter": 23,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6995,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 70 %, Übergang, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2ebdece84739efb6aebd292f3ec6fec0357a2f04",
+      "filename": "_DSC8422.jpg",
+      "chapter": 23,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8955,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Übergang, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "fb055aa7e881f32f70043649c050b8a75bc53af3",
+      "filename": "_DSC8423.jpg",
+      "chapter": 23,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.833,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e8c3ee2133344b8f05b29a55fe3eb7b047025b0a",
+      "filename": "_DSC8424.jpg",
+      "chapter": 23,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9503,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 38 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "9f2e512cf9a58e5010e7a1beae735c5a5c4430d6",
+      "filename": "_DSC8425.jpg",
+      "chapter": 23,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8577,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7747c3daef94efffb1ca7a84c3a075ac164e6aa0",
+      "filename": "_DSC8426.jpg",
+      "chapter": 23,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8775,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ee3ef28012bd0a54b995c23591b9e135d875fe9c",
+      "filename": "_DSC8428.jpg",
+      "chapter": 23,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8688,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f19866dbbf992dc81cd70d405330877a93d9973e",
+      "filename": "_DSC8429.jpg",
+      "chapter": 23,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8227,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 39 — bestes Bild der Szene (Score 0.52, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "82fb5acde9b6404d84b97aedf9dffe14242e07c9",
+      "filename": "_DSC8434.jpg",
+      "chapter": 23,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8601,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "afe587ab63d8590ef05679373e324a2137135dc7",
+      "filename": "_DSC8435.jpg",
+      "chapter": 23,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9081,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 40 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "349139d5d3de4158c37c924ad3d2ece1ede2fa08",
+      "filename": "_DSC0837.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8968,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c7c50e68e5688119c9df968b7e8b0fe6686aace6",
+      "filename": "_DSC0839.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.793,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 79 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "482376a54a7f0c1bdb3ee51775d5887cf015842d",
+      "filename": "_DSC0843.jpg",
+      "chapter": 24,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8907,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Detail, Grenznutzen 0.58 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "67103ac385b94ea7403a0d967554dbfae1175cb3",
+      "filename": "_DSC0844.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7366,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 74 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "69b5f727c6bf571c56b7f1f2392e97ba71023d21",
+      "filename": "_DSC0845.jpg",
+      "chapter": 24,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9048,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 41 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "99383f64886f8ad3d2eb35bade30a6df9da5f808",
+      "filename": "_DSC0851.jpg",
+      "chapter": 24,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9171,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "74ad1c5cdce8a2a580c4f6f1ec5939efa92206f6",
+      "filename": "C0035T01.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9493,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 42 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "3834201edddb19ba630d70dc14603e4d58a0ea49",
+      "filename": "_DSC0868.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9233,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "76b5d6ce84fc4be1099a230ce77b26215e293a3e",
+      "filename": "_DSC0869.jpg",
+      "chapter": 24,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8747,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0f2e2425f5c4faf2bfc77cd6a3ff90238a81276b",
+      "filename": "_DSC0872.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9268,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "51d4c1cc6166cd23cbcf7a6e0e0a28c016a5a58c",
+      "filename": "_DSC0873.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9392,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.54 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "33e70ba77951bcf1ea89ac7f72cca2d3ceed8a8b",
+      "filename": "_DSC0874.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9053,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9c2c3e46a632bc0cf575f86fce4d8419d9977520",
+      "filename": "C0037T01.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9405,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ad1f664db55765997981da9764d29e334761596d",
+      "filename": "_DSC0875.jpg",
+      "chapter": 24,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8545,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Übergang, Grenznutzen 0.58 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "059f0604ad717e6b55b1d33350a0ffd0cb05a2eb",
+      "filename": "C0038T01.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8654,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "901bccd31bff52d3f18168cad4314d249adfe824",
+      "filename": "_DSC0876.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8919,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "91c00938aa5bde97a61aadbd5a69a4638a2feec3",
+      "filename": "_DSC0879.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8311,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "50e4bad563319238d729726e6695a0a85f4a285a",
+      "filename": "_DSC0898.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.851,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "66b40e3c5fcc78b4baa53a52309c04b1eb353668",
+      "filename": "_DSC0900.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8862,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7a6ca596c4b231b96990907c1f3077d707d06ad3",
+      "filename": "_DSC0902.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8259,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b4389b76e3d2ba5ee0e3a36a4c5f7c127df83704",
+      "filename": "_DSC0907.jpg",
+      "chapter": 24,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9621,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 43 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "0a872d95163b7bda0b8b11d341a6b3c1b1773224",
+      "filename": "_DSC0912.jpg",
+      "chapter": 24,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.919,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "169e35dcd28305db9c5778ba343a6e3193db4faf",
+      "filename": "_DSC0916.jpg",
+      "chapter": 24,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9298,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "908f91c875a5967844d56561ab682974df20678e",
+      "filename": "_DSC0918.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8035,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 80 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9c4b7c242fa0640ba130587ce206b281790e2cae",
+      "filename": "_DSC0919.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7823,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 78 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "cb0ee3b3fe596ac220d3dc7aa9525212cf7db2c4",
+      "filename": "_DSC0921.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6756,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 68 %, Aufmacher, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7cf5ea8400a416739f0958882da86ab17910298d",
+      "filename": "_DSC0922.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7964,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 80 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8da68eb9572e9103d1f897242f914fa8079b75a2",
+      "filename": "_DSC0923.jpg",
+      "chapter": 24,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6882,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 69 %, Aufmacher, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e3841984cec8310c2469213a28e475736736ac95",
+      "filename": "_DSC8441.jpg",
+      "chapter": 25,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7887,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 79 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "97baa612136992a5e931f08404da2ce775f350db",
+      "filename": "_DSC8443.jpg",
+      "chapter": 25,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7612,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 76 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "87267ee7a7264560a66e0371e7dd4b9a778a2c56",
+      "filename": "_DSC8448.jpg",
+      "chapter": 25,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8233,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 82 %, Übergang, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2dfd68414d902a59df4ff7e714bf6d10ef681406",
+      "filename": "_DSC8450.jpg",
+      "chapter": 25,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8603,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "917e05882b90925b6b788f2802fe1e50124ec314",
+      "filename": "_DSC8452.jpg",
+      "chapter": 25,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8546,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7bff4e340da66aa299988aca9c70dd05db8d51e9",
+      "filename": "_DSC8453.jpg",
+      "chapter": 25,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8687,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 44 — bestes Bild der Szene (Score 0.54, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "23c85301db84907d63ee0ca56bb669eef65045df",
+      "filename": "_DSC0926.jpg",
+      "chapter": 26,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9221,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9139f17b7089f5628567db6585068ae96e2ef497",
+      "filename": "_DSC0927.jpg",
+      "chapter": 26,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7704,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 77 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4ee94e6adb276afe81c7a9e574f5df9093d6551f",
+      "filename": "_DSC0929.jpg",
+      "chapter": 26,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7027,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 70 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "67868fa0873367d7d8d01c97026f6873c6954e62",
+      "filename": "_DSC0934.jpg",
+      "chapter": 26,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8648,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "126fb683deb87926a6e7aeefb82d5c4a94afc23d",
+      "filename": "_DSC0938.jpg",
+      "chapter": 26,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8062,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7f306c694a32c5e1c8441b4502f9a00f32ebef3f",
+      "filename": "_DSC0943.jpg",
+      "chapter": 26,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.695,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 70 %, Aufmacher, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9704ed354ef5ba6d79257e4d4fb100d3967a987b",
+      "filename": "_DSC0947.jpg",
+      "chapter": 26,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8012,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 80 %, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "da10682e3cc24671f45bf7acb935355a414369c3",
+      "filename": "_DSC0949.jpg",
+      "chapter": 26,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8716,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Detail, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d8e612755465f3bb1a19c9ca650a1ce67829e89e",
+      "filename": "_DSC0950.jpg",
+      "chapter": 26,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9224,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 45 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "e0e59a441a88dffc17d606cf22d098a5181d8fe4",
+      "filename": "_DSC0951.jpg",
+      "chapter": 26,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7653,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 77 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c5f62b6e1dfbd2976e5e6530b466e69397da27e2",
+      "filename": "_DSC0956.jpg",
+      "chapter": 26,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6758,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 68 %, Übergang, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "35d5cc6d4bcec5903473ed43e15aa76c93803108",
+      "filename": "_DSC8468.jpg",
+      "chapter": 27,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6161,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 62 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9c39696263b7ec9f8a0b905981772d8084d13783",
+      "filename": "_DSC8469.jpg",
+      "chapter": 27,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8833,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 46 — bestes Bild der Szene (Score 0.54, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "ea7f9932b8a3029a54f005504129c0c4c973e497",
+      "filename": "_DSC8470.jpg",
+      "chapter": 28,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5956,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 60 %, Detail, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "aa9893126c1c4f803f8de2a9cff861a03017dc06",
+      "filename": "_DSC8471.jpg",
+      "chapter": 28,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.6404,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 47 — bestes Bild der Szene (Score 0.46, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "80121afb73f06c7c4da5504fddf915757ab4ed8a",
+      "filename": "_DSC0960.jpg",
+      "chapter": 28,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8248,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 82 %, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "59b488a06740184f9fa9af90ea53d972fb5ffb62",
+      "filename": "_DSC0961.jpg",
+      "chapter": 28,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9028,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 48 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "71db9c12c4149117db6d766abba7e2c1c80192be",
+      "filename": "_DSC0962.jpg",
+      "chapter": 28,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8778,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ecdb28461be336f111a9e444a9f8339be0ea0aba",
+      "filename": "_DSC0968.jpg",
+      "chapter": 28,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7258,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 73 %, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "def1d4bf4d409b84b296b19545390dc2399946dc",
+      "filename": "_DSC0971.jpg",
+      "chapter": 28,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.64,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 64 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6b28bbf0f2fe3eecdeda3825de4a3a01c6eaed8d",
+      "filename": "_DSC0983.jpg",
+      "chapter": 28,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8997,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 49 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "3bfadae05f5ebd70a8dcb62dc6c27400aa617661",
+      "filename": "_DSC0984.jpg",
+      "chapter": 29,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.6248,
+        "moment": 0.405,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 62 %, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "96331a538012e428213d3a6e1edcb04e690b5b4d",
+      "filename": "_DSC0985.jpg",
+      "chapter": 29,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7258,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 50 — bestes Bild der Szene (Score 0.49, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "b5535cac9ec63487b46403d5dffba69fbfb97f36",
+      "filename": "_DSC8475.jpg",
+      "chapter": 29,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6129,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 61 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d57e9b86bc179a75225c8dbf35185cac27b42a87",
+      "filename": "_DSC8477.jpg",
+      "chapter": 29,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8047,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 51 — bestes Bild der Szene (Score 0.52, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "b09f0094e8cf85210eb4e89f0772b4389bc9412e",
+      "filename": "_DSC8481.jpg",
+      "chapter": 29,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6261,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 63 %, Übergang, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "972d58a8f143b7149d49832af569279ae7397678",
+      "filename": "_DSC0986.jpg",
+      "chapter": 29,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5472,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 52 — bestes Bild der Szene (Score 0.43, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "6b4f63a568da7effedbe23954c2495b24c87a624",
+      "filename": "_DSC8497.jpg",
+      "chapter": 30,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8479,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "37a966a2146082a355de9ab8d6917297bc704dae",
+      "filename": "_DSC8500.jpg",
+      "chapter": 30,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7462,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 75 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "56b4bf631f6b02349e62e38e8aa995e0e719acc2",
+      "filename": "_DSC8505.jpg",
+      "chapter": 30,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7773,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 78 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e648f769d4aaf7c16e9dea58513631fcdb38ab81",
+      "filename": "_DSC8510.jpg",
+      "chapter": 30,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9174,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f54aec55aa2101b35923e5f4e7db30647e3c3546",
+      "filename": "_DSC8512.jpg",
+      "chapter": 30,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6791,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 68 %, Aufmacher, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9589a8b13183a179b0082d2ff1da952a26dc28a6",
+      "filename": "_DSC8513.jpg",
+      "chapter": 30,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7555,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 76 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ccb814c6e9fbf7cacac38712f281c8a617cf6513",
+      "filename": "_DSC8516.jpg",
+      "chapter": 30,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8762,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "651c92c3cd479cf6e5ac97b87a1af9d64065bd25",
+      "filename": "_DSC8517.jpg",
+      "chapter": 30,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8819,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Übergang, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "595137fb430550d005ed1c0ee6e52dc225114bfc",
+      "filename": "_DSC8527.jpg",
+      "chapter": 30,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8886,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b46283a0b87d25d6a7fbc58b93d18d4c85f43b9a",
+      "filename": "_DSC8531.jpg",
+      "chapter": 30,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8979,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Übergang, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "abf7ac26157b28c2f2e51bae22e295b9c1bc78a0",
+      "filename": "_DSC8537.jpg",
+      "chapter": 30,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9612,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 53 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "b87fe115abb90adac3e4a37c5e22bc0fb0ebad45",
+      "filename": "_DSC8548.jpg",
+      "chapter": 30,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9195,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.54 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0470175889c335cdb924b12c711361b9ba71c33b",
+      "filename": "_DSC8574.jpg",
+      "chapter": 31,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9225,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 54 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "b1903b9cb819a7989fdc5be87f25dbb24e8cf802",
+      "filename": "_DSC8577.jpg",
+      "chapter": 31,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8684,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "570a1df016981b22d35de24ac84b012ed6e99523",
+      "filename": "_DSC8586.jpg",
+      "chapter": 31,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7169,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 72 %, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ffcf5778e61e2a9b03c0b1dec5c821109bf77561",
+      "filename": "_DSC8593.jpg",
+      "chapter": 31,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.572,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 57 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "19c0cbebbd76944d007d40cdc93d77e57bcc6fe7",
+      "filename": "_DSC8607.jpg",
+      "chapter": 31,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6814,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 68 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e9bf1279b78ccb1171842307124bcf2f315c0a0d",
+      "filename": "_DSC0989.jpg",
+      "chapter": 32,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.6687,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 67 %, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ef59b2698aa631626c60cd83ea3b49500252b6ba",
+      "filename": "_DSC0992.jpg",
+      "chapter": 32,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7028,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 55 — bestes Bild der Szene (Score 0.48, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "da904fa84c60aa50a3de2796088767c4f650ff49",
+      "filename": "_DSC0995.jpg",
+      "chapter": 32,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5171,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 52 %, Aufmacher, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d926f2ccdca4f95230562dea3100b313c271571c",
+      "filename": "C0040T01.jpg",
+      "chapter": 32,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8753,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ac3e481e76dea7493edafb79e03c00dc32d03990",
+      "filename": "_DSC1052.jpg",
+      "chapter": 32,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9167,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a18aacf5d66a657b1a6f71ea73a0fc95e67ef246",
+      "filename": "_DSC1056.jpg",
+      "chapter": 32,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8906,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3cd50ff41d42d95579eb03b760c859e7e9e8f9aa",
+      "filename": "_DSC1060.jpg",
+      "chapter": 32,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8148,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 81 %, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e682d537077b979d5e1f8a2b8b318ee8f651b74a",
+      "filename": "_DSC1069.jpg",
+      "chapter": 32,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8925,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "68b10c4c3bda334b74165de530aa4f720f311c62",
+      "filename": "_DSC1103.jpg",
+      "chapter": 32,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7408,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 74 %, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "23a531167e9982e8ec67c782c1e8be9b3bf8196c",
+      "filename": "_DSC1128.jpg",
+      "chapter": 32,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8994,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5d35e9b1c5cbc8cc700c4bea4bdda6a0047532ca",
+      "filename": "_DSC1134.jpg",
+      "chapter": 32,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.5191,
+        "moment": 0.5956,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.6, Technik 52 %, Hero, Grenznutzen 0.56 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b1947e533200ad58d5d1a1314fba0b4059b25225",
+      "filename": "_DSC1137.jpg",
+      "chapter": 32,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.7479,
+        "moment": 0.6958,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 56 — bestes Bild der Szene (Score 0.72, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "8a99f373a913d0a4b015d47606d49e28bf786e49",
+      "filename": "_DSC1141.jpg",
+      "chapter": 32,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8991,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ae0cfe5ab380631a1be1d0ebc5a362b77adc7612",
+      "filename": "_DSC1144.jpg",
+      "chapter": 32,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8501,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "464c3f71a452ab0ebd56e055e721f559e6c5099b",
+      "filename": "_DSC1150.jpg",
+      "chapter": 32,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8846,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "078ee827f225a77dcbac7af85537309a75966a85",
+      "filename": "_DSC1177.jpg",
+      "chapter": 32,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9459,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Übergang, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b9bf6cff786505c183a552bffedff90224ad1bb9",
+      "filename": "_DSC1192.jpg",
+      "chapter": 32,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9193,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Übergang, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9639b34e2986b5e12aa6a9b9433cf590878785c7",
+      "filename": "_DSC1204.jpg",
+      "chapter": 32,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9066,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Übergang, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9035a2b97c6ff61d2e9ccb1f1ed3e99c9ec7d14f",
+      "filename": "_DSC1205.jpg",
+      "chapter": 32,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8679,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Übergang, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ddfb5593db1fe380e1bd81c8a3aa1a6e3e8dca28",
+      "filename": "_DSC1217.jpg",
+      "chapter": 32,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9029,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Übergang, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7417e202118bb79279312ade31dc08cc6e68916f",
+      "filename": "C0045T01.jpg",
+      "chapter": 32,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8575,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Aufmacher, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3cfc99b786c35db95d496639e3951b2e9f1f8298",
+      "filename": "_DSC1225.jpg",
+      "chapter": 32,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9551,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 96 %, Übergang, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a2e82ed606c8b45191f4e62f8bf1c03565c94311",
+      "filename": "_DSC1232.jpg",
+      "chapter": 32,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9386,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a8238e505e96c8269974a53fa5f6de120607a2aa",
+      "filename": "_DSC1233.jpg",
+      "chapter": 32,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8946,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "fe6633700b052fb627ed077da549752307996691",
+      "filename": "_DSC1311.jpg",
+      "chapter": 32,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8881,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "30275e55f0b504a45c234bf7827e399df1ece127",
+      "filename": "_DSC1314.jpg",
+      "chapter": 32,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5865,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 57 — bestes Bild der Szene (Score 0.45, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "eaa1d7fa418d204b87b1298bd7c552781fbff700",
+      "filename": "_DSC1315.jpg",
+      "chapter": 33,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9075,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.54 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "32047dbe194e73ad0a765bc71dc5f767f10871e4",
+      "filename": "_DSC1334.jpg",
+      "chapter": 33,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9281,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 58 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "05c659a9b40194fe63f7a9f973f478f0b6b21be6",
+      "filename": "_DSC1335.jpg",
+      "chapter": 33,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8339,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7cbf6e18eae99aa10b38d725f3c210ccdd12ad92",
+      "filename": "_DSC1357.jpg",
+      "chapter": 33,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7306,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 73 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ac09f84b10581e7b7f9f8ce43feb03bb3a3df5e5",
+      "filename": "_DSC1362.jpg",
+      "chapter": 33,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8605,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c36e3035a00cc8c3b9f89a11083260f3ecd2a3ee",
+      "filename": "C0051T01.jpg",
+      "chapter": 33,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7912,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 79 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f1ad2b690a7673340b896e58049012b258bc52b6",
+      "filename": "C0052T01.jpg",
+      "chapter": 33,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8119,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a0f0b0524a27d429595d91a358fa1fe6d06bef6e",
+      "filename": "_DSC1366.jpg",
+      "chapter": 33,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8244,
+        "moment": 0.405,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 82 %, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2b8ddbb6ce5d158672522b9baedde92e1a4afe0c",
+      "filename": "_DSC1369.jpg",
+      "chapter": 33,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9092,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b742d788a8d0e44e0410a42e76cceeb7fffff164",
+      "filename": "_DSC1371.jpg",
+      "chapter": 33,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9522,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 59 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "d1d41600cbe9b5f25778e5a257fb1d503dd0f1cd",
+      "filename": "_DSC1374.jpg",
+      "chapter": 33,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8533,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3027a3d60afde619cc33ff58682dcdb2670971a3",
+      "filename": "_DSC1375.jpg",
+      "chapter": 33,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9247,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4a91572be61f553d4166dd6798738816957667d3",
+      "filename": "_DSC1376.jpg",
+      "chapter": 33,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9115,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Detail, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "febb9d693ab213fb2ea24910e01132f203ac9bc8",
+      "filename": "_DSC1377.jpg",
+      "chapter": 33,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.899,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6c2ff2a72ed065eeac6558127ffb08378510aaf9",
+      "filename": "_DSC1379.jpg",
+      "chapter": 33,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8815,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ac1cf89fbaefb1a898baa198f836fda97d59fa4d",
+      "filename": "_DSC1380.jpg",
+      "chapter": 33,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9512,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Detail, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f02d7de7c36963407631aff0a93e8066d98589b5",
+      "filename": "_DSC1382.jpg",
+      "chapter": 33,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9303,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Übergang, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6cf47dd05c046e6b3864055775982ec8e52ee548",
+      "filename": "_DSC1383.jpg",
+      "chapter": 33,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.943,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Detail, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "25c203fb80a31a62e104753fd84214bd9a50d0df",
+      "filename": "_DSC1386.jpg",
+      "chapter": 33,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.929,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ea6c4a50469723e8d849ae4e8783e3a3b6325512",
+      "filename": "C0054T01.jpg",
+      "chapter": 33,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9459,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Detail, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8abd8e4a320a2618c7ba32b496c77d412e014690",
+      "filename": "_DSC1394.jpg",
+      "chapter": 34,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8254,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4a40c3bd25f22849a01cc0e54fc769294e19057f",
+      "filename": "_DSC1397.jpg",
+      "chapter": 34,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8552,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 60 — bestes Bild der Szene (Score 0.54, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "b859f254a3238e180b67b23af41c6d15ff9afba5",
+      "filename": "_DSC1399.jpg",
+      "chapter": 34,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7471,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 75 %, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9b4f4469a509cbbdab5f09364b30f3c6b2ea5d82",
+      "filename": "C0060T01.jpg",
+      "chapter": 34,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8332,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d7988aeb613b00ea6107eda297e139c5881fe868",
+      "filename": "C0061T01.jpg",
+      "chapter": 34,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8263,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "cd434b2b2e1a10e9758a5f12892b89512b913fa7",
+      "filename": "_DSC1406.jpg",
+      "chapter": 35,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8724,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 61 — bestes Bild der Szene (Score 0.54, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "954a01d17a4526bc6686ae05d29c707b010f2d1f",
+      "filename": "_DSC1407.jpg",
+      "chapter": 35,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7811,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 78 %, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3e234f946a0cf9775320afb022b3b7859cfecda3",
+      "filename": "_DSC1410.jpg",
+      "chapter": 35,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6221,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 62 %, Übergang, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d428faed38098cd86b4d351a8ccb8d8eaac4340d",
+      "filename": "_DSC1424.jpg",
+      "chapter": 36,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.6254,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 63 %, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e5fe4ec0c297f514209327f5f786ff69ed2fe750",
+      "filename": "_DSC1425.jpg",
+      "chapter": 36,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8863,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3f8081cef85351d58da6d306a21b9e70ba30309d",
+      "filename": "_DSC1428.jpg",
+      "chapter": 36,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8988,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8b7c90dbabaf87c798b011872285f327a702b9a7",
+      "filename": "_DSC1432.jpg",
+      "chapter": 36,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7585,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 76 %, Detail, Grenznutzen 0.54 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b6f72b279f63106f344e173c1f68589eca74aca2",
+      "filename": "_DSC1438.jpg",
+      "chapter": 36,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9152,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 62 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "c64b2e09b37fa6e686974eb77c5054180531dca0",
+      "filename": "_DSC1442.jpg",
+      "chapter": 36,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.883,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2546b604e56f66c602b051db9a915f8b7d3dd70c",
+      "filename": "_DSC1451.jpg",
+      "chapter": 36,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5506,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 55 %, Übergang, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e49b548b926923113dd869b32b7aeba3333f2972",
+      "filename": "_DSC1462.jpg",
+      "chapter": 37,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.5204,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 52 %, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8c43c1e185eee2ddbb75f623e776518f1c36af66",
+      "filename": "_DSC1474.jpg",
+      "chapter": 37,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.4837,
+        "moment": 0.405,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 48 %, Detail, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "73715c6695fe9ce088f3f85ef6dcac71dbf631ba",
+      "filename": "_DSC1477-HDR.jpg",
+      "chapter": 37,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8891,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 63 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "0fb89327b798bfa0daf07de0683193aa4db7dc5f",
+      "filename": "2019_0320_222755_001.jpg",
+      "chapter": 37,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.6613,
+        "moment": 0.405,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 64 — bestes Bild der Szene (Score 0.49, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "485749009723d142d0298501039e6f6c7eb6691d",
+      "filename": "2019_0321_181408_001.jpg",
+      "chapter": 38,
+      "beat": null,
+      "stream": "P",
+      "scores": {
+        "tech": 0.5701,
+        "moment": 0.6387,
+        "smile": 0.8896
+      },
+      "reason": "Szenen-Floor Szene 65 — bestes Bild der Szene (Score 0.67, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "366e6b0c236270b0b786ca2aa073c44eb8e42701",
+      "filename": "_DSC1479.jpg",
+      "chapter": 38,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8959,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 66 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "e6c54b0f351462d6f6645ace27cb618169da8694",
+      "filename": "_DSC1482.jpg",
+      "chapter": 38,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.863,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Detail, Grenznutzen 0.58 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "288e00c7a2e5e04c67a5307868e4ce515996d1bf",
+      "filename": "2018_0101_010907_001.jpg",
+      "chapter": 39,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7017,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 70 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f8fae6f56609562c207b8a91112da96df745f268",
+      "filename": "2018_0101_004416_002.jpg",
+      "chapter": 39,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.815,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 67 — bestes Bild der Szene (Score 0.52, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "80b3e4d3f21bfec6466f36a52be95fcb215c576c",
+      "filename": "2019_0321_180708_002.jpg",
+      "chapter": 39,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7309,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 73 %, Übergang, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9a7feb0eeac8acca7457069f28f08af1c48a5c3e",
+      "filename": "2019_0321_180701_001.jpg",
+      "chapter": 39,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7217,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 72 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    }
+  ]
+}
