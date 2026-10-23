@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
 
 const { chromium } = await import(process.env.PW_PATH ? new URL('file:///' + process.env.PW_PATH.replace(/\\/g, '/')).href : 'playwright');
-const [name, folder, privRoot = 'D:/Claude/Curata-Diagnose/_privat'] = process.argv.slice(2);
+const [name, folder, privRoot = 'D:/Claude/Curata-Diagnose/_privat'] = process.argv.slice(2).filter(a => !a.startsWith('--'));
 if (!name || !folder) { console.error('usage: lauf.mjs <name> <ordner> [privatDir]'); process.exit(2); }
 const url = process.env.APP_URL || 'http://localhost:8000/';
 const outDir = join(dirname(fileURLToPath(import.meta.url)), name);

@@ -1,0 +1,3110 @@
+{
+  "schema": "photobook-selection-v2",
+  "select": {
+    "implVersion": "select-v5",
+    "tauAuto": 0.35,
+    "tauEffective": 0.35,
+    "tauSliderPos": 0,
+    "tauOffset": 0,
+    "floorGate": 0.35,
+    "maxPickCap": null,
+    "candidateCount": 307,
+    "pickedCount": 221
+  },
+  "selection": [
+    {
+      "id": "89baf67166ebf28d08e9475a66ffad257b0ab8bc",
+      "filename": "Raw00177.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9128,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "35669144344260882220e2def4aa537375796e4b",
+      "filename": "Raw00180.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8722,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "457e39afa888d29f3c2fa668e102d954ebe0f304",
+      "filename": "Raw00182.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.707,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 71 %, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d06dc9d048c920fe59fc34ba04b024abc6be159b",
+      "filename": "Raw00185.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8779,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b4ee02e3b891c0c26f1bcc46b35bf5940e89ccd1",
+      "filename": "Raw00183.jpg",
+      "chapter": 0,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9173,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Übergang, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "70ebd48e466c37363feaeaa4d617d1abe0e2cf1c",
+      "filename": "Raw00186.jpg",
+      "chapter": 0,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7342,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 73 %, Übergang, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "28310ae98741fccb0f08a8fdeb101461d9681283",
+      "filename": "Raw00191.jpg",
+      "chapter": 0,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9029,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 1 — bestes Bild der Szene (Score 0.62, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "f67a36de57913a9df693761e13e1136dd6abaf3f",
+      "filename": "Raw00196.jpg",
+      "chapter": 0,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.813,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Übergang, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "dc9cf5202f685313a06cff8f175d12c0ff345ba3",
+      "filename": "Raw00197.jpg",
+      "chapter": 0,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9353,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Übergang, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "07c9efa816062714c674966cd74794e9184b3774",
+      "filename": "Raw00198.jpg",
+      "chapter": 0,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9104,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Detail, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "be519cf35efb5eee943785805c2ba09b1839e2a8",
+      "filename": "Raw00199.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9061,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "feed4b9c7defbc630778bf5984345483fad598c6",
+      "filename": "Raw00206.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8903,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0510aab5f44a499eee21fc8f3f32ee044c531b5f",
+      "filename": "Raw00207.jpg",
+      "chapter": 0,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9263,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Übergang, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "45b5dd984c79fa2c7fb1a2c70e07855cbe2903f5",
+      "filename": "Raw00209.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8096,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3b6e4d72a846dfecf0c5ad97e150a0af2d7888bb",
+      "filename": "Raw00211.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9399,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 2 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "c304ada6416e3788efadfd022f0b8852d76286d2",
+      "filename": "Raw00212.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7314,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 73 %, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "062a1aa56651e4d5595dae817b859838c68a41e2",
+      "filename": "Raw00213.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9333,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "572948683a68b75ca2591e44315f3f860162f31a",
+      "filename": "Raw00217.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5168,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 52 %, Aufmacher, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5c0a0a0b12bcee999ca10143e5ffa1cfb9e500b9",
+      "filename": "Raw00218.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7829,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 3 — bestes Bild der Szene (Score 0.51, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "61f0080fcb566b8c612f5c55d67d967f47704c35",
+      "filename": "Raw00223.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8547,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f9aa61589c991027a48bd7fca6e39327af8e6144",
+      "filename": "Raw00230.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.752,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 75 %, Aufmacher, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f68cc856934884abee2867a05a0d6ade076e39a0",
+      "filename": "Raw00233.jpg",
+      "chapter": 0,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9301,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Detail, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b1ec7f0b19455af691af5a2e1a534086ca047786",
+      "filename": "Raw00239.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9091,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "1f17e602003ec3a06a69689b8b2e7763989497c1",
+      "filename": "Raw00241.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8126,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7cd26f4406546c6915a4b1b750e05ecb957eeb78",
+      "filename": "Raw00250.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7732,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 77 %, Aufmacher, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "520e267c8d03781592f137b942098625a4929c53",
+      "filename": "Raw00251.jpg",
+      "chapter": 0,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.882,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Detail, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b8ee82b069372c27f354c5260cdc2384dc4eda0f",
+      "filename": "Raw00254.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9391,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a3616a221ced9ebfbca7b00a5462a76c690ed566",
+      "filename": "Raw00255.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7832,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 78 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c244cd8453b546b577786775c65fba13601b8d72",
+      "filename": "Raw00256.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9495,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b27155e5310d9c1ae7a8042b66cec5f80209f0b9",
+      "filename": "Raw00257.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9327,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "76f41408eec65ab69ac09660a303923346f7f275",
+      "filename": "Raw00260.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8811,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ec19ad34ef9edd46e98c1d8007d778bdf41d5bbe",
+      "filename": "Raw00261.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9531,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 4 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "c3f078c92e8075be30a38b37b24e427feca59511",
+      "filename": "Raw00264.jpg",
+      "chapter": 0,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.95,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "26dd02a1ea05f15ff78822dc52de802888f211e6",
+      "filename": "Raw00267.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8589,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7f602265a47c67e39aa7ad4cd6d74e21d817a0a3",
+      "filename": "Raw00268.jpg",
+      "chapter": 0,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8955,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "00c73abb9242aa9cc4759816debff47254af6097",
+      "filename": "Raw00274.jpg",
+      "chapter": 1,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.6921,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 5 — bestes Bild der Szene (Score 0.48, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "46716d8ef43e6d5544012c0d18763c6c9c0db90d",
+      "filename": "Raw00276.jpg",
+      "chapter": 1,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9177,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "72910667e6d13062cd8dcc70ec579e4fc9b1ec7f",
+      "filename": "Raw00286.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.873,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0d17ea821094da55121046933aab5fe9f2ac72cb",
+      "filename": "Raw00289.jpg",
+      "chapter": 1,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8617,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5bb6c0d7d74eb4a3935b9d5f8a41f320cd49f8e0",
+      "filename": "Raw00298.jpg",
+      "chapter": 1,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8813,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5b38de77b422627504092779b6425eed2e1bffcc",
+      "filename": "Raw00300.jpg",
+      "chapter": 1,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7947,
+        "moment": 0.405,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 79 %, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "34e8c4a6dc34246a316c7d1486b22a2fde64523b",
+      "filename": "Raw00306.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9007,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0fa10d3729ceb39772a463affcff8ad4772bd6d9",
+      "filename": "Raw00314.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9203,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ce470b29e6174508700ff04c4143bafc8af96b00",
+      "filename": "Raw00319.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8848,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6dddde0d7acec4a60ca439dd4b7d612b7a590cee",
+      "filename": "Raw00320.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8934,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5ee54e1c17457b3e7ad742b3ca839148fb301913",
+      "filename": "Raw00325.jpg",
+      "chapter": 1,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9112,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Detail, Grenznutzen 0.58 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "dcd7b1292fa55667d45ff14b678aa18aaef4427a",
+      "filename": "Raw00330.jpg",
+      "chapter": 1,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8882,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Detail, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "41db788f637a75ad0aaa5f4daabacf538c61a26a",
+      "filename": "Raw00332.jpg",
+      "chapter": 1,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8572,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Übergang, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9b308af4c2e607a98ac994c66e75436e909681e7",
+      "filename": "Raw00333.jpg",
+      "chapter": 1,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8808,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Detail, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9e49a799562f7b1581af2467cca28623ae5c9d7b",
+      "filename": "Raw00340.jpg",
+      "chapter": 1,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8427,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Übergang, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6c16e4a1b45dfb78923a62d8a408c3bd552aa476",
+      "filename": "Raw00341.jpg",
+      "chapter": 1,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8785,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Übergang, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "95ffacb4e6a160816728e21b85cfecc65641d938",
+      "filename": "Raw00343.jpg",
+      "chapter": 1,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9003,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Übergang, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6b72a0b9ca7503979478044c2db8fe5c63f21cc0",
+      "filename": "Raw00344.jpg",
+      "chapter": 1,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.746,
+        "moment": 0.696,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 6 — bestes Bild der Szene (Score 0.72, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "0c235e2960a1e940530b08c7bed2ba9a18d8d7eb",
+      "filename": "Raw00346.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9042,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "cddca53228dee19ba67107ece12f1dc2f0ac82ac",
+      "filename": "Raw00348.jpg",
+      "chapter": 1,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.861,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Übergang, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b22a5bcbf1afcb33d92376fc06c3470a91d056eb",
+      "filename": "Raw00354.jpg",
+      "chapter": 1,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.911,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Übergang, Grenznutzen 0.56 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ea315dc34672d787e49a423ffbc81c336da88f12",
+      "filename": "Raw00365.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8388,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "91c79e9ff8c5b0e67685337f4ee485d3a156290e",
+      "filename": "Raw00366.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8907,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ade652b10549d9bdfb346f425d3ff12ecbb53ba5",
+      "filename": "Raw00372.jpg",
+      "chapter": 1,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9488,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "89475abd6d61a9359baf7b6faea75684dbbb4fd6",
+      "filename": "Raw00374.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.931,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ab25f107a7fdb0bade3b22e0b295ae0566d66cb6",
+      "filename": "Raw00376.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8353,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "81f36e9f10b6f8ecc47a5fabd3e1416ff7cc8163",
+      "filename": "Raw00378.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.952,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Aufmacher, Grenznutzen 0.54 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3149a1ad2f4ba20c23de2f54e88ddc5a8efeb90f",
+      "filename": "Raw00379.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9622,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 7 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "c478c1ba1cd30e5b4c4ad4c014c7e774fcd379a8",
+      "filename": "Raw00391.jpg",
+      "chapter": 1,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8464,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ce70071f9cad3603343b80a24962e336d8fc4926",
+      "filename": "Raw00393.jpg",
+      "chapter": 1,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9461,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 95 %, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "700f825720c8b8e966bcd1ef9b624c8b01cbf9e8",
+      "filename": "Raw00395.jpg",
+      "chapter": 1,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8662,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "caacdc8b9eafe52d857725be429fa5d2ed70ae68",
+      "filename": "Raw00399.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8898,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3fb879b50184c019f3060beeee89986877923e62",
+      "filename": "Raw00413.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9271,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "145d30954c29a855f6e977ab4f30c282976d8a59",
+      "filename": "Raw00415.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9106,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "48ea6337118478ecdbf14dea9b1d4138e7f2f19c",
+      "filename": "Raw00416.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8886,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4aaf32d029e49232afe16e4297412bc33e50d956",
+      "filename": "Raw00420.jpg",
+      "chapter": 1,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8424,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a528bcbd88663ed98ad2843e825203e989375d66",
+      "filename": "Raw00422.jpg",
+      "chapter": 1,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8857,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Übergang, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9df338cb5bd16bab14c77e46acf3851e701b8fb8",
+      "filename": "Raw00423.jpg",
+      "chapter": 1,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9383,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Übergang, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6a4a1ae4605b7b1441832a9c5e3e082f916a501a",
+      "filename": "Raw00427.jpg",
+      "chapter": 2,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9045,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Detail, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "af21e1bb54f7fbd5ae604faee905e9b63b9f52f0",
+      "filename": "Raw00428.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7559,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 76 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "97c79d300d447e3123689c789cfde0fcf60cbac4",
+      "filename": "Raw00429.jpg",
+      "chapter": 2,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9053,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b7bbc485c355812738c1316bd62ad3fa2d6a99d2",
+      "filename": "Raw00437.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.906,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.58 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "70fad898ee241dc9d33c98e5b1dadb6fd70a8703",
+      "filename": "Raw00458.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8161,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 82 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "30a5edbe6058a2f44458695854549ffa46b971c6",
+      "filename": "Raw00462.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8733,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c7bd6dd5f76a82207c81dd53558ff7303b5f1f88",
+      "filename": "Raw00472.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8662,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "528101237e528480179bc6407b6a96c2a760fbac",
+      "filename": "Raw00475.jpg",
+      "chapter": 2,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6989,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 70 %, Detail, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5d41118ffde01a7d0625e3b54d26a8baf563f9c8",
+      "filename": "Raw00477.jpg",
+      "chapter": 2,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9476,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 8 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "47cd175e99e3cb73a9e6be665ecd4d25d36eab2b",
+      "filename": "Raw00480.jpg",
+      "chapter": 2,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7696,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 77 %, Detail, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6aa597da998d170606663b66566fbbbc9b6cc01e",
+      "filename": "Raw00482.jpg",
+      "chapter": 2,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7495,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 75 %, Übergang, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "295f47e69272d05143aaf9eac3ef880f24fe980b",
+      "filename": "Raw00489.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8177,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 82 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "719610fd2319e4bafad47f664d65f179922e263a",
+      "filename": "Raw00490.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6798,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 68 %, Aufmacher, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0fd474a9accf9785107fc9da69319bb36e3e7338",
+      "filename": "Raw00491.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9401,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.54 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "75ebdeab7bd5118cfe52c611e7b393b6e010b9af",
+      "filename": "Raw00492.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9126,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e739de11adbbe7ccac2c82caba24559e23c49835",
+      "filename": "Raw00493.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7541,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 75 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "1d18eafd66a2b24d8d3522c115115c643665f1d9",
+      "filename": "Raw00497.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7825,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 78 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4d48a63eb1a08d1ad40de49ddb7fc26a7d2ffc0d",
+      "filename": "Raw00499.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8363,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6c52bcf63c7d93176bacc4fa64a04a60f8915879",
+      "filename": "Raw00502.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8316,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 9 — bestes Bild der Szene (Score 0.59, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "c424845c8769bfec085a2aba92ee2779184b89f3",
+      "filename": "Raw00503.jpg",
+      "chapter": 2,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.856,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d41e785665f4cb55d157a17b90030e2bb8ee9674",
+      "filename": "Raw00504.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6833,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 68 %, Aufmacher, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8ae02ece9f1c8cf7d6a66bacc21cffd3ea4b6b01",
+      "filename": "Raw00507.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8759,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f81a6d47fe55d9e6e780ce8eb4477d031663e312",
+      "filename": "Raw00509.jpg",
+      "chapter": 2,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8743,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3215c2e4579215ef7d5fd1f31c9ab43498b5f858",
+      "filename": "Raw00512.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6001,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 60 %, Aufmacher, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "780d0b339b6bf0f658629efaf31ae7c7e3a78435",
+      "filename": "Raw00516.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6907,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 69 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5fe46bbf01e7b2250227e34319ba83b279ffe344",
+      "filename": "Raw00521.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8072,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "783e3c8f3d7b4057a373a6d5fd2d35c035e5c59d",
+      "filename": "Raw00524.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8835,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 10 — bestes Bild der Szene (Score 0.54, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "88c87e75c6e8f79a68d383375873563f8e10b683",
+      "filename": "Raw00535.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8789,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "36902a76e6ee2c0f5cbf82576652dac8986ebca3",
+      "filename": "Raw00541.jpg",
+      "chapter": 3,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8315,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Detail, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e89769a427a3d3ad5d61bbefba39f0f0228db3df",
+      "filename": "Raw00544.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8662,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "26185b4703aa1b7ffc4a4ab927fca8f57073f9e8",
+      "filename": "Raw00551.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8836,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f62aff217e2ac54f785477e9c16b182c678eef3c",
+      "filename": "Raw00552.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8994,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 11 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "a8bd3635b976f8329811df1c3e0fe8ad7744e4ea",
+      "filename": "Raw00573.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7954,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 80 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "39276045af172c204f2f48d2d8f86348869ca1f1",
+      "filename": "Raw00574.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7774,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 78 %, Übergang, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f59183ac447b9295b790ed78a81605792031b421",
+      "filename": "Raw00577.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.909,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2e67748ed358e55dbaa5d2fb5c05dd4f1d74b446",
+      "filename": "Raw00580.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8549,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "68151f7dc7e4f1073ca0bac11468c049815a716d",
+      "filename": "Raw00581.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8721,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "88395cd36551a1a541e5e36e3628df464607e8be",
+      "filename": "Raw00582.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9296,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 12 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "9dacccd35d6f613098bb4060a2d035ccc5c16a56",
+      "filename": "Raw00586.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8946,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f793a4daec17c6de09d9b71c0d8c0189bfcf09bd",
+      "filename": "Raw00590.jpg",
+      "chapter": 3,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8776,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "354f2fcfcd265fdc58be5bf7f44d34763a3d358e",
+      "filename": "Raw00591.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8351,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d2596c2ccbee3e76d569b4051ac831c6916c2bb3",
+      "filename": "Raw00593.jpg",
+      "chapter": 3,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.671,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 67 %, Übergang, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "93b195e57f7dd11489264fb835f2ce90a3828cf2",
+      "filename": "Raw00603.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7335,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 73 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9c08e9ac1bcc63d37087274a9a68e67592996881",
+      "filename": "Raw00606.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.74,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 74 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8389290d23815e1e5a64f026c4cf3e22d8bb7874",
+      "filename": "Raw00607.jpg",
+      "chapter": 3,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7417,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 74 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "75a1bc82bbb6a85e86fd1c8664125ca639505144",
+      "filename": "Raw00596.jpg",
+      "chapter": 4,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9731,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 13 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "ee53d74ad4356916184c1a2c867da22c3e786130",
+      "filename": "Raw00618.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9106,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d3e1418e09d0d25fc2e31a5f5966303f3d6e1c28",
+      "filename": "Raw00627.jpg",
+      "chapter": 4,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8791,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Detail, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4c29b6a1a4fda83a57ecd5e072aa4ec9ba943101",
+      "filename": "Raw00628.jpg",
+      "chapter": 4,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8582,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2f05da0b48239b763b2cb90c7aa4b6c34eb7df0c",
+      "filename": "Raw00634.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9314,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.51 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0bc8bb190007b3945ac431b1b0a12320132ec278",
+      "filename": "Raw00638.jpg",
+      "chapter": 4,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9439,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b9786cbd26d64cff998ab1f106669dd715bf50f2",
+      "filename": "Raw00645.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8065,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c8f10d662799796966b96da111f8926df5adeabe",
+      "filename": "Raw00649.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8354,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "2b4ae910e3f00afefcb9ad8ea62af3e7b242086b",
+      "filename": "Raw00651.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.898,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ede8569a91bfb044fafbfd884fe29687c03048cb",
+      "filename": "Raw00653.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9426,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Aufmacher, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b03bb03c84739eb62bb7d034de0d6e3d8f5652df",
+      "filename": "Raw00657.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8097,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3bc8f544c440698a5b92a4de59c70193af8f22fc",
+      "filename": "Raw00663.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8788,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ddfe2fcfd5d5b194a283aceaa9f2c96095b60354",
+      "filename": "Raw00674.jpg",
+      "chapter": 4,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9192,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Übergang, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9b587deaba9ba4ec4939dc8f38cbfb13571407c1",
+      "filename": "Raw00676.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9196,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b3453af3dfe15e2d170818eab04db4ba13bc50ad",
+      "filename": "Raw00686.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8817,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "bf9b34211e78ac6b59fd4d9d1cb51e56141ebb73",
+      "filename": "Raw00691.jpg",
+      "chapter": 4,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9031,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Übergang, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5c3a692a7e5637c118e262cc939ba40de38ac00f",
+      "filename": "Raw00695.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9074,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0dff356030e26896d69beaa38949bb43520f5657",
+      "filename": "Raw00698.jpg",
+      "chapter": 4,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9525,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 14 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "ec1f3238ee4ae3a2c6cfe71be62dad2f8c860a90",
+      "filename": "Raw00708.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9273,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d8c90f5d9604a3f9c87368eb80b83b08ae2fc0e2",
+      "filename": "Raw00715.jpg",
+      "chapter": 4,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8354,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Übergang, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c575877d40eaae1edbd711004b7cc486fa9a791b",
+      "filename": "Raw00667.jpg",
+      "chapter": 4,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.5981,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 15 — bestes Bild der Szene (Score 0.45, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "b17f3e02284f3b0b51ebfc1c5ad2c9d4629708d1",
+      "filename": "Raw00668.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7539,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 75 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3f02f76d4e7080a602f77d741c04576fd1b69b4e",
+      "filename": "Raw00703.jpg",
+      "chapter": 4,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7941,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 16 — bestes Bild der Szene (Score 0.51, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "e7a483319ca3f5f5968b57e28f4ada607953c2bb",
+      "filename": "Raw00704.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7612,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 76 %, Aufmacher, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0ae845781777b08094d12ad67330751818d89339",
+      "filename": "Raw00719.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8287,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5c72b718d75718e6adf8bd0fd35d269b4c69dd10",
+      "filename": "Raw00723.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.6765,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 68 %, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "64c7218a6b1fb5efc5b6e745efa12c664c7c3e80",
+      "filename": "Raw00726.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8256,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "919ca316ae075bc388ecaaefd14fa2bd6d4887c2",
+      "filename": "Raw00729.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9113,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 17 — bestes Bild der Szene (Score 0.55, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "4b5e7fc3652f6bc072c106fde177a0d6750e0c83",
+      "filename": "Raw00733.jpg",
+      "chapter": 5,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6966,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 70 %, Übergang, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c3abe565c80a9974bcf0125ddf4fd4f4c46a1478",
+      "filename": "Raw00739.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8311,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b1ef592207fa5c8c3c6f636c0d01de88d46c9164",
+      "filename": "Raw00746.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9041,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.58 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "268fad6f5ea6f29b00b2e740937ba6d17b7d491f",
+      "filename": "Raw00748.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8108,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f413fbda51af81d06746e7ed418c51d4b9527160",
+      "filename": "Raw00751.jpg",
+      "chapter": 5,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8135,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ffcb9b19226ff9e748dcee911188fe27475ae3af",
+      "filename": "Raw00753.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8854,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "008770e0e0af3915efdcedad3d9b9456f3694d45",
+      "filename": "Raw00760.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8802,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7e361a3efba1af9525fcf1dbba274269ac21f5c1",
+      "filename": "Raw00763.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8896,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8d877b7f4085646d419789a535501d446d665ba5",
+      "filename": "Raw00764.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8317,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9a88ba3219f725a36a8d987aff2df4097c7c563b",
+      "filename": "Raw00771.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8178,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 82 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "836972d66128248bf803dd983045b33b26b1b4b0",
+      "filename": "Raw00781.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8828,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "149e5dc684508a704fd78e3976c364ccba221162",
+      "filename": "Raw00783.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8836,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "bcd9483ae802a4bfde5107e78e17fa569c3f44c8",
+      "filename": "Raw00787.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.802,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 80 %, Aufmacher, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "a54e69f0372e215ca2a52e854c603b8709f799e2",
+      "filename": "Raw00801.jpg",
+      "chapter": 5,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.792,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 79 %, Übergang, Grenznutzen 0.35 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3ba5738f75eb0543b5d526e2aea90fc123f0ad98",
+      "filename": "Raw00806.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8571,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 86 %, Aufmacher, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "cde941ee3545881a6c4b22b914f2f3312a65c2b4",
+      "filename": "Raw00810.jpg",
+      "chapter": 5,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9226,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 18 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "4045002352efbcfdf912a412f330afd2640b8b1f",
+      "filename": "Raw00812.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8352,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c3cce34d7e943ad79c39ce76182899cb94212658",
+      "filename": "Raw00814.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8988,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3ef3f1160459070614a02229d43628e00e7e67e6",
+      "filename": "Raw00816.jpg",
+      "chapter": 5,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8079,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Aufmacher, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "dd41c372aa971c176895ce5eb5efaa0a46d28fcc",
+      "filename": "Raw00820.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.6906,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 19 — bestes Bild der Szene (Score 0.48, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "6a847750c38294babda740f96a6a77c1aef86096",
+      "filename": "Raw00821.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7587,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 76 %, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c94cd996aef196675f804208d83dc484e1207a1e",
+      "filename": "Raw00823.jpg",
+      "chapter": 6,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8462,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3cfa252b5ad5ed9318f953b0bc12ef81841a5a2b",
+      "filename": "Raw00824.jpg",
+      "chapter": 6,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7844,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 78 %, Übergang, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ba208c2d86c0c29a9a432e0d0eb106847c15bb2d",
+      "filename": "Raw00825.jpg",
+      "chapter": 6,
+      "beat": "transition",
+      "stream": "P",
+      "scores": {
+        "tech": 0.7234,
+        "moment": 0.7215,
+        "smile": 0.7522
+      },
+      "reason": "Szenen-Floor Szene 20 — bestes Bild der Szene (Score 0.73, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "7f60f2f1c7e20eab8a4280748fc7af84cbcc22eb",
+      "filename": "Raw00826.jpg",
+      "chapter": 6,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8887,
+        "moment": 0.5675,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 21 — bestes Bild der Szene (Score 0.67, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "1ecebf05b54f1b404cfb50d08952376cd76a84c2",
+      "filename": "Raw00828.jpg",
+      "chapter": 6,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5076,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 51 %, Übergang, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0c74a8485ec0d8e0b62027c256714886359f3079",
+      "filename": "Raw00830.jpg",
+      "chapter": 6,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5973,
+        "moment": 0.6675,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.7, Technik 60 %, Übergang, Grenznutzen 0.68 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "079b4e7bca59977d5772f2318672476681bd7e09",
+      "filename": "Raw00834.jpg",
+      "chapter": 7,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.7899,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 79 %, Grenznutzen 0.53 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4e29457849306701a1a1e752639f80e59e13d4de",
+      "filename": "Raw00835.jpg",
+      "chapter": 7,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.6741,
+        "moment": 0.5106,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 67 %, Hero, Grenznutzen 0.56 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0ba6576f529ee6c45745a36514786e54f9ffc212",
+      "filename": "Raw00839.jpg",
+      "chapter": 7,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8219,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 82 %, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "bbcc43d0cb05ac9964da0afd37d0db3e0f970723",
+      "filename": "Raw00841.jpg",
+      "chapter": 7,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8252,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 83 %, Grenznutzen 0.55 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "0852feb70b196fc2877adec05d854889eebb2b8e",
+      "filename": "Raw00842.jpg",
+      "chapter": 7,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.7103,
+        "moment": 0.538,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 71 %, Hero, Grenznutzen 0.60 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c7b94cd27bb0073d745f22d71829b4a848c6cfd8",
+      "filename": "Raw00845.jpg",
+      "chapter": 7,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.7335,
+        "moment": 0.593,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 22 — bestes Bild der Szene (Score 0.65, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "7614a202e29ec76686dfd846ba552f4791183b73",
+      "filename": "Raw00846.jpg",
+      "chapter": 7,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.8833,
+        "moment": 0.3388,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.3, Technik 88 %, Hero, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b840f4afd45555c8ead9ad13bfc20618da3e881f",
+      "filename": "Raw00848.jpg",
+      "chapter": 7,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9124,
+        "moment": 0.475,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.5, Technik 91 %, Übergang, Grenznutzen 0.66 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ab7bad32d7d69a795ce006e937f8b35958cad1b2",
+      "filename": "Raw00849.jpg",
+      "chapter": 7,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8421,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 84 %, Übergang, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f02b3bf74614aed54b1df5e6626d49ec814e22ec",
+      "filename": "Raw00850.jpg",
+      "chapter": 7,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.633,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 63 %, Detail, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "58b4f024d7e3348b2555bf3bb0a96b8bf49ec0f4",
+      "filename": "Raw00851.jpg",
+      "chapter": 7,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7751,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 78 %, Übergang, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c9e1976546729b6a65c80411342e361e24356a8b",
+      "filename": "Raw00853.jpg",
+      "chapter": 7,
+      "beat": "hero",
+      "stream": "M",
+      "scores": {
+        "tech": 0.8335,
+        "moment": 0.3932,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 83 %, Hero, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8e6f98eb379ba53c1f9bc67d126eaee93e16e214",
+      "filename": "Raw00003.jpg",
+      "chapter": 8,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9072,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "d57fa1c35c0ce4125e71be9cd1b9f6a9fc77c7b0",
+      "filename": "Raw00004.jpg",
+      "chapter": 8,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.8943,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c06dfff682802a870c66ee887b8cc830f5a45d6c",
+      "filename": "Raw00005.jpg",
+      "chapter": 8,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9401,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "3a2eca433a16d22118445a3f19c731eefab34599",
+      "filename": "Raw00007.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9138,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.45 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "5a87939af7fe76363913dc279260e8fea981131f",
+      "filename": "Raw00008.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9308,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.50 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "96031de75bf37c6c86736a493f72a7585a8bdc29",
+      "filename": "Raw00014.jpg",
+      "chapter": 8,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.9432,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Grenznutzen 0.52 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "85ea4028717bba9eeeab3f623d93197bb89888d7",
+      "filename": "Raw00015.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9006,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "b17330bf16efdf75d7680b3dbd74285c931afae8",
+      "filename": "Raw00001.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9253,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.48 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "e46d42d98fa93b3588820a132e7ff6dc7dffd04a",
+      "filename": "Raw00020.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.933,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "ca83caf481372c66413f6cab34f7c70ff7f63181",
+      "filename": "Raw00028.jpg",
+      "chapter": 8,
+      "beat": null,
+      "stream": "S",
+      "scores": {
+        "tech": 0.874,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 87 %, Grenznutzen 0.36 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "7f5295091d590c600eb4fae38a9b969c05fa4868",
+      "filename": "Raw00098.jpg",
+      "chapter": 8,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8935,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Übergang, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9f9afdb59da74ac899f90d5318257621c25db4f4",
+      "filename": "Raw00100.jpg",
+      "chapter": 8,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9397,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 94 %, Detail, Grenznutzen 0.61 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "dba06bb049ab48b50d019d3d396172fa19106008",
+      "filename": "Raw00130.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9139,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "dc79ffe60f1142b5a646b847e946faeb833fab73",
+      "filename": "Raw00134.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8863,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "174a9e394dd486a056d650b275b8898e4f72ea78",
+      "filename": "Raw00146.jpg",
+      "chapter": 8,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8796,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Detail, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "9836f3954cc76a01699ef63bd50f157b833f199f",
+      "filename": "Raw00150.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9002,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "25c75a3ffc1a68e079b834854fa05f0c415371d9",
+      "filename": "Raw00151.jpg",
+      "chapter": 8,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9052,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 91 %, Übergang, Grenznutzen 0.43 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c8b95b5e81d97fc8cb206a01f2959b391b4d659e",
+      "filename": "Raw00152.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9256,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 93 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "772a0bb5d0f82e22d5a026ac955240ae4c3b8541",
+      "filename": "Raw00160.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8874,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 89 %, Aufmacher, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "8393c01a0f739babda4f28f5a91db6b475e4b88c",
+      "filename": "Raw00162.jpg",
+      "chapter": 8,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9199,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 92 %, Übergang, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "91814516cbf43a75c1b21ebf0711eadbba985711",
+      "filename": "Raw00060.jpg",
+      "chapter": 8,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.97,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 23 — bestes Bild der Szene (Score 0.57, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "7089cbbcf27b6241f4df2e2ba2651eb370528dca",
+      "filename": "Raw00171.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.6714,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 67 %, Aufmacher, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "6bd3df69f6df99d670aaddbb4933a8475ef31a5d",
+      "filename": "Raw00175.jpg",
+      "chapter": 8,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8137,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 24 — bestes Bild der Szene (Score 0.52, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "c202b885f363dcf14f130939689908675a6eedb9",
+      "filename": "Raw00069.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.5278,
+        "moment": 0.5675,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.6, Technik 53 %, Aufmacher, Grenznutzen 0.59 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "1e6246e551c103c98af0ac2065649316c5c9ac04",
+      "filename": "Raw00075.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7702,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 77 %, Aufmacher, Grenznutzen 0.40 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "33bddf3553c2478325f3198378a37ada114578bd",
+      "filename": "Raw00079.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.773,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 77 %, Aufmacher, Grenznutzen 0.41 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "350258b8e991336663cce342564a18d5e832f80c",
+      "filename": "Raw00084.jpg",
+      "chapter": 9,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7973,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 80 %, Detail, Grenznutzen 0.42 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "f63d7c8ed85c75f38c2b62b4f4923d8196492a8a",
+      "filename": "Raw00103.jpg",
+      "chapter": 9,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7544,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 75 %, Detail, Grenznutzen 0.37 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "fe528fbdbc6086b633368b2f831f3883a58fce9a",
+      "filename": "Raw00101.jpg",
+      "chapter": 9,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9155,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Szenen-Floor Szene 25 — bestes Bild der Szene (Score 0.56, Gate 0.35)",
+      "overridden": false
+    },
+    {
+      "id": "790f89d6cd265a35f0db1f1f820ea922939f4458",
+      "filename": "Raw00127.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7549,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 75 %, Aufmacher, Grenznutzen 0.38 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "c2a24cbaba5f0c8b1d2299c480efa5d8a357eb13",
+      "filename": "Raw00131.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8787,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 88 %, Aufmacher, Grenznutzen 0.49 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "297e7b8aa40906416d52a37aba20cf2d7eef50dc",
+      "filename": "Raw00147.jpg",
+      "chapter": 9,
+      "beat": "detail",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8518,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Detail, Grenznutzen 0.47 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "4018308f194c5f6798285e16f0ffe5ec561d9940",
+      "filename": "Raw00135.jpg",
+      "chapter": 9,
+      "beat": "establishing",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8458,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 85 %, Aufmacher, Grenznutzen 0.46 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "58d39cbbe476c4e0567dda204ee8fb62b7542896",
+      "filename": "Raw00156.jpg",
+      "chapter": 9,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.8123,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 81 %, Übergang, Grenznutzen 0.44 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "bb08aa76d710c8a4efdb966159a8d9014f7cb29b",
+      "filename": "Raw00163.jpg",
+      "chapter": 9,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.9003,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 90 %, Übergang, Grenznutzen 0.57 ≥ τ 0.35",
+      "overridden": false
+    },
+    {
+      "id": "dc6797bebcc7aef0c9acb097d73172f4caa66396",
+      "filename": "Raw00167.jpg",
+      "chapter": 9,
+      "beat": "transition",
+      "stream": "S",
+      "scores": {
+        "tech": 0.7616,
+        "moment": 0.375,
+        "smile": null
+      },
+      "reason": "Score-Auswahl — Moment 0.4, Technik 76 %, Übergang, Grenznutzen 0.39 ≥ τ 0.35",
+      "overridden": false
+    }
+  ]
+}

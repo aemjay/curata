@@ -1,0 +1,502 @@
+{
+  "library": "schottland",
+  "judge": "claude-local-proxy",
+  "unverzichtbar": [
+    "Raw00177.jpg",
+    "Raw00180.jpg",
+    "Raw00186.jpg",
+    "Raw00197.jpg",
+    "Raw00209.jpg",
+    "Raw00217.jpg",
+    "Raw00250.jpg",
+    "Raw00344.jpg",
+    "Raw00348.jpg",
+    "Raw00311.jpg",
+    "Raw00399.jpg",
+    "Raw00417.jpg",
+    "Raw00428.jpg",
+    "Raw00437.jpg",
+    "Raw00503.jpg",
+    "Raw00507.jpg",
+    "Raw00524.jpg",
+    "Raw00577.jpg",
+    "Raw00618.jpg",
+    "Raw00674.jpg",
+    "Raw00715.jpg",
+    "Raw00748.jpg",
+    "Raw00769.jpg",
+    "Raw00049.jpg",
+    "Raw00171.jpg"
+  ],
+  "remove": [
+    {
+      "file": "Raw00185.jpg",
+      "reason": "Durch die Windschutzscheibe, flau; Straßenmotiv schon mit Raw00180 abgedeckt"
+    },
+    {
+      "file": "Raw00196.jpg",
+      "reason": "Zweites Burg-über-Fluss-Bild, Raw00186 zeigt dasselbe Motiv klarer"
+    },
+    {
+      "file": "Raw00199.jpg",
+      "reason": "Dublette von Raw00198 (Mauerblümchen, gleiche Szene)"
+    },
+    {
+      "file": "Raw00206.jpg",
+      "reason": "Laterne vor Himmel, ohne Aussage"
+    },
+    {
+      "file": "Raw00251.jpg",
+      "reason": "Sandrippel zum zweiten Mal, Raw00233 reicht"
+    },
+    {
+      "file": "Raw00256.jpg",
+      "reason": "Grasnelken-Wiese, redundant zu Raw00260/Raw00264"
+    },
+    {
+      "file": "Raw00257.jpg",
+      "reason": "Grasnelken-Wiese aus Distanz, redundant zu Raw00260"
+    },
+    {
+      "file": "Raw00261.jpg",
+      "reason": "Dritte Dünen-/Grasnelkenansicht, redundant zu Raw00255/Raw00260"
+    },
+    {
+      "file": "Raw00268.jpg",
+      "reason": "Dublette von Raw00267 (Priel in der Marsch)"
+    },
+    {
+      "file": "Raw00306.jpg",
+      "reason": "Steilküste hochkant, sehr ähnlich Raw00319/Raw00354 – eine Klippenansicht weniger"
+    },
+    {
+      "file": "Raw00332.jpg",
+      "reason": "Dublette von Raw00330 (Brandung von oben)"
+    },
+    {
+      "file": "Raw00333.jpg",
+      "reason": "Signalflaggen-Tafel, abgeschnittenes Dokumentfoto ohne Wirkung"
+    },
+    {
+      "file": "Raw00343.jpg",
+      "reason": "Dublette von Raw00340 (rote Leuchtfeuer-Lampen)"
+    },
+    {
+      "file": "Raw00413.jpg",
+      "reason": "Waldlandschaft, redundant zu Raw00391/Raw00395"
+    },
+    {
+      "file": "Raw00415.jpg",
+      "reason": "Person auf Fels, dritte Variante neben Raw00416/Raw00420 – besser Raw00417"
+    },
+    {
+      "file": "Raw00420.jpg",
+      "reason": "Dublette von Raw00416 (Person auf Fels)"
+    },
+    {
+      "file": "Raw00422.jpg",
+      "reason": "Waldweg-Hochformat, schwach und motivgleich mit Raw00393"
+    },
+    {
+      "file": "Raw00427.jpg",
+      "reason": "Kuh hinter Zaunstange, Raw00428/Raw00429 zeigen die Herde besser"
+    },
+    {
+      "file": "Raw00477.jpg",
+      "reason": "Dritte Blumenwiesen-Makro, redundant zu Raw00475/Raw00480"
+    },
+    {
+      "file": "Raw00482.jpg",
+      "reason": "Wundklee-Makro, redundant zu Raw00475"
+    },
+    {
+      "file": "Raw00490.jpg",
+      "reason": "Seeblick, redundant zu Raw00489/Raw00493"
+    },
+    {
+      "file": "Raw00492.jpg",
+      "reason": "Straße zum zweiten Mal, Raw00491 reicht"
+    },
+    {
+      "file": "Raw00499.jpg",
+      "reason": "Panoramastreifen, Dublette von Raw00497"
+    },
+    {
+      "file": "Raw00502.jpg",
+      "reason": "Dublette von Raw00503 (Person am Aussichtspunkt)"
+    },
+    {
+      "file": "Raw00504.jpg",
+      "reason": "Talblick hinter Gras, schwächer als Raw00493"
+    },
+    {
+      "file": "Raw00541.jpg",
+      "reason": "Felsplatte ohne erkennbares Motiv"
+    },
+    {
+      "file": "Raw00581.jpg",
+      "reason": "Dublette von Raw00580 (Feenhaus am Baum)"
+    },
+    {
+      "file": "Raw00603.jpg",
+      "reason": "Herrenhaus in Landschaft, Dublette von Raw00591"
+    },
+    {
+      "file": "Raw00607.jpg",
+      "reason": "Schmaler Panoramastreifen, schwach; Strand schon mit Raw00593/Raw00606"
+    },
+    {
+      "file": "Raw00596.jpg",
+      "reason": "Defektes Bild (Moiré-/Streifenartefakt) – unbrauchbar"
+    },
+    {
+      "file": "Raw00627.jpg",
+      "reason": "Schieferplatten-Detail, Dublette von Raw00628"
+    },
+    {
+      "file": "Raw00634.jpg",
+      "reason": "Klippen, Dublette von Raw00618"
+    },
+    {
+      "file": "Raw00663.jpg",
+      "reason": "Kalksteinbrocken ohne Aussage"
+    },
+    {
+      "file": "Raw00676.jpg",
+      "reason": "Dolmen, Dublette von Raw00674"
+    },
+    {
+      "file": "Raw00686.jpg",
+      "reason": "Karstfläche, redundant zu Raw00695 (mit Person)"
+    },
+    {
+      "file": "Raw00704.jpg",
+      "reason": "Torfstich mit Artefakt am unteren Rand, redundant zu Raw00723"
+    },
+    {
+      "file": "Raw00726.jpg",
+      "reason": "Torfstapel, Dublette von Raw00719"
+    },
+    {
+      "file": "Raw00751.jpg",
+      "reason": "Pferde ohne Menschen – Raw00748 und Raw00753 erzählen die Begegnung besser"
+    },
+    {
+      "file": "Raw00763.jpg",
+      "reason": "Moorblick, redundant zu Raw00760"
+    },
+    {
+      "file": "Raw00771.jpg",
+      "reason": "Gipfelblick ohne Person – Raw00769 zeigt denselben Blick mit Wanderer"
+    },
+    {
+      "file": "Raw00812.jpg",
+      "reason": "Dritter Weg-/Bohlenweg-Blick neben Raw00801/Raw00810"
+    },
+    {
+      "file": "Raw00816.jpg",
+      "reason": "Grauer Himmel über Grasnarbe, ohne Motiv"
+    },
+    {
+      "file": "Raw00060.jpg",
+      "reason": "Defektes Bild (Moiré-/Streifenartefakt) – unbrauchbar"
+    },
+    {
+      "file": "Raw00004.jpg",
+      "reason": "Fingerhut, Dublette von Raw00003"
+    },
+    {
+      "file": "Raw00015.jpg",
+      "reason": "Leerer Hang, schwach"
+    },
+    {
+      "file": "Raw00130.jpg",
+      "reason": "Distel isoliert; Raw00134 zeigt sie mit Loch im Hintergrund, stärker"
+    },
+    {
+      "file": "Raw00150.jpg",
+      "reason": "Einzelner Fingerhut im Gras, schwach und redundant"
+    },
+    {
+      "file": "Raw00162.jpg",
+      "reason": "Fingerhut zum dritten Mal (vgl. Raw00003)"
+    },
+    {
+      "file": "Raw00820.jpg",
+      "reason": "Kein Reisebild: Familienfeier in Kirche bzw. Flur zuhause (Kapitel 7) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00821.jpg",
+      "reason": "Kein Reisebild: Familienfeier in Kirche bzw. Flur zuhause (Kapitel 7) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00823.jpg",
+      "reason": "Kein Reisebild: Familienfeier in Kirche bzw. Flur zuhause (Kapitel 7) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00824.jpg",
+      "reason": "Kein Reisebild: Familienfeier in Kirche bzw. Flur zuhause (Kapitel 7) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00825.jpg",
+      "reason": "Kein Reisebild: Familienfeier in Kirche bzw. Flur zuhause (Kapitel 7) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00826.jpg",
+      "reason": "Kein Reisebild: Familienfeier in Kirche bzw. Flur zuhause (Kapitel 7) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00828.jpg",
+      "reason": "Kein Reisebild: Familienfeier in Kirche bzw. Flur zuhause (Kapitel 7) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00830.jpg",
+      "reason": "Kein Reisebild: Familienfeier in Kirche bzw. Flur zuhause (Kapitel 7) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00834.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00835.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00839.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00841.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00842.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00845.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00846.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00848.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00849.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00850.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00851.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00853.jpg",
+      "reason": "Kein Reisebild: Falknerei-Ausflug mit Kindern (Kapitel 8) – gehört nicht ins Schottland-Buch"
+    },
+    {
+      "file": "Raw00069.jpg",
+      "reason": "Zweitkamera-Kopie des Orchideenmotivs aus Kapitel 9 (Raw00068/Raw00070)"
+    },
+    {
+      "file": "Raw00075.jpg",
+      "reason": "Zweitkamera-Kopie, Orchideen wie Raw00074/Raw00076"
+    },
+    {
+      "file": "Raw00079.jpg",
+      "reason": "Wollgras, Dublette von Raw00078/Raw00080 aus Kapitel 9"
+    },
+    {
+      "file": "Raw00084.jpg",
+      "reason": "Torfmoos, Dublette von Raw00083/Raw00085 aus Kapitel 9"
+    },
+    {
+      "file": "Raw00101.jpg",
+      "reason": "Weiße Blüten, Dublette von Raw00100"
+    },
+    {
+      "file": "Raw00103.jpg",
+      "reason": "Weiße Blüten, Dublette von Raw00100/Raw00101"
+    },
+    {
+      "file": "Raw00127.jpg",
+      "reason": "Distel, Dublette der Disteln aus Kapitel 9; zudem um 90° gedreht"
+    },
+    {
+      "file": "Raw00131.jpg",
+      "reason": "Distel, Dublette von Raw00127; zudem um 90° gedreht"
+    },
+    {
+      "file": "Raw00135.jpg",
+      "reason": "Distel vor Loch, Dublette von Raw00134"
+    },
+    {
+      "file": "Raw00147.jpg",
+      "reason": "Blaue Blüten, Dublette von Raw00146"
+    },
+    {
+      "file": "Raw00156.jpg",
+      "reason": "Fingerhut um 90° gedreht, Dublette der Fingerhüte aus Kapitel 9"
+    },
+    {
+      "file": "Raw00163.jpg",
+      "reason": "Fingerhut um 90° gedreht, Dublette der Fingerhüte aus Kapitel 9"
+    },
+    {
+      "file": "Raw00167.jpg",
+      "reason": "Dublette von Raw00163; zudem um 90° gedreht"
+    }
+  ],
+  "bringBack": [
+    {
+      "file": "Raw00311.jpg",
+      "reason": "Hängebrücke an der Steilküste mit Besuchern – Schlüsselmotiv des Leuchtturm-Ausflugs, fehlt komplett"
+    },
+    {
+      "file": "Raw00338.jpg",
+      "reason": "Rote Leuchtfeuer-Lampe hochkant vor Meer – stärkstes Bild der Leuchtturm-Serie"
+    },
+    {
+      "file": "Raw00417.jpg",
+      "reason": "Nahes Porträt auf dem Fels, lachend – bestes Personenbild der Szene, ersetzt Raw00415/Raw00420"
+    },
+    {
+      "file": "Raw00538.jpg",
+      "reason": "Brechende Welle an der Felsküste – Dynamik, die der Szene sonst fehlt"
+    },
+    {
+      "file": "Raw00671.jpg",
+      "reason": "Porträt im Karst – einziges nahes Personenbild des Tages"
+    },
+    {
+      "file": "Raw00750.jpg",
+      "reason": "Person streichelt Schimmel aus nächster Nähe – emotionaler Moment"
+    },
+    {
+      "file": "Raw00769.jpg",
+      "reason": "Wanderer am Gipfel vor Seenlandschaft – Erfolgsmoment der Bergtour"
+    },
+    {
+      "file": "Raw00012.jpg",
+      "reason": "Wanderer auf Steintreppe, freundliches Porträt – Kapitel 9 hat sonst kaum Personen"
+    },
+    {
+      "file": "Raw00049.jpg",
+      "reason": "Person auf Felsgipfel über dem Loch – Höhepunkt der Wanderung, ikonisch"
+    },
+    {
+      "file": "Raw00065.jpg",
+      "reason": "Loch mit Inseln aus der Höhe – schönste Weitsicht des Gipfels"
+    },
+    {
+      "file": "Raw00168.jpg",
+      "reason": "Schloss/Hotel am Loch von oben – Orientierungsbild, sonst nicht vertreten"
+    }
+  ],
+  "sceneNotes": [
+    {
+      "sceneId": "scene-0-0",
+      "note": "Burg-, Mauer- und Blumenbilder mehrfach gepickt (Raw00186/Raw00196, Raw00198/Raw00199); Personenmomente (Raw00177, Raw00191, Raw00197) sind gut erkannt."
+    },
+    {
+      "sceneId": "scene-0-1",
+      "note": "Kirche innen/außen sinnvoll abgedeckt, 4 von 7 sind aber viel für eine Kirche."
+    },
+    {
+      "sceneId": "scene-0-2",
+      "note": "Fensterblick der Unterkunft – schöner Ankunftsmoment, gut erkannt."
+    },
+    {
+      "sceneId": "scene-0-3",
+      "note": "16 Picks für Strand + Grasnelken: dasselbe Motiv (Rippel, Wiese, Priel) jeweils 2–4-fach. Halbieren."
+    },
+    {
+      "sceneId": "scene-1-0",
+      "note": "Nur 2 Bilder, Einzelszene – wirkt wie abgespaltener Anfang von scene-1-1."
+    },
+    {
+      "sceneId": "scene-1-1",
+      "note": "Wichtigster Personen-Moment der Reise (Paar-Selfie Raw00344, Paar am Geländer Raw00348) korrekt drin; aber Brücke Raw00311 und rote Lampe Raw00338 per stream verworfen, dafür Doppel bei Brandung/Lampen."
+    },
+    {
+      "sceneId": "scene-1-2",
+      "note": "Person auf Fels 4x gepickt (Raw00399/415/416/420), Landschaft vom Fels 3x – Wiederholung; das beste Porträt Raw00417 fehlt."
+    },
+    {
+      "sceneId": "scene-2-0",
+      "note": "Steinkreis nur 1x (gut), aber 4 Blumen-Makros; Kühe 3x."
+    },
+    {
+      "sceneId": "scene-2-1",
+      "note": "Panoramastreifen (Raw00497/Raw00499) doppelt und mit schwarzem Rand – Stitching-Fragmente; Seeblick 3x, Person 2x."
+    },
+    {
+      "sceneId": "scene-3-1",
+      "note": "52 Bilder, nur 7 Picks – angemessen; aber Fels-Texturbild statt Brandung."
+    },
+    {
+      "sceneId": "scene-3-2",
+      "note": "Feenhäuser schön erzählt, aber Raw00580/Raw00581 doppelt; Herrenhaus 2x."
+    },
+    {
+      "sceneId": "scene-4-0",
+      "note": "Einzelszene mit nur einem defekten Bild (Raw00596, Moiré) – wurde trotzdem gepickt. Defektfilter fehlt."
+    },
+    {
+      "sceneId": "scene-4-1",
+      "note": "104 Bilder in einer Szene (Klippen, Karst, Dolmen, Kühe am Bus) – mind. 3 Stationen; Szenentrennung zu grob. Dolmen und Klippen doppelt."
+    },
+    {
+      "sceneId": "scene-4-2",
+      "note": "Einzelbild Wehr/Stadt (Raw00667) – Dateinummer liegt mitten in scene-4-1; Zeitstempel/Kamera-Mix zerreißt die Szene."
+    },
+    {
+      "sceneId": "scene-4-3",
+      "note": "Schwan am Abend (Raw00647/Raw00668/Raw00703) – Dateinummern verstreut über scene-4-1, Szene künstlich zerstückelt; 2 Picks für dasselbe Motiv."
+    },
+    {
+      "sceneId": "scene-5-0",
+      "note": "Torfstich 6x gepickt, inhaltlich 3 Bilder wert; Raw00704 hat Artefakt am Rand."
+    },
+    {
+      "sceneId": "scene-5-1",
+      "note": "Pferde-Begegnung gut, aber nahes Personenbild Raw00750 per stream verworfen; Gipfel ohne Person gepickt statt mit (Raw00769)."
+    },
+    {
+      "sceneId": "scene-6-0",
+      "note": "Flur mit Gepäck – kein Reiseort, vermutlich zuhause. Allenfalls Rahmenbild, eher raus."
+    },
+    {
+      "sceneId": "scene-6-1",
+      "note": "Kirchliche Familienfeier – kein Bezug zur Reise. Fremdereignis in der Bibliothek; die App erkennt das nicht."
+    },
+    {
+      "sceneId": "scene-6-2",
+      "note": "Wie scene-6-1: Feier, nicht Reise."
+    },
+    {
+      "sceneId": "scene-7-0",
+      "note": "Falknerei mit Kindern, anderer Anlass – nicht Reise. In sich gut gewählt (Gesichter + Vögel), gehört aber in ein anderes Buch."
+    },
+    {
+      "sceneId": "scene-8-0",
+      "note": "Bilder Raw00001–Raw00175 mit Aufnahmedatum; die 39 Bilder dieses Bereichs ohne EXIF-Datum (Raw00069–Raw00167) liegen separat in Kapitel 10 (scene-9-0). 130 Bilder in einer Szene (ganze Wanderung). Gipfelmomente mit Person (Raw00048–Raw00050) alle verworfen, dafür ~11 Blumen-Picks und ein defektes Bild (Raw00060)."
+    },
+    {
+      "sceneId": "scene-8-1",
+      "note": "Viadukt aus dem fahrenden Auto – unscharf, aber einzigartiges Motiv, unbedingt behalten; Restaurantschild als Abschluss ok."
+    },
+    {
+      "sceneId": "scene-9-0",
+      "note": "Kapitel 10 ist kein eigener Tag: besteht genau aus den 39 Bildern ohne EXIF-Aufnahmedatum (Raw00069–Raw00167), motivisch dieselbe Wanderung wie Kapitel 9, viele Bilder um 90° gedreht. Alle 13 Picks motivgleich mit Kapitel 9 – Kapitelbildung hier unplausibel, Folge der fehlenden Aufnahmedaten."
+    }
+  ],
+  "correctionNote": "Notizen zu Kapitel 9/10 von der lokalen Session gegen EXIF geprüft und korrigiert (ursprüngliche Paritäts-Vermutung falsch)."
+}
