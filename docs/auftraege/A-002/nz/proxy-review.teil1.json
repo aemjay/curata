@@ -1,0 +1,547 @@
+{
+  "library": "nz",
+  "part": "Kapitel 1-20",
+  "judge": "claude-local-proxy",
+  "unverzichtbar": [
+    "2018_0101_000147_002.jpg",
+    "2018_0101_014614_003.jpg",
+    "_DSC0042.jpg",
+    "_DSC0059.jpg",
+    "_DSC0050.jpg",
+    "DSC08081.jpg",
+    "_DSC0253.jpg",
+    "_DSC0260.jpg",
+    "_DSC0261.jpg",
+    "DSC08208.jpg",
+    "2019_0227_220651_001.jpg",
+    "_DSC0416.jpg",
+    "_DSC0475.jpg",
+    "DSC08238.jpg",
+    "C0031T01.jpg",
+    "_DSC0722.jpg",
+    "_DSC0740.jpg",
+    "_DSC8314.jpg"
+  ],
+  "remove": [
+    {
+      "file": "_DSC0029.jpg",
+      "reason": "Chaotisches Wohnzimmer, kein Reisemoment; schwacher Einstieg in Kapitel 2"
+    },
+    {
+      "file": "_DSC0037.jpg",
+      "reason": "Schmales Panorama mit grauem Rand, wirkt unfertig; DSC07908/_DSC0040 erzaehlen den Hafen besser"
+    },
+    {
+      "file": "DSC07925.jpg",
+      "reason": "Strassenschlucht von oben, aehnlich DSC07931/_DSC0048; zu viele Skytower-Luftbilder"
+    },
+    {
+      "file": "DSC07926.jpg",
+      "reason": "Weiteres Stadt-Luftbild, Dublette im Sinn von DSC07931"
+    },
+    {
+      "file": "DSC07942.jpg",
+      "reason": "Dunkles, flaues Luftbild, schwaecher als DSC07946"
+    },
+    {
+      "file": "_DSC0054.jpg",
+      "reason": "Parklandschaft von oben, Dublette von _DSC0055; wenig emotional"
+    },
+    {
+      "file": "_DSC0058.jpg",
+      "reason": "Hafen-Luftbild ohne Personen; _DSC0059 (Paar vor dem Hafen) ist die staerkere Version"
+    },
+    {
+      "file": "DSC07956.jpg",
+      "reason": "Palmen im Park, aehnlich DSC07955/_DSC0066 - Parkserie zu lang"
+    },
+    {
+      "file": "DSC07969.jpg",
+      "reason": "Museumsfassade, Dublette von DSC07966"
+    },
+    {
+      "file": "DSC08027.jpg",
+      "reason": "Kratersee durch Buesche, Dublette von DSC08029/DSC08012-Umfeld"
+    },
+    {
+      "file": "DSC08029.jpg",
+      "reason": "Gleiche Seeansicht wie DSC08027, verdeckt"
+    },
+    {
+      "file": "DSC08071.jpg",
+      "reason": "Gruenes Gebuesch ohne Motiv, redundant in der 146er-Szene"
+    },
+    {
+      "file": "DSC08093.jpg",
+      "reason": "Bachlauf im Gestruepp, Dublette von DSC08099"
+    },
+    {
+      "file": "DSC08099.jpg",
+      "reason": "Bachlauf, nahezu gleich DSC08093/DSC08094"
+    },
+    {
+      "file": "DSC00094.jpg",
+      "reason": "Infotafel, erzählt nichts; Szene hat schon genug Orientierung"
+    },
+    {
+      "file": "DSC00103.jpg",
+      "reason": "dunkler Dschungel-Ausschnitt ohne Motiv"
+    },
+    {
+      "file": "DSC00106.jpg",
+      "reason": "leere Buschlandschaft, wiederholt Aussicht von DSC00108/DSC00109"
+    },
+    {
+      "file": "_DSC0117.jpg",
+      "reason": "winziger Panorama-Streifen, im Buch unbrauchbar"
+    },
+    {
+      "file": "_DSC0130.jpg",
+      "reason": "fast gleich wie _DSC0132 (Uferblick)"
+    },
+    {
+      "file": "_DSC0149.jpg",
+      "reason": "leerer Weg, schwach; Szene hat genug Vegetation"
+    },
+    {
+      "file": "_DSC0185.jpg",
+      "reason": "Felsstruktur, dritte Detailaufnahme dieser Art"
+    },
+    {
+      "file": "DSC08128.jpg",
+      "reason": "Felswand-Detail ohne Bezug zur Reise"
+    },
+    {
+      "file": "DSC08129.jpg",
+      "reason": "leerer Pfad, kein Erzählwert"
+    },
+    {
+      "file": "DSC08130.jpg",
+      "reason": "Sandweg mit kleinem Vogel, belanglos; Huka-Falls-Szene sollte mit Wasser starten"
+    },
+    {
+      "file": "_DSC0236.jpg",
+      "reason": "Gesteinsoberfläche, Füller"
+    },
+    {
+      "file": "_DSC0251.jpg",
+      "reason": "schiefe Brücke ohne Motiv"
+    },
+    {
+      "file": "_DSC0256.jpg",
+      "reason": "Dublette von _DSC0257/_DSC0258 (gleicher Berg, gleiche Stimmung)"
+    },
+    {
+      "file": "DSC08157.jpg",
+      "reason": "Nebel-Weite ohne Motiv; andere Wanderbilder sind stärker"
+    },
+    {
+      "file": "DSC08166.jpg",
+      "reason": "leere flache Ebene"
+    },
+    {
+      "file": "DSC08194.jpg",
+      "reason": "Dublette von DSC08196/DSC08208 (Smaragdseen)"
+    },
+    {
+      "file": "DSC08210.jpg",
+      "reason": "Dublette von DSC08211 (Wandergruppe am Hang)"
+    },
+    {
+      "file": "_DSC0302.jpg",
+      "reason": "Flechten-Muster, Dublette von _DSC0301/_DSC0322"
+    },
+    {
+      "file": "_DSC0322.jpg",
+      "reason": "Polsterpflanze, Dublette von _DSC0323"
+    },
+    {
+      "file": "_DSC0311.jpg",
+      "reason": "vertikaler Lavahang, schwach"
+    },
+    {
+      "file": "_DSC0424.jpg",
+      "reason": "Dampf-Detail, Dublette von _DSC0419"
+    },
+    {
+      "file": "_DSC0481.jpg",
+      "reason": "Vulkan winzig, durchs Busfenster; Kapitelauswahl ohne klaren Vulkan-Blick"
+    },
+    {
+      "file": "_DSC8242.jpg",
+      "reason": "Unscharfe Fensterfahrt ohne Motiv"
+    },
+    {
+      "file": "_DSC8244.jpg",
+      "reason": "Dublette von _DSC8245 (gleiche Straße, übersteuerter Himmel)"
+    },
+    {
+      "file": "_DSC8253.jpg",
+      "reason": "Roter Dunkelraum, Tier nur als Fleck"
+    },
+    {
+      "file": "_DSC0497.jpg",
+      "reason": "Infotafel; sechs Tafeln in Folge, eine reicht"
+    },
+    {
+      "file": "_DSC0499.jpg",
+      "reason": "Infotafel, Wiederholung von _DSC0498"
+    },
+    {
+      "file": "_DSC0500.jpg",
+      "reason": "Infotafel, Wiederholung von _DSC0498"
+    },
+    {
+      "file": "_DSC0501.jpg",
+      "reason": "Infotafel, Wiederholung von _DSC0498"
+    },
+    {
+      "file": "_DSC0502.jpg",
+      "reason": "Infotafel, Wiederholung von _DSC0498"
+    },
+    {
+      "file": "_DSC0490.jpg",
+      "reason": "Dublette von _DSC0494 (gleicher Vogel hinter Zaun)"
+    },
+    {
+      "file": "_DSC0491.jpg",
+      "reason": "Dublette von _DSC0494 (gleicher Vogel hinter Zaun)"
+    },
+    {
+      "file": "_DSC0515.jpg",
+      "reason": "Leerer Kiesweg ohne Erzählwert"
+    },
+    {
+      "file": "_DSC0516.jpg",
+      "reason": "Leerer Kiesweg ohne Erzählwert"
+    },
+    {
+      "file": "_DSC0521.jpg",
+      "reason": "Vogel nur als Silhouette im Gebüsch"
+    },
+    {
+      "file": "_DSC0536.jpg",
+      "reason": "Dunkles Geäst, Motiv nicht erkennbar"
+    },
+    {
+      "file": "_DSC0605.jpg",
+      "reason": "Zaunplanken ohne Motiv"
+    },
+    {
+      "file": "_DSC8257.jpg",
+      "reason": "Dublette von _DSC8255 (Windskulptur am Himmel)"
+    },
+    {
+      "file": "_DSC8277.jpg",
+      "reason": "Zwei Bäume, belanglos nach Parlament-Bildern"
+    },
+    {
+      "file": "_DSC0643.jpg",
+      "reason": "Wald ohne Besonderheit, Garten-Wiederholung"
+    },
+    {
+      "file": "_DSC0713.jpg",
+      "reason": "Rosenbeet, Wiederholung von _DSC0697"
+    },
+    {
+      "file": "_DSC0734.jpg",
+      "reason": "Grüner Hang mit Haus, beliebig"
+    },
+    {
+      "file": "_DSC0735.jpg",
+      "reason": "Autobahn, kein Reisemoment"
+    },
+    {
+      "file": "_DSC0741.jpg",
+      "reason": "Fast gleiche Kirchendecke wie _DSC0740"
+    },
+    {
+      "file": "_DSC8292.jpg",
+      "reason": "Ähnliche Insel wie _DSC8288/_DSC8298, Fährfahrt zu lang"
+    },
+    {
+      "file": "_DSC8298.jpg",
+      "reason": "Küstenhügel, Wiederholung der Fährkulisse"
+    },
+    {
+      "file": "_DSC8304.jpg",
+      "reason": "Fast Dublette von _DSC8303 (Autodeck)"
+    },
+    {
+      "file": "_DSC8317.jpg",
+      "reason": "Grüne Bucht, Wiederholung"
+    },
+    {
+      "file": "_DSC8329.jpg",
+      "reason": "Bewaldete Landzunge, Wiederholung"
+    },
+    {
+      "file": "_DSC8336.jpg",
+      "reason": "Bewaldete Küste, Wiederholung"
+    },
+    {
+      "file": "_DSC8346.jpg",
+      "reason": "Fast Dublette von _DSC8345/Autodeck"
+    }
+  ],
+  "bringBack": [
+    {
+      "file": "_DSC0083.jpg",
+      "reason": "Leuchtend gelbe Bluete im Gewaechshaus, starkes Detail und Farbakzent fuer die Gartenserie"
+    },
+    {
+      "file": "DSC08090.jpg",
+      "reason": "Tuerkisfarbener Kratersee vor weissem Fels, das Farb-Highlight von Kapitel 6; kein Pick vorhanden"
+    },
+    {
+      "file": "DSC08068.jpg",
+      "reason": "Dampfende orange-weisse Thermalflaeche, eindrucksvolles Naturmotiv statt Seeansichten"
+    },
+    {
+      "file": "_DSC0060.jpg",
+      "reason": "Zweite Paar-Selfie auf dem Turm mit anderem Ausdruck; Personenbild hat Vorrang vor Luftbildern"
+    },
+    {
+      "file": "DSC00092.jpg",
+      "reason": "Frau mit Hut im Park, Personenbild fehlt im Kapitel"
+    },
+    {
+      "file": "DSC00102.jpg",
+      "reason": "Frau mit Farnen, emotionalstes Bild der Szene"
+    },
+    {
+      "file": "_DSC0157.jpg",
+      "reason": "türkiser Kratersee, Highlight des Kapitels, nichts davon gepickt"
+    },
+    {
+      "file": "DSC00113.jpg",
+      "reason": "farbiger Thermalpool, starker Kontrast"
+    },
+    {
+      "file": "DSC08133.jpg",
+      "reason": "Huka Falls aufrecht, Kraft des Wassers; sonst nur schwaches Bild gepickt"
+    },
+    {
+      "file": "DSC08118.jpg",
+      "reason": "türkises Wasser, Farbwirkung"
+    },
+    {
+      "file": "_DSC0242.jpg",
+      "reason": "Huka Falls vertikal, dynamisch"
+    },
+    {
+      "file": "DSC08171.jpg",
+      "reason": "Wandergruppe am Grat, Personen im Gelände"
+    },
+    {
+      "file": "DSC08178.jpg",
+      "reason": "Wanderer am Roten Krater, Person"
+    },
+    {
+      "file": "DSC08228.jpg",
+      "reason": "Ngauruhoe-Kegel, ikonisches Motiv"
+    },
+    {
+      "file": "_DSC0283.jpg",
+      "reason": "lächelnde Wanderin auf dem Pfad, Personenbild"
+    },
+    {
+      "file": "_DSC0309.jpg",
+      "reason": "Wanderer im Lavafeld, Menschen im Bild"
+    },
+    {
+      "file": "_DSC0378.jpg",
+      "reason": "Roter Krater bei blauem Himmel"
+    },
+    {
+      "file": "_DSC0408.jpg",
+      "reason": "leuchtender Smaragdsee nah"
+    },
+    {
+      "file": "_DSC0428.jpg",
+      "reason": "Wanderin auf Hochebene, Personenbild"
+    },
+    {
+      "file": "_DSC0348.jpg",
+      "reason": "Wanderer Richtung Nebel, Stimmung"
+    },
+    {
+      "file": "_DSC0539.jpg",
+      "reason": "Kiwi im Rotlicht, deutlich erkennbar; Highlight des Zoos, kein einziges Kiwi-Bild gepickt"
+    },
+    {
+      "file": "_DSC0551.jpg",
+      "reason": "Kiwi beim Futtersuchen, schärfere Variante"
+    },
+    {
+      "file": "_DSC0505.jpg",
+      "reason": "Grüner Gecko, farbstark und lebendig"
+    },
+    {
+      "file": "_DSC0522.jpg",
+      "reason": "Kaka-Papagei im Porträt, klar erkennbar"
+    },
+    {
+      "file": "_DSC0616.jpg",
+      "reason": "Person riecht an Blume, persönlichster Gartenmoment"
+    },
+    {
+      "file": "_DSC0617.jpg",
+      "reason": "Leuchtende Blüte, Farbhöhepunkt des Gartens"
+    },
+    {
+      "file": "_DSC0706.jpg",
+      "reason": "Seerose im Gewächshaus, schön"
+    },
+    {
+      "file": "_DSC0749.jpg",
+      "reason": "Kirchenfenster mit Rittern, markanter Detailmoment"
+    },
+    {
+      "file": "_DSC0461.jpg",
+      "reason": "Klarster Vulkanblick der Szene, Landmarke der Reise"
+    },
+    {
+      "file": "_DSC8387.jpg",
+      "reason": "Segelboot im Sund, Abwechslung auf der Fährfahrt"
+    }
+  ],
+  "sceneNotes": [
+    {
+      "sceneId": "scene-0-0",
+      "note": "Bootsfahrt, Gruppenblick plus Paar-Selfie: guter, persoenlicher Auftakt."
+    },
+    {
+      "sceneId": "scene-0-1",
+      "note": "Strand: Einzelportrait plus Paar; Paar-Dublette zu Recht verworfen."
+    },
+    {
+      "sceneId": "scene-0-2",
+      "note": "Lustiges Grimassen-Portrait, Persoenlichkeit, gut als Auflockerung."
+    },
+    {
+      "sceneId": "scene-1-0",
+      "note": "Chaos-Wohnzimmer: kein Reisewert."
+    },
+    {
+      "sceneId": "scene-1-1",
+      "note": "Flughafen-Plakat: ein Bild reicht, Auswahl korrekt."
+    },
+    {
+      "sceneId": "scene-2-1",
+      "note": "Hafen Auckland: 4 Picks, Auswahl vielfaeltig (Bruecke, Yachten, Skyline), Pano schwach."
+    },
+    {
+      "sceneId": "scene-3-0",
+      "note": "55 Bilder Skytower: 17 Picks, davon zu viele aehnliche Luftbilder; Paar-Bilder und Glasboden sind der Kern. Staedtische Streifzug-Bilder (Cafe, Hafengebaeude) gut."
+    },
+    {
+      "sceneId": "scene-3-1",
+      "note": "Domain-Park: 10 Picks, Serie zu lang (Palmen/Turm/Museum wiederholen sich), 5-6 genuegen."
+    },
+    {
+      "sceneId": "scene-4-0",
+      "note": "Gewaechshaus: abwechslungsreich (Detail, Totale, Pflanzen); gelbe Bluete fehlt."
+    },
+    {
+      "sceneId": "scene-4-1",
+      "note": "Skytower mit Wolke, ein Bild genuegt."
+    },
+    {
+      "sceneId": "scene-5-0",
+      "note": "146 Bilder Waimangu, 24 Picks: Landschaft ohne Personen, viele Seeansichten aehnlich; Dramaturgie (Aussicht, Dampf, Gruenpool, Schilder) ok, tuerkiser See und Dampfflaechen unterrepraesentiert."
+    },
+    {
+      "sceneId": "scene-6-0",
+      "note": "154 Bilder, 25 Picks: Geothermal-Gebiet, aber zu viele ähnliche Landschafts-/Detailbilder; Personen nur durch Verwerfungen fehlend, türkiser Kratersee (_DSC0157-0171) komplett draußen."
+    },
+    {
+      "sceneId": "scene-7-0",
+      "note": "Camping + Wasser: gut, zwei Personenbilder, 9 von 16 etwas viel."
+    },
+    {
+      "sceneId": "scene-7-1",
+      "note": "Huka Falls kaum vertreten (nur DSC08143); 12 starke Bilder verworfen."
+    },
+    {
+      "sceneId": "scene-7-2",
+      "note": "Badestelle: passend, 3 Picks ok."
+    },
+    {
+      "sceneId": "scene-7-3",
+      "note": "Einzelner Berg, gut als Kapitelübergang."
+    },
+    {
+      "sceneId": "scene-8-0",
+      "note": "Huka Falls: Paar-Selfie _DSC0253 stark; Brückenfoto mit Paar ebenfalls gut, Rest ok."
+    },
+    {
+      "sceneId": "scene-9-0",
+      "note": "Drei fast gleiche Bergbilder, einer reicht."
+    },
+    {
+      "sceneId": "scene-9-1",
+      "note": "Stimmungsvoll, ok."
+    },
+    {
+      "sceneId": "scene-9-2",
+      "note": "Tongariro-Aufstieg: Dramaturgie Nebel zu Smaragdseen gut; Personenanteil gering."
+    },
+    {
+      "sceneId": "scene-10-0",
+      "note": "Nur ein Pick, Ngauruhoe-Highlight fehlt."
+    },
+    {
+      "sceneId": "scene-11-0",
+      "note": "201 Bilder, 25 Picks: Bus-Selfies als emotionaler Einstieg, Smaragdseen, Flora und Gipfel decken Tour gut; Wanderinnen-Bilder fehlen."
+    },
+    {
+      "sceneId": "scene-12-0",
+      "note": "Vulkan-Durchfahrt: 25 Dubletten zu Recht verworfen, aber Vulkan nicht gezeigt; Busselfie als Personen-Anker top"
+    },
+    {
+      "sceneId": "scene-13-0",
+      "note": "Autofahrt mit Fahrerin, gute Alltagsstimmung"
+    },
+    {
+      "sceneId": "scene-14-0",
+      "note": "Straßenbilder repetitiv, 2-3 genügen"
+    },
+    {
+      "sceneId": "scene-14-1",
+      "note": "Vogelhaus, schwache Bilder"
+    },
+    {
+      "sceneId": "scene-15-0",
+      "note": "Zoo: Tafeln überrepräsentiert, Tiere (Kiwi, Gecko, Kaka) fehlen; Schwerpunkt verschieben"
+    },
+    {
+      "sceneId": "scene-15-1",
+      "note": "Aussichtspunkt, ok"
+    },
+    {
+      "sceneId": "scene-16-0",
+      "note": "Wellington Stadt, Kugel doppelt"
+    },
+    {
+      "sceneId": "scene-17-0",
+      "note": "Aussicht ok"
+    },
+    {
+      "sceneId": "scene-17-1",
+      "note": "Parlament/Beehive gut abgedeckt"
+    },
+    {
+      "sceneId": "scene-18-0",
+      "note": "Botanischer Garten, Häuser, Kirche, Parlament in einer Szene; Blumen und Personen zu wenig, Architektur stark"
+    },
+    {
+      "sceneId": "scene-19-0",
+      "note": "Hafen, ok"
+    },
+    {
+      "sceneId": "scene-19-1",
+      "note": "Fährfahrt Marlborough Sounds: 15 Picks zu viele, ähnliche Küsten; Bild mit Person und Fähre sind die Anker"
+    }
+  ]
+}
