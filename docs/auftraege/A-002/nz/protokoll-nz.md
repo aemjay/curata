@@ -22,11 +22,11 @@ Quelle: `D:\Claude\Gemma\testbilder\NZ` (Ersatz für `familie`; kein Personen-do
 4. Szenen-Granularität: scene-32-1 umfasst 328 Bilder (mind. fünf inhaltliche Szenen) bei 22 Picks; weitere Großszenen 201/163/154 Bilder.
 5. Personen-Stream P nur 7 Picks von 447; Proxy (K21–40): stärkste Personenmomente verworfen (Paar-Selfie vor Mitre Peak, schlafende Person am Cafétisch), dafür viele ähnliche Fels-/Farn-/Vogel-/Sand-Details.
 6. VLM-Caption fehlt für alle 1510 Dubletten (VLM läuft nur über Kandidaten) — kein Einzelfehler.
-7. Proxy-Review vollständig, in zwei Dateien: Kapitel 1–20 `proxy-review.teil1.json` (18 unverzichtbar, 65 remove, 30 bringBack, 34 sceneNotes; gegen diagnose.json geprüft) und Kapitel 21–40 `proxy-review.teil2.json` (15 / 55 / 14 / 15). Zusammen 120 von 447 Picks zur Entfernung vorgeschlagen, 44 verworfene Bilder zurückgeholt. Wiederkehrend: Landschafts-/Detailserien zu dicht (Waimangu 24 Picks, Küstenserie Fähre 15 fast gleiche), Personenmomente und Highlights (türkiser Kratersee, Huka Falls, Kiwi im Zoo — dort 6 Infotafeln, kein Kiwi-Bild) unterrepräsentiert.
+7. Proxy-Review vollständig in `proxy-review.json` (Kapitel 1–40, zusammengeführt aus zwei Hälften): Kapitel 1–20 (18 unverzichtbar, 65 remove, 30 bringBack, 34 sceneNotes; gegen diagnose.json geprüft) und Kapitel 21–40 (15 / 55 / 14 / 15). Zusammen 120 von 447 Picks zur Entfernung vorgeschlagen, 44 verworfene Bilder zurückgeholt. Wiederkehrend: Landschafts-/Detailserien zu dicht (Waimangu 24 Picks, Küstenserie Fähre 15 fast gleiche), Personenmomente und Highlights (türkiser Kratersee, Huka Falls, Kiwi im Zoo — dort 6 Infotafeln, kein Kiwi-Bild) unterrepräsentiert.
 8. Konsole: wie bei den anderen Läufen (1 `pageerror` beim Upload, ONNX-/MediaPipe-Hinweise, `favicon.ico`-404).
 9. Lauf beim ersten Versuch stabil; 2264 Fotos in 21 min auf GPU.
 10. Ordner ist eine Reise, kein Familienordner; Michaels Unverzichtbar-Liste existiert nicht → kein Abgleich mit echter Nutzer-Wahrheit.
 
 ## Artefakte
-`chips.json`, `start-nz.png` (ohne Fotos), `lauf-nz.log`, `konsole.txt`, `selection.json`, `diagnose.json`, `proxy-review.teil1.json`, `proxy-review.teil2.json`.
+`chips.json`, `start-nz.png` (ohne Fotos), `lauf-nz.log`, `konsole.txt`, `selection.json`, `diagnose.json`, `proxy-review.json`.
 Review-Screenshots (zeigen Fotos) liegen **nicht** im Repo: `D:\Claude\Curata-Diagnose\_privat\nz\`.
